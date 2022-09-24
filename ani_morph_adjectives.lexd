@@ -1,0 +1,18 @@
+# ADJECTIVE PATTERNS
+
+PATTERNS
+Adjectives[no_aggr] [<adj>:] AdjectivePlural?
+
+agrCL Adjectives[initial_aggr] [<adj>:]
+agrCL[-sg] Adjectives[initial_aggr] [<adj>:] AdjectivePlural
+
+Adjectives[final_aggr] agrCL [<adj>:]
+Adjectives[final_aggr] agrCL[-sg] [<adj>:] AdjectivePlural
+
+LEXICON Adjectives
+гьацIа[no_aggr]                                                                 # белый; white
+ехула[initial_aggr]                                                             # высокий; tall
+шу[final_aggr]                                                                  # хороший; good
+
+LEXICON AdjectivePlural
+<pl>:>{adj.pl}ол

@@ -1,0 +1,30 @@
+# AGREEMENT
+
+LEXICON agrCL
+<m>:в
+<f>:й
+<inan1>:б
+<inan2>:р
+<an><sg>:б[sg]
+<an><pl>:й[pl]
+
+LEXICON clitics
+<wh>:>ди
+<wh>:>кIо
+<wh>:>гъи
+<q>:>диле
+<q>:>кIоле
+<q>:>ле
+<q.pst>:>гъиро
+<rep>:>лъоди
+<rep>:>гъоди
+<quot>:>гъоду
+<quot>:>ду
+<int>:>гу
+<advz>:>гужа
+<add>:>ло
+<coll>:>ло
+<com>:>лой
+<equ>:>лъий
+<sbd>:>лоду
+<futimp>:>хъо

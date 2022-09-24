@@ -12,3 +12,11 @@ analysis,form,mustpass,source,page,description
 лъоб<num>бешену<num>,лъоббешену,pass,Kaye et al.,,numerals
 озуру<num><card>,озуругу,pass,Kaye et al.,,numerals
 чIе<num>озуру<num>,чIеозуру,pass,Kaye et al.,,numerals
+гьацIа<adj>,гьацIа,pass,Kaye et al.,,adjectives
+гьацIа<adj><pl>,гьацIол,pass,Kaye et al.,,adjectives
+<inan1>ехула<adj>,бехула,pass,Kaye et al.,,adjectives
+<inan1>ехула<adj><pl>,бехулол,pass,Kaye et al.,,adjectives
+шу<inan1><adj>,шуб,pass,Kaye et al.,,adjectives
+шу<an><sg><adj>,шуб,pass,Kaye et al.,,adjectives
+шу<inan1><adj><pl>,шубол,pass,Kaye et al.,,adjectives
+шу<an><pl><adj><pl>,шуйол,pass,Kaye et al.,,adjectives
