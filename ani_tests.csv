@@ -1,0 +1,14 @@
+analysis,form,mustpass,source,page,description
+се<num><f>,сей,pass,Kaye et al.,,numerals
+се<num><m>,сев,pass,Kaye et al.,,numerals
+лъоб<num><card>,лъобгу,pass,Kaye et al.,,numerals
+<f>оъо<num><card>,йоъогу,pass,Kaye et al.,,numerals
+гьоцIо<num><card>,гьоцIогу,pass,Kaye et al.,,numerals
+гьоцIо<num><teen_link>,гьоцIолъий,pass,Kaye et al.,,numerals
+чIе<num><crown><card>,чIецIолгу,pass,Kaye et al.,,numerals
+чIе<num><crown><linker>,чIецIоллой,pass,Kaye et al.,,numerals
+<an><sg>оъо<num><crown><linker>,боъоцIоллой,pass,Kaye et al.,,numerals
+бешену<num><card>,бешенугу,pass,Kaye et al.,,numerals
+лъоб<num>бешену<num>,лъоббешену,pass,Kaye et al.,,numerals
+озуру<num><card>,озуругу,pass,Kaye et al.,,numerals
+чIе<num>озуру<num>,чIеозуру,pass,Kaye et al.,,numerals
