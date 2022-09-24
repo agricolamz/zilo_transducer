@@ -1,22 +1,30 @@
-# ADJECTIVE PATTERNS
+# -------------------------------------------------------------------------
+# ADJECTIVES
+# -------------------------------------------------------------------------
 
 PATTERNS
-Adjectives[no_aggr] [<adj>:] AdjectivePlural?
+Adjectives[no_aggr] [<ADJ>:] AdjectivePlural?
 
-agrCL Adjectives[initial_aggr] [<adj>:]
-agrCL[-sg] Adjectives[initial_aggr] [<adj>:] AdjectivePlural
+agrCL Adjectives[initial_aggr] [<ADJ>:]
+agrCL[-sg] Adjectives[initial_aggr] [<ADJ>:] AdjectivePlural
 
-Adjectives[final_aggr] agrCL [<adj>:]
-Adjectives[final_aggr] agrCL[-sg] [<adj>:] AdjectivePlural
-
-LEXICON Adjectives
-гьацIа[no_aggr]                                                                 # белый; white
-ехула[initial_aggr]                                                             # высокий; tall
-шу[final_aggr]                                                                  # хороший; good
+Adjectives[final_aggr] agrCL [<ADJ>:]
+Adjectives[final_aggr] agrCL[-sg] [<ADJ>:] AdjectivePlural
 
 LEXICON AdjectivePlural
 <pl>:>{adj.pl}ол
+
+LEXICON Adjectives
+шу[final_aggr]                                                                  # хороший; good
+ехула[initial_aggr]                                                             # высокий; tall
+гьацIа[no_aggr]                                                                 # белый; white
+чакку[no_aggr]                                                                  # желтый; yellow
+хвечи[no_aggr]                                                                  # зеленый; green
+цIиᵸв[no_aggr]                                                                  # новый; new
+
+# -------------------------------------------------------------------------
 # AGREEMENT
+# -------------------------------------------------------------------------
 
 LEXICON agrCL
 <m>:в
@@ -25,6 +33,10 @@ LEXICON agrCL
 <inan2>:р
 <an><sg>:б[sg]
 <an><pl>:й[pl]
+
+# -------------------------------------------------------------------------
+# CLITICS
+# -------------------------------------------------------------------------
 
 LEXICON clitics
 <wh>:>ди
@@ -46,35 +58,70 @@ LEXICON clitics
 <equ>:>лъий
 <sbd>:>лоду
 <futimp>:>хъо
-# NUMERAL PATTERNS
+<attr>:>сси
+
+# -------------------------------------------------------------------------
+# INFLECTION
+# -------------------------------------------------------------------------
+
+LEXICON Case
+<erg>:>ди
+<erg>:>ни[assimilated]
+<dat>:>й
+<dat>:>лъу
+<m><gen>:>в
+<f><gen>:>й
+<inan1><gen>:>б
+<inan2><gen>:>р
+<an><sg><gen>:б[sg]
+<an><pl><gen>:й[pl]
+<m><aff>:>во
+<f><aff>:>йо
+<inan1><aff>:>бо
+<inan2><aff>:>ро
+<an><sg><aff>:бо[sg]
+<an><pl><aff>:йо[pl]
+
+# -------------------------------------------------------------------------
+# NUMERALS
+# -------------------------------------------------------------------------
 
 PATTERNS
-Numerals[one] [<num>:] agrCL[-PL]                                               # 1
-(Numerals[-one,-four] | NumeralFour) [<num>:] NumearalCard                      # rest numerals
-Numerals[ten] [<num>:] NumearalTeenLinker                                       # ten in 11-19
-# crowns
-(Numerals[multiplier] | NumeralFour) [<num>:] NumeralCrown (NumearalCard | NumearalLinker)
-((Numerals[multiplier] | NumeralFour) [<num>:])? Numerals[base] [<num>:] NumearalCard?
+NumeralsAbs
+NumeralsNotAbs
+
+PATTERN NumeralsAbs
+Numerals[one] [<NUM>:] agrCL[-pl]                                               ## 1
+(Numerals[-one,-four] | NumeralFour) [<NUM>:] NumearalMarker                    ## rest numerals
+NumeralMultiplier (NumeralCrown | (Numerals[base] [<NUM>:])) NumearalMarker       ## crowns, 100, 1000
+
+PATTERN NumeralsNotAbs
+Numerals[ten] [<NUM>:] NumearalTeenLinker                                       ## ten in 11-19
+NumeralMultiplier NumeralCrown NumearalLinker                                   ## crowns
+NumeralMultiplier? Numerals[base] [<NUM>:]                                      ## 100, 1000
+
+PATTERN NumeralMultiplier
+(Numerals[multiplier] | NumeralFour) [<NUM>:]
 
 PATTERN NumeralFour
 agrCL[-pl] Numerals[four]
 
 LEXICON Numerals
-се[one]                                                                         # one
-чIе[multiplier]                                                                 # two
-лъоб[multiplier]                                                                # three
-оъо[four]                                                                       # four
-иᵸшду[multiplier]                                                               # five
-ойлIи[multiplier]                                                               # six
-гьокьу[multiplier]                                                              # seven
-бейкьи[multiplier]                                                              # eight
-гьочIо[multiplier]                                                              # nine
-гьоцIо[ten]                                                                     # ten
-бешену:>бешену[base]                                                            # hundred
-озуру:>озуру[base]                                                              # thousand
+се[one]                                                                         # один; one
+чIе[multiplier]                                                                 # два; two
+лъоб[multiplier]                                                                # три; three
+оъо[four]                                                                       # четыре; four
+иᵸшду[multiplier]                                                               # пять; five
+ойлIи[multiplier]                                                               # шесть; six
+гьокьу[multiplier]                                                              # семь; seven
+бейкьи[multiplier]                                                              # восемь; eight
+гьочIо[multiplier]                                                              # девять; nine
+гьоцIо[ten]                                                                     # десять; ten
+бешену:>бешену[base]                                                            # сто; hundred
+озуру:>озуру[base]                                                              # тысяча; thousand
 
-LEXICON NumearalCard
-<card>:>гу
+LEXICON NumearalMarker
+<num>:>гу
 
 LEXICON NumearalTeenLinker
 <teen_link>:>лъий

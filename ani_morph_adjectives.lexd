@@ -1,18 +1,24 @@
-# ADJECTIVE PATTERNS
+# -------------------------------------------------------------------------
+# ADJECTIVES
+# -------------------------------------------------------------------------
 
 PATTERNS
-Adjectives[no_aggr] [<adj>:] AdjectivePlural?
+Adjectives[no_aggr] [<ADJ>:] AdjectivePlural?
 
-agrCL Adjectives[initial_aggr] [<adj>:]
-agrCL[-sg] Adjectives[initial_aggr] [<adj>:] AdjectivePlural
+agrCL Adjectives[initial_aggr] [<ADJ>:]
+agrCL[-sg] Adjectives[initial_aggr] [<ADJ>:] AdjectivePlural
 
-Adjectives[final_aggr] agrCL [<adj>:]
-Adjectives[final_aggr] agrCL[-sg] [<adj>:] AdjectivePlural
-
-LEXICON Adjectives
-гьацIа[no_aggr]                                                                 # белый; white
-ехула[initial_aggr]                                                             # высокий; tall
-шу[final_aggr]                                                                  # хороший; good
+Adjectives[final_aggr] agrCL [<ADJ>:]
+Adjectives[final_aggr] agrCL[-sg] [<ADJ>:] AdjectivePlural
 
 LEXICON AdjectivePlural
 <pl>:>{adj.pl}ол
+
+LEXICON Adjectives
+шу[final_aggr]                                                                  # хороший; good
+ехула[initial_aggr]                                                             # высокий; tall
+гьацIа[no_aggr]                                                                 # белый; white
+чакку[no_aggr]                                                                  # желтый; yellow
+хвечи[no_aggr]                                                                  # зеленый; green
+цIиᵸв[no_aggr]                                                                  # новый; new
+

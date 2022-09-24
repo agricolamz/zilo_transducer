@@ -1,32 +1,43 @@
-# NUMERAL PATTERNS
+# -------------------------------------------------------------------------
+# NUMERALS
+# -------------------------------------------------------------------------
 
 PATTERNS
-Numerals[one] [<num>:] agrCL[-PL]                                               # 1
-(Numerals[-one,-four] | NumeralFour) [<num>:] NumearalCard                      # rest numerals
-Numerals[ten] [<num>:] NumearalTeenLinker                                       # ten in 11-19
-# crowns
-(Numerals[multiplier] | NumeralFour) [<num>:] NumeralCrown (NumearalCard | NumearalLinker)
-((Numerals[multiplier] | NumeralFour) [<num>:])? Numerals[base] [<num>:] NumearalCard?
+NumeralsAbs
+NumeralsNotAbs
+
+PATTERN NumeralsAbs
+Numerals[one] [<NUM>:] agrCL[-pl]                                               ## 1
+(Numerals[-one,-four] | NumeralFour) [<NUM>:] NumearalMarker                    ## rest numerals
+NumeralMultiplier (NumeralCrown | (Numerals[base] [<NUM>:])) NumearalMarker     ## crowns, 100, 1000
+
+PATTERN NumeralsNotAbs
+Numerals[ten] [<NUM>:] NumearalTeenLinker                                       ## ten in 11-19
+NumeralMultiplier NumeralCrown NumearalLinker                                   ## crowns
+NumeralMultiplier? Numerals[base] [<NUM>:]                                      ## 100, 1000
+
+PATTERN NumeralMultiplier
+(Numerals[multiplier] | NumeralFour) [<NUM>:]
 
 PATTERN NumeralFour
 agrCL[-pl] Numerals[four]
 
 LEXICON Numerals
-се[one]                                                                         # one
-чIе[multiplier]                                                                 # two
-лъоб[multiplier]                                                                # three
-оъо[four]                                                                       # four
-иᵸшду[multiplier]                                                               # five
-ойлIи[multiplier]                                                               # six
-гьокьу[multiplier]                                                              # seven
-бейкьи[multiplier]                                                              # eight
-гьочIо[multiplier]                                                              # nine
-гьоцIо[ten]                                                                     # ten
-бешену:>бешену[base]                                                            # hundred
-озуру:>озуру[base]                                                              # thousand
+се[one]                                                                         # один; one
+чIе[multiplier]                                                                 # два; two
+лъоб[multiplier]                                                                # три; three
+оъо[four]                                                                       # четыре; four
+иᵸшду[multiplier]                                                               # пять; five
+ойлIи[multiplier]                                                               # шесть; six
+гьокьу[multiplier]                                                              # семь; seven
+бейкьи[multiplier]                                                              # восемь; eight
+гьочIо[multiplier]                                                              # девять; nine
+гьоцIо[ten]                                                                     # десять; ten
+бешену:>бешену[base]                                                            # сто; hundred
+озуру:>озуру[base]                                                              # тысяча; thousand
 
-LEXICON NumearalCard
-<card>:>гу
+LEXICON NumearalMarker
+<num>:>гу
 
 LEXICON NumearalTeenLinker
 <teen_link>:>лъий
