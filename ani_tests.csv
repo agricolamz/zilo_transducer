@@ -7,7 +7,7 @@ analysis,form,mustpass,source,page,description
 гьоцIо<NUM><teen_link>,гьоцIолъий,pass,Kaye et al.,,numerals
 чIе<NUM><crown><num>,чIецIолгу,pass,Kaye et al.,,numerals
 чIе<NUM><crown><linker>,чIецIоллой,pass,Kaye et al.,,numerals
-<an><sg>оъо<NUM><crown><linker>,боъоцIоллой,pass,Kaye et al.,,numerals
+<an.sg>оъо<NUM><crown><linker>,боъоцIоллой,pass,Kaye et al.,,numerals
 бешену<NUM><num>,бешенугу,pass,Kaye et al.,,numerals
 лъоб<NUM>бешену<NUM>,лъоббешену,pass,Kaye et al.,,numerals
 озуру<NUM><num>,озуругу,pass,Kaye et al.,,numerals
@@ -17,6 +17,11 @@ analysis,form,mustpass,source,page,description
 <inan1>ехула<ADJ>,бехула,pass,Kaye et al.,,adjectives
 <inan1>ехула<ADJ><pl>,бехулол,pass,Kaye et al.,,adjectives
 шу<inan1><ADJ>,шуб,pass,Kaye et al.,,adjectives
-шу<an><sg><ADJ>,шуб,pass,Kaye et al.,,adjectives
+шу<an.sg><ADJ>,шуб,pass,Kaye et al.,,adjectives
 шу<inan1><ADJ><pl>,шубол,pass,Kaye et al.,,adjectives
-шу<an><pl><ADJ><pl>,шуйол,pass,Kaye et al.,,adjectives
+шу<an.pl><ADJ><pl>,шуйол,pass,Kaye et al.,,adjectives
+чIе<NUM><num><obl.m><erg>,чIегушди,pass,Kaye et al.,,inflection
+чIе<NUM><num><obl.m><f><gen>,чIегушуй,pass,Kaye et al.,,inflection
+чIе<NUM><num><obl.m><dat>,чIегушуй,pass,Kaye et al.,,inflection
+чIе<NUM><num><obl.m><dat>,чIегушлъу,pass,Kaye et al.,,inflection
+чIе<NUM><num><obl.m><an.sg><aff>,чIегушубо,pass,Kaye et al.,,inflection

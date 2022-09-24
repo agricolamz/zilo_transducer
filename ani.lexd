@@ -17,10 +17,41 @@ LEXICON AdjectivePlural
 LEXICON Adjectives
 шу[final_aggr]                                                                  # хороший; good
 ехула[initial_aggr]                                                             # высокий; tall
+иши[initial_aggr]                                                               # толстый; fat
+ечIедир[initial_aggr]                                                           # черный; black
+ехула[initial_aggr]                                                             # длинный; long
+чуруки[no_aggr]                                                                 # грязный; dirty
+уди[no_aggr]                                                                    # глубокий; deep
+ъаб[no_aggr]                                                                    # широкий; wide
 гьацIа[no_aggr]                                                                 # белый; white
 чакку[no_aggr]                                                                  # желтый; yellow
 хвечи[no_aggr]                                                                  # зеленый; green
-цIиᵸв[no_aggr]                                                                  # новый; new
+цIиᵸву[no_aggr]                                                                 # новый; new
+ботIи[no_aggr]                                                                  # слепой; blind
+чIчIитIир[no_aggr]                                                              # узкий; narrow
+лъему[no_aggr]                                                                  # жидкий; liquid
+цIцIикIкIу[no_aggr]                                                             # кислый; sour 
+чIило[no_aggr]                                                                  # кривой; curved
+гъвенчIил[no_aggr]                                                              # кривой; curved
+
+# -------------------------------------------------------------------------
+# ADVERBS
+# -------------------------------------------------------------------------
+
+PATTERNS
+Adverbs[no_aggr] [<ADV>:]
+agrCL Adverbs[initial_aggr] [<ADV>:]
+Adverbs[final_aggr] agrCL [<ADV>:]
+
+LEXICON Adverbs
+суни[no_aggr]                                                                   # вчера; yesterday
+золо[no_aggr]                                                                   # очень; very 
+тIулу[no_aggr]                                                                  # очень; very
+желъал[no_aggr]                                                                 # сегодня; today
+жегьал[no_aggr]                                                                 # сегодня; today
+гьикьу[no_aggr]                                                                 # внизу
+сседу[no_aggr]                                                                  # впереди
+гьонолъу[no_aggr]                                                               # здесь
 
 # -------------------------------------------------------------------------
 # AGREEMENT
@@ -31,8 +62,8 @@ LEXICON agrCL
 <f>:й
 <inan1>:б
 <inan2>:р
-<an><sg>:б[sg]
-<an><pl>:й[pl]
+<an.sg>:б[sg]
+<an.pl>:й[pl]
 
 # -------------------------------------------------------------------------
 # CLITICS
@@ -64,23 +95,33 @@ LEXICON clitics
 # INFLECTION
 # -------------------------------------------------------------------------
 
+PATTERNS
+NumeralsAbs OblStem[m,u_epentetic] Case[u_epentetic]
+NumeralsAbs OblStem[m,-u_epentetic] Case[-u_epentetic]
+NumeralsAbs OblStem[nm,u_epentetic] Case[u_epentetic]
+NumeralsAbs OblStem[nm,-u_epentetic] Case[-u_epentetic]
+
+LEXICON OblStem
+<obl.m>:>ш[m]
+<obl.m>:>шу[m,u_epentetic]
+<obl>:>л[nm]
+
 LEXICON Case
 <erg>:>ди
-<erg>:>ни[assimilated]
-<dat>:>й
+<dat>:>й[u_epentetic]
 <dat>:>лъу
-<m><gen>:>в
-<f><gen>:>й
-<inan1><gen>:>б
-<inan2><gen>:>р
-<an><sg><gen>:б[sg]
-<an><pl><gen>:й[pl]
-<m><aff>:>во
-<f><aff>:>йо
-<inan1><aff>:>бо
-<inan2><aff>:>ро
-<an><sg><aff>:бо[sg]
-<an><pl><aff>:йо[pl]
+<m><gen>:>в[m,u_epentetic]
+<f><gen>:>й[m,u_epentetic]
+<inan1><gen>:>б[m,u_epentetic]
+<inan2><gen>:>р[m,u_epentetic]
+<an><sg><gen>:б[m,sg,u_epentetic]
+<an><pl><gen>:й[m,pl,u_epentetic]
+<m><aff>:>во[u_epentetic]
+<f><aff>:>йо[u_epentetic]
+<inan1><aff>:>бо[u_epentetic]
+<inan2><aff>:>ро[u_epentetic]
+<an.sg><aff>:бо[sg,u_epentetic]
+<an.pl><aff>:йо[pl,u_epentetic]
 
 # -------------------------------------------------------------------------
 # NUMERALS
@@ -93,7 +134,7 @@ NumeralsNotAbs
 PATTERN NumeralsAbs
 Numerals[one] [<NUM>:] agrCL[-pl]                                               ## 1
 (Numerals[-one,-four] | NumeralFour) [<NUM>:] NumearalMarker                    ## rest numerals
-NumeralMultiplier (NumeralCrown | (Numerals[base] [<NUM>:])) NumearalMarker       ## crowns, 100, 1000
+NumeralMultiplier (NumeralCrown | (Numerals[base] [<NUM>:])) NumearalMarker     ## crowns, 100, 1000
 
 PATTERN NumeralsNotAbs
 Numerals[ten] [<NUM>:] NumearalTeenLinker                                       ## ten in 11-19

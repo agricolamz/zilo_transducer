@@ -1,0 +1,19 @@
+# -------------------------------------------------------------------------
+# ADVERBS
+# -------------------------------------------------------------------------
+
+PATTERNS
+Adverbs[no_aggr] [<ADV>:]
+agrCL Adverbs[initial_aggr] [<ADV>:]
+Adverbs[final_aggr] agrCL [<ADV>:]
+
+LEXICON Adverbs
+суни[no_aggr]                                                                   # вчера; yesterday
+золо[no_aggr]                                                                   # очень; very 
+тIулу[no_aggr]                                                                  # очень; very
+желъал[no_aggr]                                                                 # сегодня; today
+жегьал[no_aggr]                                                                 # сегодня; today
+гьикьу[no_aggr]                                                                 # внизу
+сседу[no_aggr]                                                                  # впереди
+гьонолъу[no_aggr]                                                               # здесь
+

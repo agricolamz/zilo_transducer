@@ -17,8 +17,20 @@ LEXICON AdjectivePlural
 LEXICON Adjectives
 шу[final_aggr]                                                                  # хороший; good
 ехула[initial_aggr]                                                             # высокий; tall
+иши[initial_aggr]                                                               # толстый; fat
+ечIедир[initial_aggr]                                                           # черный; black
+ехула[initial_aggr]                                                             # длинный; long
+чуруки[no_aggr]                                                                 # грязный; dirty
+уди[no_aggr]                                                                    # глубокий; deep
+ъаб[no_aggr]                                                                    # широкий; wide
 гьацIа[no_aggr]                                                                 # белый; white
 чакку[no_aggr]                                                                  # желтый; yellow
 хвечи[no_aggr]                                                                  # зеленый; green
-цIиᵸв[no_aggr]                                                                  # новый; new
+цIиᵸву[no_aggr]                                                                 # новый; new
+ботIи[no_aggr]                                                                  # слепой; blind
+чIчIитIир[no_aggr]                                                              # узкий; narrow
+лъему[no_aggr]                                                                  # жидкий; liquid
+цIцIикIкIу[no_aggr]                                                             # кислый; sour 
+чIило[no_aggr]                                                                  # кривой; curved
+гъвенчIил[no_aggr]                                                              # кривой; curved
 
