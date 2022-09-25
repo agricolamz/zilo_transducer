@@ -16,7 +16,7 @@ test: ani_generator.hfst test.pass.txt
 	bash compare.sh $< test.pass.txt; rm test.*
 clean:
 	rm *.hfst
-forms_count:
+forms_count: forms_count_write
 	hfst-fst2strings ani_analizer.hfst | wc -l
 forms_count_write: ani_analizer.hfst
-	sed -i "$(cat README.md | wc -l)s/^.*$/$(hfst-fst2strings ani_analizer.hfst | wc -l)/" README.md
+	sed -i "$$(cat README.md | wc -l)s/^.*$$/$$(hfst-fst2strings ani_analizer.hfst | wc -l)/" README.md

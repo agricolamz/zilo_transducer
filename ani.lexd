@@ -22,6 +22,9 @@ LEXICON AdjectivePlural
 
 LEXICON Adjectives
 шу[final_aggr,сonsonantal]                                                      # хороший; good
+охор[initial_aggr,сonsonantal]                                                  # старый; old
+ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
+ечIуха[initial_aggr]                                                            # большой; clean
 очо[initial_aggr]                                                               # низкий; short
 ехула[initial_aggr]                                                             # высокий; tall
 иши[initial_aggr]                                                               # толстый; fat
@@ -43,6 +46,12 @@ LEXICON Adjectives
 кучIил[сonsonantal]                                                             # левый; left
 олохъан[сonsonantal]                                                            # молодой; young
 кьухъур[сonsonantal]                                                            # низкий; low
+уᵸнса                                                                           # тёплый; warm 
+рекъу                                                                           # хромой; lame
+гьири                                                                           # красный; red
+бечIугу                                                                         # пустой; empty
+хъелла                                                                          # худой; thin
+бискин                                                                          # бедный; poor
 
 
 # -------------------------------------------------------------------------
@@ -113,13 +122,13 @@ NumeralsAbs OblStem[m] (([:у] Case[u_epentetic]) | Case[-u_epentetic])
 NumeralsAbs OblStem[-m,-сonsonantal] (([:у] Case[-m,u_epentetic]) | Case[-m,-u_epentetic])
 
 Adjectives[-initial_aggr,-final_aggr] [<ADJ>:] OblStem[m] (([:у] Case[u_epentetic]) | Case[-u_epentetic])
-Adjectives[-initial_aggr,-final_aggr,consonantal] [<ADJ>:] OblStem[-m,consonantal] Case[-m]
-Adjectives[-initial_aggr,-final_aggr,-consonantal] [<ADJ>:] (([:у] Case[-m,u_epentetic]) | Case[-m,-u_epentetic])
-Adjectives[final_aggr] agrCL[m] [<ADJ>:] OblStem[m] ([:у] Case[u_epentetic] | Case[-u_epentetic])
-Adjectives[final_aggr] agrCL[-m] [<ADJ>:] OblStem[-m,consonantal] Case[-m]
+Adjectives[-initial_aggr,-final_aggr,consonantal] [<ADJ>:] OblStem[consonantal] Case[-m]
+Adjectives[-initial_aggr,-final_aggr,-consonantal] [<ADJ>:] OblStem[-consonantal] (([:у] Case[-m,u_epentetic]) | Case[-m,-u_epentetic])
+Adjectives[final_aggr] agrCL[m] [<ADJ>:] OblStem[m] (([:у] Case[u_epentetic]) | Case[-u_epentetic])
+Adjectives[final_aggr] agrCL[-m] [<ADJ>:] OblStem[consonantal] Case[-m]
 agrCL[m] Adjectives[initial_aggr] [<ADJ>:] OblStem[m] (([:у] Case[u_epentetic]) | Case[-u_epentetic])
-agrCL[-m] Adjectives[initial_aggr,consonantal] [<ADJ>:] OblStem[-m,consonantal] Case[-m]
-agrCL[-m] Adjectives[initial_aggr,-consonantal] [<ADJ>:] OblStem[-m,-consonantal] Case[-m]
+agrCL[-m] Adjectives[initial_aggr,consonantal] [<ADJ>:] OblStem[consonantal] Case[-m]
+agrCL[-m] Adjectives[initial_aggr,-consonantal] [<ADJ>:] OblStem[-consonantal] Case[-m]
 
 LEXICON OblStem
 <obl.m>:>ш[m]

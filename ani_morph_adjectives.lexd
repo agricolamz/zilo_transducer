@@ -22,6 +22,9 @@ LEXICON AdjectivePlural
 
 LEXICON Adjectives
 шу[final_aggr,сonsonantal]                                                      # хороший; good
+охор[initial_aggr,сonsonantal]                                                  # старый; old
+ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
+ечIуха[initial_aggr]                                                            # большой; clean
 очо[initial_aggr]                                                               # низкий; short
 ехула[initial_aggr]                                                             # высокий; tall
 иши[initial_aggr]                                                               # толстый; fat
@@ -43,5 +46,11 @@ LEXICON Adjectives
 кучIил[сonsonantal]                                                             # левый; left
 олохъан[сonsonantal]                                                            # молодой; young
 кьухъур[сonsonantal]                                                            # низкий; low
+уᵸнса                                                                           # тёплый; warm 
+рекъу                                                                           # хромой; lame
+гьири                                                                           # красный; red
+бечIугу                                                                         # пустой; empty
+хъелла                                                                          # худой; thin
+бискин                                                                          # бедный; poor
 
 

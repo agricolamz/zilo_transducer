@@ -19,7 +19,8 @@ analysis,form,mustpass,source,page,description
 шу<inan1><ADJ>,шуб,pass,Kaye et al.,,adjectives
 шу<an.sg><ADJ>,шуб,pass,Kaye et al.,,adjectives
 шу<inan1><ADJ><pl>,шубол,pass,Kaye et al.,,adjectives
-шу<an.pl><ADJ><pl>,шуйол,pass,Kaye et al.,,adjectives
+шу<an.pl><ADJ><pl>,шуйил,pass,Kaye et al.,,adjectives
+шу<an.pl><ADJ><pl>,шувул,pass,Kaye et al.,,adjectives
 чIе<NUM><num><obl.m><erg>,чIегушди,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><f><gen>,чIегушуй,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><dat>,чIегушуй,pass,Moroz 2017,8,numeral inflection
@@ -29,33 +30,27 @@ analysis,form,mustpass,source,page,description
 чIе<NUM><num><obl><f><aff>,чIегулуйо,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl><dat>,чIегулуй,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl><dat>,чIегуллъу,pass,Moroz 2017,8,numeral inflection
-чуруки<ADJ><obl.m><erg>,чурукишди,pass,Kaye et al.,,adjective inflection
-чуруки<ADJ><obl.m><m><aff>,чурукишуво,pass,Kaye et al.,,adjective inflection
-чуруки<ADJ><obl.m><f><gen>,чурукишуй,pass,Kaye et al.,,adjective inflection
-чуруки<ADJ><obl><erg>,чурукилди,pass,Kaye et al.,,adjective inflection
-чуруки<ADJ><obl><m><aff>,чурукилуво,pass,Kaye et al.,,adjective inflection
-чуруки<ADJ><obl><gen>,чурукиллIи,pass,Kaye et al.,,adjective inflection
-чIчIитIир<ADJ><obl.m><erg>,чIчIитIиршди,pass,Kaye et al.,,adjective inflection
-чIчIитIир<ADJ><obl.m><m><aff>,чIчIитIиршуво,pass,Kaye et al.,,adjective inflection
-чIчIитIир<ADJ><obl.m><f><gen>,чIчIитIиршуй,pass,Kaye et al.,,adjective inflection
-чIчIитIир<ADJ><obl><erg>,чIчIитIирлъиди,pass,Kaye et al.,,adjective inflection
-чIчIитIир<ADJ><obl><gen>,чIчIитIирлъилIи,pass,Kaye et al.,,adjective inflection
-чIчIитIир<ADJ><obl><f><aff>,чIчIитIирлъийо,pass,Kaye et al.,,adjective inflection
-<inan2>ечIедир<ADJ><obl.m><erg>,речIедиршди,pass,Kaye et al.,,adjective inflection
-<inan2>ечIедир<ADJ><obl.m><f><aff>,речIедиршуво,pass,Kaye et al.,,adjective inflection
-<inan2>ечIедир<ADJ><obl.m><f><gen>,речIедиршуй,pass,Kaye et al.,,adjective inflection
-<inan2>ечIедир<ADJ><obl><erg>,речIедирлъиди,pass,Kaye et al.,,adjective inflection
-<inan2>ечIедир<ADJ><obl><gen>,речIедирлъилIи,pass,Kaye et al.,,adjective inflection
-<inan2>ечIедир<ADJ><obl><f><aff>,речIедирлъийо,pass,Kaye et al.,,adjective inflection
-<inan2>ехула<ADJ><obl.m><gen>,рехулашуй,pass,Kaye et al.,,adjective inflection
-<inan2>ехула<ADJ><obl.m><erg>,рехулашди,pass,Kaye et al.,,adjective inflection
-<inan2>ехула<ADJ><obl.m><f><aff>,рехулашуйо,pass,Kaye et al.,,adjective inflection
-<inan2>ехула<ADJ><obl><gen>,рехулалулIи,pass,Kaye et al.,,adjective inflection
-<inan2>ехула<ADJ><obl><erg>,рехулалди,pass,Kaye et al.,,adjective inflection
-<inan2>ехула<ADJ><obl><f><aff>,рехулалуйо,pass,Kaye et al.,,adjective inflection
-шу<m><ADJ><obl.m><erg>,шувшди,pass,Kaye et al.,,adjective inflection
-шу<m><ADJ><obl.m><f><gen>,шувшуй,pass,Kaye et al.,,adjective inflection
-шу<m><ADJ><obl.m><f><aff>,шувшуво,pass,Kaye et al.,,adjective inflection
-шу<m><ADJ><obl><erg>,шуйлъиди,pass,Kaye et al.,,adjective inflection
-шу<m><ADJ><obl><gen>,шуйлъилIи,pass,Kaye et al.,,adjective inflection
-шу<m><ADJ><obl><an.sg><aff>,шуйлъибо,pass,Kaye et al.,,adjective inflection
+шу<m><ADJ><obl.m><erg>,шувшди,pass,Moroz fieldwork,,adjective inflection
+шу<m><ADJ><obl.m><f><gen>,шувшуйо,pass,Moroz fieldwork,,adjective inflection
+шу<m><ADJ><pl><obl><erg>,шувулуди,pass,Moroz fieldwork,,adjective inflection
+шу<m><ADJ><pl><obl><f><gen>,шувулубо,pass,Moroz fieldwork,,adjective inflection
+шу<f><ADJ><obl><erg>,шуйди,pass,Moroz fieldwork,,adjective inflection
+шу<f><ADJ><obl><an.sg><gen>,шуйлъибо,pass,Moroz fieldwork,,adjective inflection
+шу<f><ADJ><pl><obl><erg>,шуйилиди,pass,Moroz fieldwork,,adjective inflection
+шу<f><ADJ><pl><obl><an.sg><gen>,шуйилибо,pass,Moroz fieldwork,,adjective inflection
+<m>ечIедир<ADJ><obl.m><erg>,в=ечIедир-ш-ди,pass,Moroz fieldwork,,adjective inflection
+<m>ечIедир<ADJ><obl.m><f><aff>,в=ечIедир-шу-йо,pass,Moroz fieldwork,,adjective inflection
+<m>ечIедир<ADJ><pl.obl.m><erg>,в=ечIедир-олу-ди,pass,Moroz fieldwork,,adjective inflection
+<m>ечIедир<ADJ><pl.obl.m><an.sg><aff>,в=ечIедир-олу-бо,pass,Moroz fieldwork,,adjective inflection
+<f>ечIедир<ADJ><erg>,й=ечIедир-ди,pass,Moroz fieldwork,,adjective inflection
+<f>ечIедир<ADJ><obl><an.sg><aff>,й=ечIедир-лъи-бо,pass,Moroz fieldwork,,adjective inflection
+<f>ечIедир<ADJ><pl.obl><erg>,й=ечIедир-оли-ди,pass,Moroz fieldwork,,adjective inflection
+<f>ечIедир<ADJ><pl.obl><an.sg><aff>,й=ечIедир-оли-бо,pass,Moroz fieldwork,,adjective inflection
+<m>ечIуха<ADJ><obl.m><erg>,в=ечIуха-ш-ди,pass,Moroz fieldwork,,adjective inflection
+<m>ечIуха<ADJ><obl.m><f><aff>,в=ечIуха-шу-йо,pass,Moroz fieldwork,,adjective inflection
+<m>ечIуха<ADJ><pl.obl.m><erg>,в=ечIух-олу-ди,pass,Moroz fieldwork,,adjective inflection
+<m>ечIуха<ADJ><pl.obl.m><an.sg><aff>,в=ечIух-олу-бо,pass,Moroz fieldwork,,adjective inflection
+<f>ечIуха<ADJ><erg>,й=ечIуха-л-ди,pass,Moroz fieldwork,,adjective inflection
+<f>ечIуха<ADJ><obl><an.sg><aff>,й=ечIуха-ллъи-бо,pass,Moroz fieldwork,,adjective inflection
+<f>ечIуха<ADJ><pl.obl><erg>,й=ечIух-оли-ди,pass,Moroz fieldwork,,adjective inflection
+<f>ечIуха<ADJ><pl.obl><an.sg><aff>,й=ечIух-оли-бо,pass,Moroz fieldwork,,adjective inflection
