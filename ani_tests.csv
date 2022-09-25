@@ -20,8 +20,12 @@ analysis,form,mustpass,source,page,description
 шу<an.sg><ADJ>,шуб,pass,Kaye et al.,,adjectives
 шу<inan1><ADJ><pl>,шубол,pass,Kaye et al.,,adjectives
 шу<an.pl><ADJ><pl>,шуйол,pass,Kaye et al.,,adjectives
-чIе<NUM><num><obl.m><erg>,чIегушди,pass,Kaye et al.,,inflection
-чIе<NUM><num><obl.m><f><gen>,чIегушуй,pass,Kaye et al.,,inflection
-чIе<NUM><num><obl.m><dat>,чIегушуй,pass,Kaye et al.,,inflection
-чIе<NUM><num><obl.m><dat>,чIегушлъу,pass,Kaye et al.,,inflection
-чIе<NUM><num><obl.m><an.sg><aff>,чIегушубо,pass,Kaye et al.,,inflection
+чIе<NUM><num><obl.m><erg>,чIегушди,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl.m><f><gen>,чIегушуй,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl.m><dat>,чIегушуй,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl.m><dat>,чIегушлъу,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl.m><an.sg><aff>,чIегушубо,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl><erg>,чIегулди,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl><f><aff>,чIегулуйо,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl><dat>,чIегулуй,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl><dat>,чIегуллъу,pass,Moroz 2017,8,numeral inflection

@@ -3,7 +3,10 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
-Adjectives[no_aggr] [<ADJ>:] AdjectivePlural?
+AdjectivesAbs
+
+PATTERN AdjectivesAbs
+Adjectives[-initial_aggr,-final_aggr] [<ADJ>:] AdjectivePlural?
 
 agrCL Adjectives[initial_aggr] [<ADJ>:]
 agrCL[-sg] Adjectives[initial_aggr] [<ADJ>:] AdjectivePlural
@@ -15,22 +18,27 @@ LEXICON AdjectivePlural
 <pl>:>{adj.pl}ол
 
 LEXICON Adjectives
-шу[final_aggr]                                                                  # хороший; good
+шу[final_aggr,сonsonantal]                                                      # хороший; good
+очо[initial_aggr]                                                               # низкий; short
 ехула[initial_aggr]                                                             # высокий; tall
 иши[initial_aggr]                                                               # толстый; fat
-ечIедир[initial_aggr]                                                           # черный; black
+ечIедир[initial_aggr,сonsonantal]                                               # черный; black
 ехула[initial_aggr]                                                             # длинный; long
-чуруки[no_aggr]                                                                 # грязный; dirty
-уди[no_aggr]                                                                    # глубокий; deep
-ъаб[no_aggr]                                                                    # широкий; wide
-гьацIа[no_aggr]                                                                 # белый; white
-чакку[no_aggr]                                                                  # желтый; yellow
-хвечи[no_aggr]                                                                  # зеленый; green
-цIиᵸву[no_aggr]                                                                 # новый; new
-ботIи[no_aggr]                                                                  # слепой; blind
-чIчIитIир[no_aggr]                                                              # узкий; narrow
-лъему[no_aggr]                                                                  # жидкий; liquid
-цIцIикIкIу[no_aggr]                                                             # кислый; sour 
-чIило[no_aggr]                                                                  # кривой; curved
-гъвенчIил[no_aggr]                                                              # кривой; curved
+чуруки                                                                          # грязный; dirty
+уди                                                                             # глубокий; deep
+ъаб[сonsonantal]                                                                # широкий; wide
+гьацIа                                                                          # белый; white
+чакку                                                                           # желтый; yellow
+хвечи                                                                           # зеленый; green
+цIиᵸву                                                                          # новый; new
+ботIи                                                                           # слепой; blind
+чIчIитIир[сonsonantal]                                                          # узкий; narrow
+лъему                                                                           # жидкий; liquid
+цIцIикIкIу                                                                      # кислый; sour 
+чIило                                                                           # кривой; curved
+гъвенчIил[сonsonantal]                                                          # кривой; curved
+кучIил[сonsonantal]                                                             # левый; left
+олохъан[сonsonantal]                                                            # молодой; young
+кьухъур[сonsonantal]                                                            # низкий; low
+
 
