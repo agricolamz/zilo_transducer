@@ -64,3 +64,7 @@ If you want to cite this work use the following format:
 ```
 Moroz, G. (2022) Morphological parser for Zilo Andi. (Version 0.0.1)
 ```
+
+## Number of forms generated: 
+
+2365

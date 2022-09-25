@@ -29,3 +29,33 @@ analysis,form,mustpass,source,page,description
 чIе<NUM><num><obl><f><aff>,чIегулуйо,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl><dat>,чIегулуй,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl><dat>,чIегуллъу,pass,Moroz 2017,8,numeral inflection
+чуруки<ADJ><obl.m><erg>,чурукишди,pass,Kaye et al.,,adjective inflection
+чуруки<ADJ><obl.m><m><aff>,чурукишуво,pass,Kaye et al.,,adjective inflection
+чуруки<ADJ><obl.m><f><gen>,чурукишуй,pass,Kaye et al.,,adjective inflection
+чуруки<ADJ><obl><erg>,чурукилди,pass,Kaye et al.,,adjective inflection
+чуруки<ADJ><obl><m><aff>,чурукилуво,pass,Kaye et al.,,adjective inflection
+чуруки<ADJ><obl><gen>,чурукиллIи,pass,Kaye et al.,,adjective inflection
+чIчIитIир<ADJ><obl.m><erg>,чIчIитIиршди,pass,Kaye et al.,,adjective inflection
+чIчIитIир<ADJ><obl.m><m><aff>,чIчIитIиршуво,pass,Kaye et al.,,adjective inflection
+чIчIитIир<ADJ><obl.m><f><gen>,чIчIитIиршуй,pass,Kaye et al.,,adjective inflection
+чIчIитIир<ADJ><obl><erg>,чIчIитIирлъиди,pass,Kaye et al.,,adjective inflection
+чIчIитIир<ADJ><obl><gen>,чIчIитIирлъилIи,pass,Kaye et al.,,adjective inflection
+чIчIитIир<ADJ><obl><f><aff>,чIчIитIирлъийо,pass,Kaye et al.,,adjective inflection
+<inan2>ечIедир<ADJ><obl.m><erg>,речIедиршди,pass,Kaye et al.,,adjective inflection
+<inan2>ечIедир<ADJ><obl.m><f><aff>,речIедиршуво,pass,Kaye et al.,,adjective inflection
+<inan2>ечIедир<ADJ><obl.m><f><gen>,речIедиршуй,pass,Kaye et al.,,adjective inflection
+<inan2>ечIедир<ADJ><obl><erg>,речIедирлъиди,pass,Kaye et al.,,adjective inflection
+<inan2>ечIедир<ADJ><obl><gen>,речIедирлъилIи,pass,Kaye et al.,,adjective inflection
+<inan2>ечIедир<ADJ><obl><f><aff>,речIедирлъийо,pass,Kaye et al.,,adjective inflection
+<inan2>ехула<ADJ><obl.m><gen>,рехулашуй,pass,Kaye et al.,,adjective inflection
+<inan2>ехула<ADJ><obl.m><erg>,рехулашди,pass,Kaye et al.,,adjective inflection
+<inan2>ехула<ADJ><obl.m><f><aff>,рехулашуйо,pass,Kaye et al.,,adjective inflection
+<inan2>ехула<ADJ><obl><gen>,рехулалулIи,pass,Kaye et al.,,adjective inflection
+<inan2>ехула<ADJ><obl><erg>,рехулалди,pass,Kaye et al.,,adjective inflection
+<inan2>ехула<ADJ><obl><f><aff>,рехулалуйо,pass,Kaye et al.,,adjective inflection
+шу<m><ADJ><obl.m><erg>,шувшди,pass,Kaye et al.,,adjective inflection
+шу<m><ADJ><obl.m><f><gen>,шувшуй,pass,Kaye et al.,,adjective inflection
+шу<m><ADJ><obl.m><f><aff>,шувшуво,pass,Kaye et al.,,adjective inflection
+шу<m><ADJ><obl><erg>,шуйлъиди,pass,Kaye et al.,,adjective inflection
+шу<m><ADJ><obl><gen>,шуйлъилIи,pass,Kaye et al.,,adjective inflection
+шу<m><ADJ><obl><an.sg><aff>,шуйлъибо,pass,Kaye et al.,,adjective inflection

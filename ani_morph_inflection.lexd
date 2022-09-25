@@ -3,19 +3,27 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
-NumeralsAbs OblStem[m] [:у] Case[u_epentetic]
-NumeralsAbs OblStem[m] Case[-u_epentetic]
-NumeralsAbs OblStem[-m,-сonsonantal] [:у] Case[-m,u_epentetic]
-NumeralsAbs OblStem[-m,-сonsonantal] Case[-m,-u_epentetic]
+NumeralsAbs OblStem[m] (([:у] Case[u_epentetic]) | Case[-u_epentetic])
+NumeralsAbs OblStem[-m,-сonsonantal] (([:у] Case[-m,u_epentetic]) | Case[-m,-u_epentetic])
+
+Adjectives[-initial_aggr,-final_aggr] [<ADJ>:] OblStem[m] (([:у] Case[u_epentetic]) | Case[-u_epentetic])
+Adjectives[-initial_aggr,-final_aggr,consonantal] [<ADJ>:] OblStem[-m,consonantal] Case[-m]
+Adjectives[-initial_aggr,-final_aggr,-consonantal] [<ADJ>:] (([:у] Case[-m,u_epentetic]) | Case[-m,-u_epentetic])
+Adjectives[final_aggr] agrCL[m] [<ADJ>:] OblStem[m] ([:у] Case[u_epentetic] | Case[-u_epentetic])
+Adjectives[final_aggr] agrCL[-m] [<ADJ>:] OblStem[-m,consonantal] Case[-m]
+agrCL[m] Adjectives[initial_aggr] [<ADJ>:] OblStem[m] (([:у] Case[u_epentetic]) | Case[-u_epentetic])
+agrCL[-m] Adjectives[initial_aggr,consonantal] [<ADJ>:] OblStem[-m,consonantal] Case[-m]
+agrCL[-m] Adjectives[initial_aggr,-consonantal] [<ADJ>:] OblStem[-m,-consonantal] Case[-m]
 
 LEXICON OblStem
 <obl.m>:>ш[m]
 <obl>:>л
-<obl>:>лъ[сonsonantal]
+<obl>:>лъи[сonsonantal]
 
 LEXICON Case
 <erg>:>ди
 <dat>:>лъу
+<gen>:>лIи
 <dat>:>й[u_epentetic]
 <m><gen>:>в[m,u_epentetic]
 <f><gen>:>й[m,u_epentetic]
