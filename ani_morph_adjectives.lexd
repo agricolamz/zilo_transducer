@@ -18,7 +18,7 @@ LEXICON AdjectivePlural
 <pl>:>{adj.pl}л
 
 LEXICON Adjectives
-шу[final_aggr,сonsonantal]                                                      # хороший; good
+шу[final_aggr]                                                                  # хороший; good
 охор[initial_aggr,сonsonantal]                                                  # старый; old
 ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
 ечIуха[initial_aggr]                                                            # большой; clean
@@ -49,5 +49,6 @@ LEXICON Adjectives
 бечIугу                                                                         # пустой; empty
 хъелла                                                                          # худой; thin
 бискин[сonsonantal]                                                             # бедный; poor
-
+гьанъо                                                                          # беременная; pregnant
+тохи                                                                            # глупый; stupid
 

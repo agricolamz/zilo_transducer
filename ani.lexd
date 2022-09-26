@@ -18,7 +18,7 @@ LEXICON AdjectivePlural
 <pl>:>{adj.pl}л
 
 LEXICON Adjectives
-шу[final_aggr,сonsonantal]                                                      # хороший; good
+шу[final_aggr]                                                                  # хороший; good
 охор[initial_aggr,сonsonantal]                                                  # старый; old
 ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
 ечIуха[initial_aggr]                                                            # большой; clean
@@ -49,7 +49,8 @@ LEXICON Adjectives
 бечIугу                                                                         # пустой; empty
 хъелла                                                                          # худой; thin
 бискин[сonsonantal]                                                             # бедный; poor
-
+гьанъо                                                                          # беременная; pregnant
+тохи                                                                            # глупый; stupid
 
 # -------------------------------------------------------------------------
 # ADVERBS
@@ -119,31 +120,42 @@ PATTERNS
 # NumeralsAbs OblStem[-m,-сonsonantal] Cases
 
 AdjectiveM [<ADJ>:] OblStem[m] CasesM
-AdjectiveM [<ADJ>:] AdjectivePlural OblEpent[m] Case[-f]
+AdjectiveM [<ADJ>:] AdjectivePlural Epent[m] Case[-f]
+AdjectiveSgConsonantal [<ADJ>:] Case[-v_epentetic,-m]
+AdjectiveSgConsonantal [<ADJ>:] Epent[sg] Case[v_epentetic,-m]
+AdjectiveSgVocalic [<ADJ>:] OblStem[-m] Case[-v_epentetic,-m]
+AdjectiveSgVocalic [<ADJ>:] OblStem[-m] Epent[sg] Case[v_epentetic,-m]
+AdjectivePl [<ADJ>:] AdjectivePlural Epent[pl] Case[-m]
 
 PATTERN AdjectiveM
 (Adjectives[-initial_aggr,-final_aggr] | (agrCL[m] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[m]))
 
-PATTERN AdjectiveSg
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-pl] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,-pl]))
+PATTERN AdjectiveSgConsonantal
+(Adjectives[-initial_aggr,-final_aggr,сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,сonsonantal]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
+
+PATTERN AdjectiveSgVocalic
+(Adjectives[-initial_aggr,-final_aggr,-сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,-сonsonantal]))
 
 PATTERN AdjectivePl
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,pl] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,pl]))
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
+
+PATTERN AdjectivePl
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
 
 PATTERN CasesM
-((OblEpent[m] Case[v_epentetic,-f]) | Case[-v_epentetic,-f] | (Case[ess] Elative))
+((Epent[m] Case[v_epentetic,-f]) | Case[-v_epentetic,-f] | (Case[ess] Elative))
 
-LEXICON OblEpent
-<obl><epent.m>:у[m]
-<obl><epent>:и
+LEXICON Epent
+<epent.m>:>у[m]
+<epent.sg>:>лъи[sg]
+<epent.pl>:>и[pl]
 
 LEXICON OblStem
 <obl.m>:>ш[m]
 <obl>:>л
-<obl>:>лъи[сonsonantal]
 
 LEXICON Case
-<erg>:>ди[erg]
+<erg>:>ди
 <dat>:>лъу[f]
 <dat>:>й[v_epentetic]
 <gen>:>лIи[f]
@@ -151,15 +163,15 @@ LEXICON Case
 <f><gen>:>й[m,v_epentetic]
 <inan1><gen>:>б[m,v_epentetic]
 <inan2><gen>:>р[m,v_epentetic]
-<an.sg><gen>:б[m,sg,v_epentetic]
-<an.pl><gen>:й[m,pl,v_epentetic]
+<an.sg><gen>:б[m,v_epentetic]
+<an.pl><gen>:й[m,v_epentetic]
 
 <m><aff>:>во[v_epentetic]
 <f><aff>:>йо[v_epentetic]
 <inan1><aff>:>бо[v_epentetic]
 <inan2><aff>:>ро[v_epentetic]
-<an.sg><aff>:бо[sg,v_epentetic]
-<an.pl><aff>:йо[pl,v_epentetic]
+<an.sg><aff>:бо[v_epentetic]
+<an.pl><aff>:йо[v_epentetic]
 
 <sub><ess>:>кьи[ess]
 <sub><lat>:>кьи
