@@ -14,9 +14,6 @@ agrCL[-sg] Adjectives[initial_aggr] [<ADJ>:] AdjectivePlural
 Adjectives[final_aggr] agrCL [<ADJ>:]
 Adjectives[final_aggr] agrCL[-sg] [<ADJ>:] AdjectivePlural
 
-PATTERN AdjectivesObl
-Adjectives[-initial_aggr,-final_aggr,-consonantal] [<ADJ>:]
-
 LEXICON AdjectivePlural
 <pl>:>{adj.pl}л
 
@@ -51,6 +48,6 @@ LEXICON Adjectives
 гьири                                                                           # красный; red
 бечIугу                                                                         # пустой; empty
 хъелла                                                                          # худой; thin
-бискин                                                                          # бедный; poor
+бискин[сonsonantal]                                                             # бедный; poor
 
 

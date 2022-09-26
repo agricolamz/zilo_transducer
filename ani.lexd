@@ -14,9 +14,6 @@ agrCL[-sg] Adjectives[initial_aggr] [<ADJ>:] AdjectivePlural
 Adjectives[final_aggr] agrCL [<ADJ>:]
 Adjectives[final_aggr] agrCL[-sg] [<ADJ>:] AdjectivePlural
 
-PATTERN AdjectivesObl
-Adjectives[-initial_aggr,-final_aggr,-consonantal] [<ADJ>:]
-
 LEXICON AdjectivePlural
 <pl>:>{adj.pl}л
 
@@ -51,7 +48,7 @@ LEXICON Adjectives
 гьири                                                                           # красный; red
 бечIугу                                                                         # пустой; empty
 хъелла                                                                          # худой; thin
-бискин                                                                          # бедный; poor
+бискин[сonsonantal]                                                             # бедный; poor
 
 
 # -------------------------------------------------------------------------
@@ -118,17 +115,27 @@ LEXICON clitics
 # -------------------------------------------------------------------------
 
 PATTERNS
-NumeralsAbs OblStem[m] (([:у] Case[v_epentetic]) | Case[-v_epentetic] | (LocCase Elative?))
-NumeralsAbs OblStem[-m,-сonsonantal] (([:у] Case[-m,v_epentetic]) | Case[-m,-v_epentetic] | (LocCase Elative?))
+# NumeralsAbs OblStem[m] Cases
+# NumeralsAbs OblStem[-m,-сonsonantal] Cases
 
-Adjectives[-initial_aggr,-final_aggr] [<ADJ>:] OblStem[m] (([:у] Case[v_epentetic]) | Case[-v_epentetic] | (LocCase Elative?))
-Adjectives[-initial_aggr,-final_aggr,consonantal] [<ADJ>:] OblStem[consonantal] (Case[-m] | (LocCase Elative?))
-Adjectives[-initial_aggr,-final_aggr,-consonantal] [<ADJ>:] OblStem[-consonantal] (([:у] Case[-m,v_epentetic]) | Case[-m,-v_epentetic] | (LocCase Elative?))
-Adjectives[final_aggr] agrCL[m] [<ADJ>:] OblStem[m] (([:у] Case[v_epentetic]) | Case[-v_epentetic] | (LocCase Elative?))
-Adjectives[final_aggr] agrCL[-m] [<ADJ>:] OblStem[consonantal] (Case[-m] | (LocCase Elative?))
-agrCL[m] Adjectives[initial_aggr] [<ADJ>:] OblStem[m] (([:у] Case[v_epentetic]) | Case[-v_epentetic] | (LocCase Elative?))
-agrCL[-m] Adjectives[initial_aggr,consonantal] [<ADJ>:] OblStem[consonantal] (Case[-m] | (LocCase Elative?))
-agrCL[-m] Adjectives[initial_aggr,-consonantal] [<ADJ>:] OblStem[-consonantal] (Case[-m] | (LocCase Elative?))
+AdjectiveM [<ADJ>:] OblStem[m] CasesM
+AdjectiveM [<ADJ>:] AdjectivePlural OblEpent[m] Case[-f]
+
+PATTERN AdjectiveM
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[m] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[m]))
+
+PATTERN AdjectiveSg
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-pl] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,-pl]))
+
+PATTERN AdjectivePl
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,pl] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,pl]))
+
+PATTERN CasesM
+((OblEpent[m] Case[v_epentetic,-f]) | Case[-v_epentetic,-f] | (Case[ess] Elative))
+
+LEXICON OblEpent
+<obl><epent.m>:у[m]
+<obl><epent>:и
 
 LEXICON OblStem
 <obl.m>:>ш[m]
@@ -136,10 +143,10 @@ LEXICON OblStem
 <obl>:>лъи[сonsonantal]
 
 LEXICON Case
-<erg>:>ди
-<dat>:>лъу
-<gen>:>лIи
+<erg>:>ди[erg]
+<dat>:>лъу[f]
 <dat>:>й[v_epentetic]
+<gen>:>лIи[f]
 <m><gen>:>в[m,v_epentetic]
 <f><gen>:>й[m,v_epentetic]
 <inan1><gen>:>б[m,v_epentetic]
@@ -154,10 +161,6 @@ LEXICON Case
 <an.sg><aff>:бо[sg,v_epentetic]
 <an.pl><aff>:йо[pl,v_epentetic]
 
-LEXICON Elative
-<elat>:кку
-
-LEXICON LocCase
 <sub><ess>:>кьи[ess]
 <sub><lat>:>кьи
 <super><ess>:>ъа[ess]
@@ -172,6 +175,11 @@ LEXICON LocCase
 <apud><lat>:>хъи
 <cont><ess>:>чIу[ess]
 <contr><lat>:>чIу
+
+LEXICON Elative
+<elat>:кку
+
+
 # -------------------------------------------------------------------------
 # NUMERALS
 # -------------------------------------------------------------------------
