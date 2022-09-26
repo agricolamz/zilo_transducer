@@ -19,8 +19,8 @@ analysis,form,mustpass,source,page,description
 шу<inan1><ADJ>,шуб,pass,Kaye et al.,,adjectives
 шу<an.sg><ADJ>,шуб,pass,Kaye et al.,,adjectives
 шу<inan1><ADJ><pl>,шубол,pass,Kaye et al.,,adjectives
-шу<an.pl><ADJ><pl>,шуйил,pass,Kaye et al.,,adjectives
-шу<an.pl><ADJ><pl>,шувул,pass,Kaye et al.,,adjectives
+шу<f><ADJ><pl>,шуйил,pass,Kaye et al.,,adjectives
+шу<m><ADJ><pl>,шувул,pass,Kaye et al.,,adjectives
 чIе<NUM><num><obl.m><erg>,чIегушди,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><f><gen>,чIегушуй,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><dat>,чIегушуй,pass,Moroz 2017,8,numeral inflection

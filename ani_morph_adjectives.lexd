@@ -18,7 +18,7 @@ PATTERN AdjectivesObl
 Adjectives[-initial_aggr,-final_aggr,-consonantal] [<ADJ>:]
 
 LEXICON AdjectivePlural
-<pl>:>{adj.pl}ол
+<pl>:>{adj.pl}л
 
 LEXICON Adjectives
 шу[final_aggr,сonsonantal]                                                      # хороший; good

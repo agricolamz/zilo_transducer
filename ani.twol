@@ -3,7 +3,7 @@ Alphabet
   	а:а у:у и:и о:о е:е
   	а:0 у:0 и:0 о:0 е:0
     %>:0
-    %{adj.pl%}:0
+    %{adj.pl%}:о %{adj.pl%}:и %{adj.pl%}:у
 ;
 
 Sets
@@ -14,8 +14,16 @@ Rules
 "drop morpheme boundary"
 %>:0 <=> _ ;
 
-"drop adj.pl"
-%{adj.pl%}:0 <=> _ ;
+"vowel change in adj.pl morpheme"
+%{adj.pl%}:о <=> _ ;
+	except
+		[в:в | й:й] %>: _ ;
+
+"vowel change in adj.pl morpheme after w"
+%{adj.pl%}:у <=> в:в %>: _ ;
+
+"vowel change in adj.pl morpheme after j"
+%{adj.pl%}:и <=> й:й %>: _ ;
 
 "drop vowel before adj.pl morpheme boundary"
-X:0 <=> _ %>: %{adj.pl%}:0 о:о; where X in vowels;
+X:0 <=> _ %>: %{adj.pl%}: ; where X in vowels;
