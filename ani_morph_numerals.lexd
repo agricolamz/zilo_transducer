@@ -5,9 +5,9 @@
 PATTERNS
 NumeralsAbs
 NumeralsNotAbs
+Numerals[one] [<NUM>:] agrCL[-pl]                                               ## 1
 
 PATTERN NumeralsAbs
-Numerals[one] [<NUM>:] agrCL[-pl]                                               ## 1
 (Numerals[-one,-four] | NumeralFour) [<NUM>:] NumearalMarker                    ## rest numerals
 NumeralMultiplier (NumeralCrown | (Numerals[base] [<NUM>:])) NumearalMarker     ## crowns, 100, 1000
 

@@ -27,13 +27,13 @@ analysis,form,mustpass,source,page,description
 <m>цIцIиб<ADJ><pl>,воцIцIибул,pass,Moroz fieldwork,,adjectives
 <f>цIцIиб<ADJ><pl>,йоцIцIибул,pass,Moroz fieldwork,,adjectives
 чIе<NUM><num><obl.m><erg>,чIегушди,pass,Moroz 2017,8,numeral inflection
-чIе<NUM><num><obl.m><f><gen>,чIегушуй,pass,Moroz 2017,8,numeral inflection
-чIе<NUM><num><obl.m><dat>,чIегушуй,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl.m><epent.m><f><gen>,чIегушуй,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl.m><epent.m><dat>,чIегушуй,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><dat>,чIегушлъу,pass,Moroz 2017,8,numeral inflection
-чIе<NUM><num><obl.m><an.sg><aff>,чIегушубо,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl.m><epent.m><an.sg><aff>,чIегушубо,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl><erg>,чIегулди,pass,Moroz 2017,8,numeral inflection
-чIе<NUM><num><obl><f><aff>,чIегулуйо,pass,Moroz 2017,8,numeral inflection
-чIе<NUM><num><obl><dat>,чIегулуй,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl><epent.sg><f><aff>,чIегуллъуйо,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl><epent.sg><dat>,чIегуллъуй,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl><dat>,чIегуллъу,pass,Moroz 2017,8,numeral inflection
 шу<m><ADJ><obl.m><erg>,шувшди,pass,Moroz fieldwork,,adjective inflection
 шу<m><ADJ><obl.m><epent.m><f><aff>,шувшуйо,pass,Moroz fieldwork,,adjective inflection

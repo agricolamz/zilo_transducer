@@ -3,8 +3,8 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
-# NumeralsAbs OblStem[m] Cases
-# NumeralsAbs OblStem[-m,-сonsonantal] Cases
+NumeralsAbs OblStem[m] CasesM
+NumeralsAbs OblStem[-m] (Case[-v_epentetic,-m] | (Epent[sg] Case[v_epentetic,-m]))
 
 AdjectiveMSg [<ADJ>:] (OblStem[m] CasesM)?
 AdjectiveMPl [<ADJ>:] AdjectivePlural (Epent[m] Case[-f])?
