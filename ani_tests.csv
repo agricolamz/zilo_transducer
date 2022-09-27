@@ -21,11 +21,11 @@ analysis,form,mustpass,source,page,description
 шу<inan1><ADJ><pl>,шубол,pass,Kaye et al.,,adjectives
 шу<f><ADJ><pl>,шуйил,pass,Kaye et al.,,adjectives
 шу<m><ADJ><pl>,шувул,pass,Kaye et al.,,adjectives
-<inan1>цIцIиб,бицIцIиб,pass,Moroz fieldwork,,adjectives
-<m>цIцIиб,вуцIцIиб,pass,Moroz fieldwork,,adjectives
-<f>цIцIиб,йицIцIиб,pass,Moroz fieldwork,,adjectives
-<m>цIцIиб<pl>,воцIцIибул,pass,Moroz fieldwork,,adjectives
-<f>цIцIиб<pl>,йоцIцIибул,pass,Moroz fieldwork,,adjectives
+<inan1>цIцIиб<ADJ>,бицIцIиб,pass,Moroz fieldwork,,adjectives
+<m>цIцIиб<ADJ>,вуцIцIиб,pass,Moroz fieldwork,,adjectives
+<f>цIцIиб<ADJ>,йицIцIиб,pass,Moroz fieldwork,,adjectives
+<m>цIцIиб<ADJ><pl>,воцIцIибул,pass,Moroz fieldwork,,adjectives
+<f>цIцIиб<ADJ><pl>,йоцIцIибул,pass,Moroz fieldwork,,adjectives
 чIе<NUM><num><obl.m><erg>,чIегушди,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><f><gen>,чIегушуй,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><dat>,чIегушуй,pass,Moroz 2017,8,numeral inflection

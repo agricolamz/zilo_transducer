@@ -2,20 +2,18 @@
 # ADJECTIVES
 # -------------------------------------------------------------------------
 
-PATTERNS
-AdjectivesAbs
+# PATTERNS
+# Adjectives[-initial_aggr,-final_aggr] [<ADJ>:] AdjectivePlural?
 
-PATTERN AdjectivesAbs
-Adjectives[-initial_aggr,-final_aggr] [<ADJ>:] AdjectivePlural?
+# agrCL[-pl] Adjectives[initial_aggr,-plural_slot] [<ADJ>:]
+# agrCL[-sg] Adjectives[initial_aggr,-plural_slot] [<ADJ>:] AdjectivePlural
 
-agrCL[-pl] Adjectives[initial_aggr,-plural_slot] [<ADJ>:]
-agrCL[-sg] Adjectives[initial_aggr,-plural_slot] [<ADJ>:] AdjectivePlural
+# agrCL[m] [:у] Adjectives[initial_aggr,plural_slot] [<ADJ>:]
+# agrCL[-pl,-m] [:и] Adjectives[initial_aggr,plural_slot] [<ADJ>:]
+# agrCL[-sg] [:о] Adjectives[initial_aggr,plural_slot] [<ADJ>:] AdjectivePlural
 
-agrCL[-pl] [и:] Adjectives[initial_aggr,plural_slot] [<ADJ>:]
-agrCL[-sg] [о:] Adjectives[initial_aggr,plural_slot] [<ADJ>:] AdjectivePlural
-
-Adjectives[final_aggr] agrCL[-pl] [<ADJ>:]
-Adjectives[final_aggr] agrCL[-sg] [<ADJ>:] AdjectivePlural
+# Adjectives[final_aggr] agrCL[-pl] [<ADJ>:]
+# Adjectives[final_aggr] agrCL[-sg] [<ADJ>:] AdjectivePlural
 
 LEXICON AdjectivePlural
 <pl>:>{adj.pl}л

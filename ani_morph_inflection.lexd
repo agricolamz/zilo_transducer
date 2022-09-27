@@ -6,28 +6,40 @@ PATTERNS
 # NumeralsAbs OblStem[m] Cases
 # NumeralsAbs OblStem[-m,-сonsonantal] Cases
 
-AdjectiveM [<ADJ>:] OblStem[m] CasesM
-AdjectiveM [<ADJ>:] AdjectivePlural Epent[m] Case[-f]
-AdjectiveSgConsonantal [<ADJ>:] Case[-v_epentetic,-m]
-AdjectiveSgConsonantal [<ADJ>:] Epent[sg] Case[v_epentetic,-m]
-AdjectiveSgVocalic [<ADJ>:] OblStem[-m] Case[-v_epentetic,-m]
-AdjectiveSgVocalic [<ADJ>:] OblStem[-m] Epent[sg] Case[v_epentetic,-m]
-AdjectivePl [<ADJ>:] AdjectivePlural Epent[pl] Case[-m]
+AdjectiveMSg [<ADJ>:] (OblStem[m] CasesM)?
+AdjectiveMPl [<ADJ>:] AdjectivePlural (Epent[m] Case[-f])?
+AdjectiveSgConsonantal [<ADJ>:] (Case[-v_epentetic,-m] | (Epent[sg] Case[v_epentetic,-m]))?
+AdjectiveSgVocalic [<ADJ>:] (OblStem[-m] (Case[-v_epentetic,-m] | (Epent[sg] Case[v_epentetic,-m])))?
+AdjectivePl [<ADJ>:] AdjectivePlural (Epent[pl] Case[-m])?
 
-PATTERN AdjectiveM
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[m] Adjectives[initial_aggr,-plural_slot]) | (Adjectives[final_aggr] agrCL[m]))
+PATTERN AdjectiveMSg
+Adjectives[-initial_aggr,-final_aggr]
+(agrCL[m] Adjectives[initial_aggr,-plural_slot])
+(Adjectives[final_aggr] agrCL[m])
+agrCL[-pl,m] [:у] Adjectives[initial_aggr,plural_slot]
+
+PATTERN AdjectiveMPl
+Adjectives[-initial_aggr,-final_aggr]
+agrCL[m] Adjectives[initial_aggr,-plural_slot]
+Adjectives[final_aggr] agrCL[m]
+agrCL[-sg,m] [:о] Adjectives[initial_aggr,plural_slot]
 
 PATTERN AdjectiveSgConsonantal
-(Adjectives[-initial_aggr,-final_aggr,сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,сonsonantal,-plural_slot]) | (Adjectives[final_aggr] agrCL[-m,-pl]))
+Adjectives[-initial_aggr,-final_aggr,сonsonantal]
+agrCL[-m,-pl] Adjectives[initial_aggr,сonsonantal,-plural_slot]
+Adjectives[final_aggr] agrCL[-m,-pl]
+agrCL[-m,-pl] [:и] Adjectives[initial_aggr,plural_slot,сonsonantal]
 
 PATTERN AdjectiveSgVocalic
-(Adjectives[-initial_aggr,-final_aggr,-сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,-сonsonantal,-plural_slot]))
+Adjectives[-initial_aggr,-final_aggr,-сonsonantal]
+agrCL[-m,-pl] Adjectives[initial_aggr,-сonsonantal,-plural_slot]
+agrCL[-m,-pl] [:и] Adjectives[initial_aggr,plural_slot,-сonsonantal]
 
 PATTERN AdjectivePl
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr,-plural_slot]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
-
-PATTERN CasesM
-((Epent[m] Case[v_epentetic,-f]) | Case[-v_epentetic,-f] | (Case[ess] Elative))
+Adjectives[-initial_aggr,-final_aggr]
+agrCL[-m,-sg] Adjectives[initial_aggr,-plural_slot]
+Adjectives[final_aggr] agrCL[-m,-sg]
+agrCL[-m,-sg] [:о] Adjectives[initial_aggr,plural_slot,-сonsonantal]
 
 LEXICON Epent
 <epent.m>:>у[m]
@@ -37,6 +49,11 @@ LEXICON Epent
 LEXICON OblStem
 <obl.m>:>ш[m]
 <obl>:>л
+
+PATTERN CasesM
+Epent[m] Case[v_epentetic,-f]
+Case[-v_epentetic,-f]
+Case[ess] Elative
 
 LEXICON Case
 <erg>:>ди
