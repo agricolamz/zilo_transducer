@@ -17,10 +17,13 @@ Rules
 "vowel change in adj.pl morpheme"
 %{adj.pl%}:о <=> _ ;
 	except
-		[в:в | й:й] %>: _ ;
+		[в:в | й:й | б:б] %>: _ ;
 
 "vowel change in adj.pl morpheme after w"
 %{adj.pl%}:у <=> в:в %>: _ ;
+
+"vowel change in adj.pl morpheme after b"
+%{adj.pl%}:у <=> б:б %>: _ ;
 
 "vowel change in adj.pl morpheme after j"
 %{adj.pl%}:и <=> й:й %>: _ ;

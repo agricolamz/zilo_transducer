@@ -8,10 +8,13 @@ AdjectivesAbs
 PATTERN AdjectivesAbs
 Adjectives[-initial_aggr,-final_aggr] [<ADJ>:] AdjectivePlural?
 
-agrCL Adjectives[initial_aggr] [<ADJ>:]
-agrCL[-sg] Adjectives[initial_aggr] [<ADJ>:] AdjectivePlural
+agrCL[-pl] Adjectives[initial_aggr,-plural_slot] [<ADJ>:]
+agrCL[-sg] Adjectives[initial_aggr,-plural_slot] [<ADJ>:] AdjectivePlural
 
-Adjectives[final_aggr] agrCL [<ADJ>:]
+agrCL[-pl] [и:] Adjectives[initial_aggr,plural_slot] [<ADJ>:]
+agrCL[-sg] [о:] Adjectives[initial_aggr,plural_slot] [<ADJ>:] AdjectivePlural
+
+Adjectives[final_aggr] agrCL[-pl] [<ADJ>:]
 Adjectives[final_aggr] agrCL[-sg] [<ADJ>:] AdjectivePlural
 
 LEXICON AdjectivePlural
@@ -19,6 +22,8 @@ LEXICON AdjectivePlural
 
 LEXICON Adjectives
 шу[final_aggr]                                                                  # хороший; good
+зарху[final_aggr]                                                               # холодный; cold
+екъуб[final_aggr]                                                               # густой; dense 
 охор[initial_aggr,сonsonantal]                                                  # старый; old
 ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
 ечIуха[initial_aggr]                                                            # большой; clean
@@ -27,6 +32,9 @@ LEXICON Adjectives
 иши[initial_aggr]                                                               # толстый; fat
 ечIедир[initial_aggr,сonsonantal]                                               # черный; black
 ехула[initial_aggr]                                                             # длинный; long
+цIцIиб[initial_aggr,plural_slot]                                                # полный; full, stout
+тIонниб[initial_aggr,plural_slot]                                               # мокрый; wet
+чIой[initial_aggr,plural_slot]                                                  # мертвый; dead
 чуруки                                                                          # грязный; dirty
 уди                                                                             # глубокий; deep
 ъаб[сonsonantal]                                                                # широкий; wide
@@ -51,4 +59,27 @@ LEXICON Adjectives
 бискин[сonsonantal]                                                             # бедный; poor
 гьанъо                                                                          # беременная; pregnant
 тохи                                                                            # глупый; stupid
+гьанчIчIил[сonsonantal]                                                         # правый; right
+хъвей[сonsonantal]                                                              # серый; grey
+гургума                                                                         # круглый; round
+букьин[сonsonantal]                                                             # горький; bitter 
+гьокIору                                                                        # тяжелый; heavy  
+къваку                                                                          # сильный; strong 
+мицIа                                                                           # сладкий; sweet 
+чIантIи                                                                         # мелкий; small
+лъолколъи                                                                       # легкий; light
+багъу                                                                           # красивый; beautiful
+уцIцIилойсси                                                                    # аккуратный; careful
+мичIи                                                                           # маленький; small
+содо                                                                            # холодный; cold
+мицIа                                                                           # сладкий; sweet
+джиб[сonsonantal]                                                               # каждый; every
+сагъи                                                                           # здоровый; healthy
+чIачIи                                                                          # жирный; fatty
+чора                                                                            # жирный; fat
+
+# жи=б=улгу                                                                       # все; all
+# се=в=ло                                                                         # другой; other
+
+
 

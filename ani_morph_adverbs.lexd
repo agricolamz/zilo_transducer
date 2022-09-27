@@ -3,19 +3,30 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
-Adverbs[no_aggr] [<ADV>:]
+Adverbs[-initial_aggr,-final_aggr] [<ADV>:]
 agrCL Adverbs[initial_aggr] [<ADV>:]
 Adverbs[final_aggr] agrCL [<ADV>:]
 
 LEXICON Adverbs
-суни[no_aggr]                                                                   # вчера; yesterday
-золо[no_aggr]                                                                   # очень; very 
-тIулу[no_aggr]                                                                  # очень; very
-желъал[no_aggr]                                                                 # сегодня; today
-жегьал[no_aggr]                                                                 # сегодня; today
-гьикьу[no_aggr]                                                                 # внизу; at the bottom
-сседу[no_aggr]                                                                  # впереди; in front of
-гьонолъу[no_aggr]                                                               # здесь; here
+суни                                                                            # вчера; yesterday
+золо                                                                            # очень; very 
+тIулу                                                                           # очень; very
+желъал                                                                          # сегодня; today
+жегьал                                                                          # сегодня; today
+гьикьу                                                                          # внизу; at the bottom
+сседу                                                                           # впереди; in front of
+гьонолъу                                                                        # здесь; here
 игьолгу[initial_aggr]                                                           # много; a lot of
 игьугу[initial_aggr]                                                            # много; many
+сой                                                                             # послезавтра; day after tomorrow
+илIохъи                                                                         # медленно; slowly     
+илIогва                                                                         # медленно; slowly
+элолла                                                                          # далеко; far away
+гьину                                                                           # внутри; inside
+хехи                                                                            # быстро; quickly
+гьуду                                                                           # там; there
+щела                                                                            # завтра; tomorrow
+иннагуло                                                                        # иногда; sometimes
+гьуᵸ                                                                            # да; yes
+джи                                                                             # да; yes
 

@@ -8,10 +8,13 @@ AdjectivesAbs
 PATTERN AdjectivesAbs
 Adjectives[-initial_aggr,-final_aggr] [<ADJ>:] AdjectivePlural?
 
-agrCL Adjectives[initial_aggr] [<ADJ>:]
-agrCL[-sg] Adjectives[initial_aggr] [<ADJ>:] AdjectivePlural
+agrCL[-pl] Adjectives[initial_aggr,-plural_slot] [<ADJ>:]
+agrCL[-sg] Adjectives[initial_aggr,-plural_slot] [<ADJ>:] AdjectivePlural
 
-Adjectives[final_aggr] agrCL [<ADJ>:]
+agrCL[-pl] [и:] Adjectives[initial_aggr,plural_slot] [<ADJ>:]
+agrCL[-sg] [о:] Adjectives[initial_aggr,plural_slot] [<ADJ>:] AdjectivePlural
+
+Adjectives[final_aggr] agrCL[-pl] [<ADJ>:]
 Adjectives[final_aggr] agrCL[-sg] [<ADJ>:] AdjectivePlural
 
 LEXICON AdjectivePlural
@@ -19,6 +22,8 @@ LEXICON AdjectivePlural
 
 LEXICON Adjectives
 шу[final_aggr]                                                                  # хороший; good
+зарху[final_aggr]                                                               # холодный; cold
+екъуб[final_aggr]                                                               # густой; dense 
 охор[initial_aggr,сonsonantal]                                                  # старый; old
 ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
 ечIуха[initial_aggr]                                                            # большой; clean
@@ -27,6 +32,9 @@ LEXICON Adjectives
 иши[initial_aggr]                                                               # толстый; fat
 ечIедир[initial_aggr,сonsonantal]                                               # черный; black
 ехула[initial_aggr]                                                             # длинный; long
+цIцIиб[initial_aggr,plural_slot]                                                # полный; full, stout
+тIонниб[initial_aggr,plural_slot]                                               # мокрый; wet
+чIой[initial_aggr,plural_slot]                                                  # мертвый; dead
 чуруки                                                                          # грязный; dirty
 уди                                                                             # глубокий; deep
 ъаб[сonsonantal]                                                                # широкий; wide
@@ -51,27 +59,61 @@ LEXICON Adjectives
 бискин[сonsonantal]                                                             # бедный; poor
 гьанъо                                                                          # беременная; pregnant
 тохи                                                                            # глупый; stupid
+гьанчIчIил[сonsonantal]                                                         # правый; right
+хъвей[сonsonantal]                                                              # серый; grey
+гургума                                                                         # круглый; round
+букьин[сonsonantal]                                                             # горький; bitter 
+гьокIору                                                                        # тяжелый; heavy  
+къваку                                                                          # сильный; strong 
+мицIа                                                                           # сладкий; sweet 
+чIантIи                                                                         # мелкий; small
+лъолколъи                                                                       # легкий; light
+багъу                                                                           # красивый; beautiful
+уцIцIилойсси                                                                    # аккуратный; careful
+мичIи                                                                           # маленький; small
+содо                                                                            # холодный; cold
+мицIа                                                                           # сладкий; sweet
+джиб[сonsonantal]                                                               # каждый; every
+сагъи                                                                           # здоровый; healthy
+чIачIи                                                                          # жирный; fatty
+чора                                                                            # жирный; fat
+
+# жи=б=улгу                                                                       # все; all
+# се=в=ло                                                                         # другой; other
+
+
 
 # -------------------------------------------------------------------------
 # ADVERBS
 # -------------------------------------------------------------------------
 
 PATTERNS
-Adverbs[no_aggr] [<ADV>:]
+Adverbs[-initial_aggr,-final_aggr] [<ADV>:]
 agrCL Adverbs[initial_aggr] [<ADV>:]
 Adverbs[final_aggr] agrCL [<ADV>:]
 
 LEXICON Adverbs
-суни[no_aggr]                                                                   # вчера; yesterday
-золо[no_aggr]                                                                   # очень; very 
-тIулу[no_aggr]                                                                  # очень; very
-желъал[no_aggr]                                                                 # сегодня; today
-жегьал[no_aggr]                                                                 # сегодня; today
-гьикьу[no_aggr]                                                                 # внизу; at the bottom
-сседу[no_aggr]                                                                  # впереди; in front of
-гьонолъу[no_aggr]                                                               # здесь; here
+суни                                                                            # вчера; yesterday
+золо                                                                            # очень; very 
+тIулу                                                                           # очень; very
+желъал                                                                          # сегодня; today
+жегьал                                                                          # сегодня; today
+гьикьу                                                                          # внизу; at the bottom
+сседу                                                                           # впереди; in front of
+гьонолъу                                                                        # здесь; here
 игьолгу[initial_aggr]                                                           # много; a lot of
 игьугу[initial_aggr]                                                            # много; many
+сой                                                                             # послезавтра; day after tomorrow
+илIохъи                                                                         # медленно; slowly     
+илIогва                                                                         # медленно; slowly
+элолла                                                                          # далеко; far away
+гьину                                                                           # внутри; inside
+хехи                                                                            # быстро; quickly
+гьуду                                                                           # там; there
+щела                                                                            # завтра; tomorrow
+иннагуло                                                                        # иногда; sometimes
+гьуᵸ                                                                            # да; yes
+джи                                                                             # да; yes
 
 # -------------------------------------------------------------------------
 # AGREEMENT
@@ -128,19 +170,16 @@ AdjectiveSgVocalic [<ADJ>:] OblStem[-m] Epent[sg] Case[v_epentetic,-m]
 AdjectivePl [<ADJ>:] AdjectivePlural Epent[pl] Case[-m]
 
 PATTERN AdjectiveM
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[m] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[m]))
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[m] Adjectives[initial_aggr,-plural_slot]) | (Adjectives[final_aggr] agrCL[m]))
 
 PATTERN AdjectiveSgConsonantal
-(Adjectives[-initial_aggr,-final_aggr,сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,сonsonantal]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
+(Adjectives[-initial_aggr,-final_aggr,сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,сonsonantal,-plural_slot]) | (Adjectives[final_aggr] agrCL[-m,-pl]))
 
 PATTERN AdjectiveSgVocalic
-(Adjectives[-initial_aggr,-final_aggr,-сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,-сonsonantal]))
+(Adjectives[-initial_aggr,-final_aggr,-сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,-сonsonantal,-plural_slot]))
 
 PATTERN AdjectivePl
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
-
-PATTERN AdjectivePl
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr,-plural_slot]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
 
 PATTERN CasesM
 ((Epent[m] Case[v_epentetic,-f]) | Case[-v_epentetic,-f] | (Case[ess] Elative))

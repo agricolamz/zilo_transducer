@@ -21,6 +21,11 @@ analysis,form,mustpass,source,page,description
 шу<inan1><ADJ><pl>,шубол,pass,Kaye et al.,,adjectives
 шу<f><ADJ><pl>,шуйил,pass,Kaye et al.,,adjectives
 шу<m><ADJ><pl>,шувул,pass,Kaye et al.,,adjectives
+<inan1>цIцIиб,бицIцIиб,pass,Moroz fieldwork,,adjectives
+<m>цIцIиб,вуцIцIиб,pass,Moroz fieldwork,,adjectives
+<f>цIцIиб,йицIцIиб,pass,Moroz fieldwork,,adjectives
+<m>цIцIиб<pl>,воцIцIибул,pass,Moroz fieldwork,,adjectives
+<f>цIцIиб<pl>,йоцIцIибул,pass,Moroz fieldwork,,adjectives
 чIе<NUM><num><obl.m><erg>,чIегушди,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><f><gen>,чIегушуй,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><dat>,чIегушуй,pass,Moroz 2017,8,numeral inflection
@@ -34,10 +39,10 @@ analysis,form,mustpass,source,page,description
 шу<m><ADJ><obl.m><epent.m><f><aff>,шувшуйо,pass,Moroz fieldwork,,adjective inflection
 шу<m><ADJ><pl><epent.m><erg>,шувулуди,pass,Moroz fieldwork,,adjective inflection
 шу<m><ADJ><pl><epent.m><an.sg><aff>,шувулубо,pass,Moroz fieldwork,,adjective inflection
-шу<f><ADJ><obl><erg>,шуйди,pass,Moroz fieldwork,,adjective inflection
-шу<f><ADJ><epent.sg><an.sg><gen>,шуйлъибо,pass,Moroz fieldwork,,adjective inflection
+шу<f><ADJ><erg>,шуйди,pass,Moroz fieldwork,,adjective inflection
+шу<f><ADJ><epent.sg><an.sg><aff>,шуйлъибо,pass,Moroz fieldwork,,adjective inflection
 шу<f><ADJ><pl><epent.pl><erg>,шуйилиди,pass,Moroz fieldwork,,adjective inflection
-шу<f><ADJ><pl><epent.pl><an.sg><gen>,шуйилибо,pass,Moroz fieldwork,,adjective inflection
+шу<f><ADJ><pl><epent.pl><an.sg><aff>,шуйилибо,pass,Moroz fieldwork,,adjective inflection
 шу<an.sg><ADJ><dat>,шублъу,pass,Moroz fieldwork,,adjective inflection
 <m>ечIедир<ADJ><obl.m><erg>,вечIедиршди,pass,Moroz fieldwork,,adjective inflection
 <m>ечIедир<ADJ><obl.m><epent.m><f><aff>,вечIедиршуйо,pass,Moroz fieldwork,,adjective inflection
@@ -51,8 +56,8 @@ analysis,form,mustpass,source,page,description
 <m>ечIуха<ADJ><obl.m><epent.m><f><aff>,вечIухашуйо,pass,Moroz fieldwork,,adjective inflection
 <m>ечIуха<ADJ><pl><epent.m><erg>,вечIухолуди,pass,Moroz fieldwork,,adjective inflection
 <m>ечIуха<ADJ><pl><epent.m><an.sg><aff>,вечIухолубо,pass,Moroz fieldwork,,adjective inflection
-<f>ечIуха<ADJ><erg>,йечIухалди,pass,Moroz fieldwork,,adjective inflection
-<f>ечIуха<ADJ><obl><an.sg><aff>,йечIухаллъибо,pass,Moroz fieldwork,,adjective inflection
+<f>ечIуха<ADJ><obl><erg>,йечIухалди,pass,Moroz fieldwork,,adjective inflection
+<f>ечIуха<ADJ><obl><epent.sg><an.sg><aff>,йечIухаллъибо,pass,Moroz fieldwork,,adjective inflection
 <f>ечIуха<ADJ><pl><epent.pl><erg>,йечIухолиди,pass,Moroz fieldwork,,adjective inflection
 <f>ечIуха<ADJ><pl><epent.pl><an.sg><aff>,йечIухолибо,pass,Moroz fieldwork,,adjective inflection
 <an.sg>ечIуха<ADJ><obl><dat>,бечIухаллъу,pass,Moroz fieldwork,,adjective inflection

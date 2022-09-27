@@ -15,19 +15,16 @@ AdjectiveSgVocalic [<ADJ>:] OblStem[-m] Epent[sg] Case[v_epentetic,-m]
 AdjectivePl [<ADJ>:] AdjectivePlural Epent[pl] Case[-m]
 
 PATTERN AdjectiveM
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[m] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[m]))
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[m] Adjectives[initial_aggr,-plural_slot]) | (Adjectives[final_aggr] agrCL[m]))
 
 PATTERN AdjectiveSgConsonantal
-(Adjectives[-initial_aggr,-final_aggr,сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,сonsonantal]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
+(Adjectives[-initial_aggr,-final_aggr,сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,сonsonantal,-plural_slot]) | (Adjectives[final_aggr] agrCL[-m,-pl]))
 
 PATTERN AdjectiveSgVocalic
-(Adjectives[-initial_aggr,-final_aggr,-сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,-сonsonantal]))
+(Adjectives[-initial_aggr,-final_aggr,-сonsonantal] | (agrCL[-m,-pl] Adjectives[initial_aggr,-сonsonantal,-plural_slot]))
 
 PATTERN AdjectivePl
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
-
-PATTERN AdjectivePl
-(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
+(Adjectives[-initial_aggr,-final_aggr] | (agrCL[-m,-sg] Adjectives[initial_aggr,-plural_slot]) | (Adjectives[final_aggr] agrCL[-m,-sg]))
 
 PATTERN CasesM
 ((Epent[m] Case[v_epentetic,-f]) | Case[-v_epentetic,-f] | (Case[ess] Elative))
