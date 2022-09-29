@@ -32,8 +32,8 @@ analysis,form,mustpass,source,page,description
 чIе<NUM><num><obl.m><dat>,чIегушлъу,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl.m><epent.m><an.sg><aff>,чIегушубо,pass,Moroz 2017,8,numeral inflection
 чIе<NUM><num><obl><erg>,чIегулди,pass,Moroz 2017,8,numeral inflection
-чIе<NUM><num><obl><epent.sg><f><aff>,чIегуллъуйо,pass,Moroz 2017,8,numeral inflection
-чIе<NUM><num><obl><epent.sg><dat>,чIегуллъуй,pass,Moroz 2017,8,numeral inflection
+чIе<NUM><num><obl><epent.sg><f><aff>,чIегуллъийо,pass,Moroz fieldwork,8,numeral inflection
+чIе<NUM><num><obl><epent.sg><dat>,чIегуллъий,pass,Moroz fieldwork,8,numeral inflection
 чIе<NUM><num><obl><dat>,чIегуллъу,pass,Moroz 2017,8,numeral inflection
 шу<m><ADJ><obl.m><erg>,шувшди,pass,Moroz fieldwork,,adjective inflection
 шу<m><ADJ><obl.m><epent.m><f><aff>,шувшуйо,pass,Moroz fieldwork,,adjective inflection
@@ -61,3 +61,21 @@ analysis,form,mustpass,source,page,description
 <f>ечIуха<ADJ><pl><epent.pl><erg>,йечIухолиди,pass,Moroz fieldwork,,adjective inflection
 <f>ечIуха<ADJ><pl><epent.pl><an.sg><aff>,йечIухолибо,pass,Moroz fieldwork,,adjective inflection
 <an.sg>ечIуха<ADJ><obl><dat>,бечIухаллъу,pass,Moroz fieldwork,,adjective inflection
+берка<N>,берка,pass,Kaye et al.,,noun inflection
+берка<N><obl><erg>,беркуди,pass,Kaye et al.,,noun inflection
+берка<N><obl><gen>,беркулIи,pass,Kaye et al.,,noun inflection
+берка<N><obl><gen><pl>,беркулIол,pass,Kaye et al.,,noun inflection
+берка<N><obl><dat>,беркулъу,pass,Kaye et al.,,noun inflection
+берка<N><obl><dat>,беркуй,pass,Kaye et al.,,noun inflection
+берка<N><obl><f><aff>,беркуйо,pass,Kaye et al.,,noun inflection
+берка<N><obl><inter><lat>,беркулIи,pass,Kaye et al.,,noun inflection
+берка<N><obl><inter><ess>,беркулIи,pass,Kaye et al.,,noun inflection
+берка<N><pl>,беркол,pass,Kaye et al.,,noun inflection
+берка<N><obl.pl><erg>,беркади,pass,Kaye et al.,,noun inflection
+берка<N><obl.pl><gen>,беркалIи,pass,Kaye et al.,,noun inflection
+берка<N><obl.pl><gen><pl>,беркалIол,pass,Kaye et al.,,noun inflection
+берка<N><obl.pl><dat>,беркалъу,pass,Kaye et al.,,noun inflection
+берка<N><obl.pl><dat>,беркай,pass,Kaye et al.,,noun inflection
+берка<N><obl.pl><f><aff>,беркайо,pass,Kaye et al.,,noun inflection
+берка<N><obl.pl><inter><lat>,беркалIи,pass,Kaye et al.,,noun inflection
+берка<N><obl.pl><inter><ess>,беркалIи,pass,Kaye et al.,,noun inflection

@@ -12,6 +12,15 @@ Kaye, S., Moroz, G., Rochant, N., Verhees, S., and Zakirova, A. (Forthc.). Andi 
 
 Dictionary data was collected in the field by George Moroz.
 
+## Spelling conventions
+
+All analysis/generation are made with Cyrillic script based on Avar that is mostly understandable for the native speakers. However there are several aspects that is differ from Avar script:
+
+- I use Latin capital <I> instead of [palochka](https://en.wikipedia.org/wiki/Palochka) <Ӏ>, <ӏ>. May be I will change it in the future and make the transducer work with palochka <Ӏ>, Latin capital <I> and symbol one <1>.
+- Unfortunately, native speakers do not distinguish lateral affricate /tɬ/ and long lateral fricative /ɬː/, they prefer to spell both as <лълъ>. However I spell lateral affricate /tɬ/ as <лI>.
+- Nasal vowels are spelled with Cyrillic superscript capital n <ᵸ>, for example /ĩʃduɡu/ <иᵸшдугу> 'five'.
+- Native speakers usually do not spell glottal stop /ʔ/ <ъ>. For example /reʃuʔa/ <решуъа> 'on the tree' will be probably spelled as <решуа>. However this transducer use glottal stops.
+
 ## Usage
 
 In order to use it you need to install [`lexd`](https://github.com/apertium/lexd) and [`hfst`](https://github.com/hfst/hfst):
@@ -67,4 +76,4 @@ Moroz, G. (2022) Morphological parser for Zilo Andi. (Version 0.0.1)
 
 ## Number of forms generated: 
 
-11213
+40866

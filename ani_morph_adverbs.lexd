@@ -6,18 +6,20 @@ PATTERNS
 Adverbs[-initial_aggr,-final_aggr] [<ADV>:]
 agrCL Adverbs[initial_aggr] [<ADV>:]
 Adverbs[final_aggr] agrCL [<ADV>:]
+Particles
 
 LEXICON Adverbs
+игьолгу[initial_aggr]                                                           # много; a lot of
+игьугу[initial_aggr]                                                            # много; many
+ехъиссорий[initial_aggr]                                                        # вокруг; around
 суни                                                                            # вчера; yesterday
-золо                                                                            # очень; very 
-тIулу                                                                           # очень; very
 желъал                                                                          # сегодня; today
 жегьал                                                                          # сегодня; today
 гьикьу                                                                          # внизу; at the bottom
+гьикьукку                                                                       # снизу; from the bottom
 сседу                                                                           # впереди; in front of
 гьонолъу                                                                        # здесь; here
-игьолгу[initial_aggr]                                                           # много; a lot of
-игьугу[initial_aggr]                                                            # много; many
+гьолъу                                                                          # здесь; here
 сой                                                                             # послезавтра; day after tomorrow
 илIохъи                                                                         # медленно; slowly     
 илIогва                                                                         # медленно; slowly
@@ -27,6 +29,40 @@ LEXICON Adverbs
 гьуду                                                                           # там; there
 щела                                                                            # завтра; tomorrow
 иннагуло                                                                        # иногда; sometimes
+ссоб                                                                            # в прошлом году; last year
+нукIвал                                                                         # давно; long ago
+илIи                                                                            # ??как; ??how
+инна                                                                            # когда; when
+ивалъиболо                                                                      # куда-то; somewhere 
+гьиъо                                                                           # наверх; upward
+тIулларай                                                                       # назло; to spite (smb)
+чомло                                                                           # несколько; several
+гьечIодоъо                                                                      # ночью; at night
+гьонолъукку                                                                     # отсюда; from here
+гьондолъукку                                                                    # оттуда; from there
+лIеру                                                                           # поблизости; hereabout
+онщило                                                                          # потом; after
+учIчIери                                                                        # рано; early
+нагвагьи                                                                        # редко; rarely
+чIомгъи                                                                         # сколько; how much
+илъагъи                                                                         # сколько; how much
+ибъало                                                                          # столько; so many
+гьоваро                                                                         # сюда; here
+гьонокьей                                                                       # так; that way
+охходоро                                                                        # утром; in the morning
+
+LEXICON Particles
+золо                                                                            # очень; very 
+тIулу                                                                           # очень; very
 гьуᵸ                                                                            # да; yes
 джи                                                                             # да; yes
+гьайгьай                                                                        # конечно; certainly
+масала                                                                          # например; for example
+баркала                                                                         # спасибо; thank you
+
+
+# и=в=а(-л)?                                                                    # куда
+# себгулолъуссу                                                                 # нигде; nowhere
+# себгулоссу                                                                    # никто; no one
+
 

@@ -2,19 +2,20 @@
 # ADJECTIVES
 # -------------------------------------------------------------------------
 
-LEXICON AdjectivePlural
-<pl>:>{adj.pl}л
 
 LEXICON Adjectives
 шу[final_aggr]                                                                  # хороший; good
 зарху[final_aggr]                                                               # холодный; cold
 екъуб[final_aggr]                                                               # густой; dense 
+бисси[final_aggr]                                                               # ваш; yours
 охор[initial_aggr,сonsonantal]                                                  # старый; old
 ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
+еъора[initial_aggr]                                                             # тонкий; thin 
 ечIуха[initial_aggr]                                                            # большой; clean
 очо[initial_aggr]                                                               # низкий; short
 ехула[initial_aggr]                                                             # высокий; tall
 иши[initial_aggr]                                                               # толстый; fat
+ичIоб[initial_aggr]                                                             # испорченный; defective
 ечIедир[initial_aggr,сonsonantal]                                               # черный; black
 ехула[initial_aggr]                                                             # длинный; long
 цIцIиб[initial_aggr,plural_slot]                                                # полный; full, stout
@@ -36,6 +37,7 @@ LEXICON Adjectives
 кучIил[сonsonantal]                                                             # левый; left
 олохъан[сonsonantal]                                                            # молодой; young
 кьухъур[сonsonantal]                                                            # низкий; low
+гьадур[сonsonantal]                                                             # готовый; ready 
 уᵸнса                                                                           # тёплый; warm 
 рекъу                                                                           # хромой; lame
 гьири                                                                           # красный; red
@@ -50,7 +52,6 @@ LEXICON Adjectives
 букьин[сonsonantal]                                                             # горький; bitter 
 гьокIору                                                                        # тяжелый; heavy  
 къваку                                                                          # сильный; strong 
-мицIа                                                                           # сладкий; sweet 
 чIантIи                                                                         # мелкий; small
 лъолколъи                                                                       # легкий; light
 багъу                                                                           # красивый; beautiful
@@ -62,9 +63,20 @@ LEXICON Adjectives
 сагъи                                                                           # здоровый; healthy
 чIачIи                                                                          # жирный; fatty
 чора                                                                            # жирный; fat
+содо                                                                            # холодный; cold
+хехи                                                                            # быстрый; fast
+гьиъасси                                                                        # верхний; upper
+мицIцIа                                                                         # вкусный; tasty
+хъачIи                                                                          # грубый; rough
+багимаша                                                                        # дырявый; hole-ridden 
+къалчIар[сonsonantal]                                                           # косой; squint-eyed
+хIалихьати                                                                      # подлый; mean 
+загIип[сonsonantal]                                                             # слабый; weak
+тамаша                                                                          # странный; strange 
+гьенебдий[сonsonantal]                                                          # такой; like that
 
-# жи=б=улгу                                                                       # все; all
-# се=в=ло                                                                         # другой; other
-
-
+# жи=в=гу                                                                       # сам; oneself 
+# жи=б=улгу                                                                     # все; all
+# се=в=ло                                                                       # другой; other
+# гьуду=в=а(л)?                                                                 # туда
 
