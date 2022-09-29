@@ -1,5 +1,7 @@
 # Morphological transducer for Zilo Andi
 
+[![DOI](https://zenodo.org/badge/540707556.svg)](https://zenodo.org/badge/latestdoi/540707556)
+
 This is a repository for a morphological parser for Zilo Andi.
 
 ## Background
