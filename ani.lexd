@@ -2027,3 +2027,49 @@ LEXICON NumearalLinker
 LEXICON NumeralCrown
 <crown>:>цIол
 
+# NUMERAL PATTERNS
+
+PATTERNS
+Numerals[one] [<num>:] agrCL[-PL]                                               # 1
+(Numerals[-one] | NumeralFour) [<num>:] NumearalCard                            # rest numerals
+Numerals[ten] [<num>:] NumearalTeenLinker                                       # ten in 11-19
+# crowns
+(Numerals[multiplier] | NumeralFour) [<num>:] NumeralCrown (NumearalCard | NumearalLinker)
+(Numerals[multiplier] [<num>:])? Numerals[base] [<num>:]  NumearalCard?
+
+PATTERN NumeralFour
+agrCL[-PL] Numerals[four]
+
+LEXICON Numerals
+се[one]                       # one
+чIе[multiplier]               # two
+лъоб[multiplier]              # three
+ункъ[four]                    # four
+иᵸшду[multiplier]             # five
+ойлIи[multiplier]             # six
+гьокьу[multiplier]            # seven
+бейкьи[multiplier]            # eight
+гьочIо[multiplier]            # nine
+гьоцIо[ten]                   # ten
+бешену:>бешену[base,hundred]  # hundred
+озору:>озору[base,thousand]   # thousand
+
+LEXICON NumearalCard
+<card>:>гу
+
+LEXICON NumearalTeenLinker
+<teen_link>:>лъий
+
+LEXICON NumearalLinker
+<linker>:>лой
+
+LEXICON NumeralCrown
+<crown>:>цIол
+
+LEXICON agrCL
+<m>:в
+<f>:й
+<inan1>:б
+<inan2>:р
+<an><sg>:б
+<an><pl>:й[PL]
