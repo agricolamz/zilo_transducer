@@ -18,7 +18,11 @@ LEXICON Verb
 гьеллери<V>:гьелл[pst_i]                                                        # бегать;
 къиннери<V>:къинн[pst_i]                                                        # жадничать;
 кIвахIаллъери<V>:кIвахIаллъ[pst_i]                                              # лениться;
+зигардери<V>:зигард[pst_i]                                                      # стонать;
+чIчIарери<V>:чIчIар[pst_i]                                                      # поскользнуться
 векIуъери<V>:екIуъ[pst_i,initial_aggr]                                          # плакать;
+вуххери<V>:ухх[pst_i,initial_aggr]                                              # разводиться;
+велIери<V>:елI[pst_i,initial_aggr]                                              # ходить
 
 # pst_i,imp_o
 кусдери<V>:кусд[pst_i,imp_o]                                                    # искать;
@@ -45,10 +49,10 @@ LEXICON Verb
 рихъери<V>:рихъ[pst_i,imp_o]                                                    # царапать;
 шаммери<V>:шамм[pst_i,imp_o]                                                    # бросать;
 къиннери<V>:къинн[pst_i,imp_o]                                                  # мять;
+лъуннери<V>:лъунн[pst_i,imp_o]                                                  # сморкаться;
 бекьери<V>:екь[pst_i,imp_o,initial_aggr]                                        # сеять;
 букъери<V>:укъ[pst_i,imp_o,initial_aggr]                                        # резать;
 веццихъери<V>:еццихъ[pst_i,imp_o,initial_aggr]                                  # хвалить;
-
 
 # pst_o
 цIатери<V>:цIат[pst_o]                                                          # гореть;
@@ -75,3 +79,4 @@ LEXICON Verb
 
 # pst_u,imp_o
 багвери<V>:аг{В}[initial_aggr,pst_u,imp_o]                                      # считать;
+

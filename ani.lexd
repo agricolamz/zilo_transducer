@@ -2,7 +2,6 @@
 # ADJECTIVES
 # -------------------------------------------------------------------------
 
-
 LEXICON Adjectives
 шу[final_aggr]                                                                  # хороший; good
 зарху[final_aggr]                                                               # холодный; cold
@@ -1748,7 +1747,11 @@ LEXICON Verb
 гьеллери<V>:гьелл[pst_i]                                                        # бегать;
 къиннери<V>:къинн[pst_i]                                                        # жадничать;
 кIвахIаллъери<V>:кIвахIаллъ[pst_i]                                              # лениться;
+зигардери<V>:зигард[pst_i]                                                      # стонать;
+чIчIарери<V>:чIчIар[pst_i]                                                      # поскользнуться
 векIуъери<V>:екIуъ[pst_i,initial_aggr]                                          # плакать;
+вуххери<V>:ухх[pst_i,initial_aggr]                                              # разводиться;
+велIери<V>:елI[pst_i,initial_aggr]                                              # ходить
 
 # pst_i,imp_o
 кусдери<V>:кусд[pst_i,imp_o]                                                    # искать;
@@ -1775,10 +1778,10 @@ LEXICON Verb
 рихъери<V>:рихъ[pst_i,imp_o]                                                    # царапать;
 шаммери<V>:шамм[pst_i,imp_o]                                                    # бросать;
 къиннери<V>:къинн[pst_i,imp_o]                                                  # мять;
+лъуннери<V>:лъунн[pst_i,imp_o]                                                  # сморкаться;
 бекьери<V>:екь[pst_i,imp_o,initial_aggr]                                        # сеять;
 букъери<V>:укъ[pst_i,imp_o,initial_aggr]                                        # резать;
 веццихъери<V>:еццихъ[pst_i,imp_o,initial_aggr]                                  # хвалить;
-
 
 # pst_o
 цIатери<V>:цIат[pst_o]                                                          # гореть;
@@ -1805,6 +1808,7 @@ LEXICON Verb
 
 # pst_u,imp_o
 багвери<V>:аг{В}[initial_aggr,pst_u,imp_o]                                      # считать;
+
 # -------------------------------------------------------------------------
 # ADVERBS
 # -------------------------------------------------------------------------
@@ -2109,53 +2113,9 @@ LEXICON NumeralCrown
 PATTERNS
 (Verb PST)[^[pst_i,pst_o,pst_a,pst_u]]
 
-PATTERN PST
+LEXICON PST
 <aor>:>и[pst_i]
 <aor>:>о[pst_o]
 <aor>:>а[pst_a]
-<aor>:>u[pst_u]# NUMERAL PATTERNS
+<aor>:>u[pst_u]
 
-PATTERNS
-Numerals[one] [<num>:] agrCL[-PL]                                               # 1
-(Numerals[-one] | NumeralFour) [<num>:] NumearalCard                            # rest numerals
-Numerals[ten] [<num>:] NumearalTeenLinker                                       # ten in 11-19
-# crowns
-(Numerals[multiplier] | NumeralFour) [<num>:] NumeralCrown (NumearalCard | NumearalLinker)
-(Numerals[multiplier] [<num>:])? Numerals[base] [<num>:]  NumearalCard?
-
-PATTERN NumeralFour
-agrCL[-PL] Numerals[four]
-
-LEXICON Numerals
-се[one]                                                                         # one
-чIе[multiplier]                                                                 # two
-лъоб[multiplier]                                                                # three
-ункъ[four]                                                                      # four
-иᵸшду[multiplier]                                                               # five
-ойлIи[multiplier]                                                               # six
-гьокьу[multiplier]                                                              # seven
-бейкьи[multiplier]                                                              # eight
-гьочIо[multiplier]                                                              # nine
-гьоцIо[ten]                                                                     # ten
-бешену:>бешену[base,hundred]                                                    # hundred
-озору:>озору[base,thousand]                                                     # thousand
-
-LEXICON NumearalCard
-<card>:>гу
-
-LEXICON NumearalTeenLinker
-<teen_link>:>лъий
-
-LEXICON NumearalLinker
-<linker>:>лой
-
-LEXICON NumeralCrown
-<crown>:>цIол
-
-LEXICON agrCL
-<m>:в
-<f>:й
-<inan1>:б
-<inan2>:р
-<an><sg>:б
-<an><pl>:й[PL]

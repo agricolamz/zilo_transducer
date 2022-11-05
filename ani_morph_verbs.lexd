@@ -5,8 +5,9 @@
 PATTERNS
 (Verb PST)[^[pst_i,pst_o,pst_a,pst_u]]
 
-PATTERN PST
+LEXICON PST
 <aor>:>и[pst_i]
 <aor>:>о[pst_o]
 <aor>:>а[pst_a]
 <aor>:>u[pst_u]
+
