@@ -4,6 +4,7 @@ Alphabet
   	а:0 у:0 и:0 о:0 е:0
     %>:0
     %{adj.pl%}:о %{adj.pl%}:и %{adj.pl%}:у
+    %{В%}:в %{В%}:0
 ;
 
 Sets
@@ -13,6 +14,9 @@ Rules
 
 "drop morpheme boundary"
 %>:0 <=> _ ;
+
+"w + i -> u in "
+%{В%}:0 <=> _ %>: [у:у | о:о] ;
 
 "vowel change in adj.pl morpheme"
 %{adj.pl%}:о <=> _ ;
