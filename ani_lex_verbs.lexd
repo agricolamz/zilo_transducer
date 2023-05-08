@@ -5,6 +5,7 @@
 LEXICON Verbs
 
 # pst_i
+джабери<V>:джаб[pst_i]                                                          # убивать; kill
 бутIийдери<V>:бутIийд[pst_i]                                                    # совокупляться; have sexual intercourse
 хъобери<V>:хъоб[pst_i]                                                          # испражняться; defecate
 вучIери<V>:учI[pst_i,initial_aggr]                                              # просыпаться; wake up
@@ -91,7 +92,7 @@ LEXICON Verbs
 бахери<V>:бах[pst_o]                                                            # лаять; bark (v.)
 бушери<V>:уш[pst_o,initial_aggr]                                                # красить;
 бершери<V>:ерш[pst_o,initial_aggr]                                              # менять;
-вучIери<V>:уч
+вучIери<V>:уч[pst_o,ablaut]                                                     # умереть; die
 
 # pst_a,imp_o
 бежери<V>:еж[pst_a,imp_o,initial_aggr]                                          # печь, жарить;

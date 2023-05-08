@@ -2,3 +2,4 @@
 *.hfst
 test.*
 .Rproj.user
+*.swp
