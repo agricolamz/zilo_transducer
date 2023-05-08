@@ -15,7 +15,7 @@ Rules
 "drop morpheme boundary"
 %>:0 <=> _ ;
 
-"w + i -> u in "
+"w + i -> u in verbs"
 %{В%}:0 <=> _ %>: [у:у | о:о] ;
 
 "vowel change in adj.pl morpheme"

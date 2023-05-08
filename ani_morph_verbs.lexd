@@ -3,11 +3,19 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
-(Verb PST)[^[pst_i,pst_o,pst_a,pst_u]]
+(Verbs[-initial_aggr] PstEndings)[^[pst_i,pst_o,pst_a,pst_u]]
+Verbs[-initial_aggr] PrsEndings
 
-LEXICON PST
+((agrCL Verbs[initial_aggr]) PstEndings)[^[pst_i,pst_o,pst_a,pst_u]]
+agrCL Verbs[initial_aggr] PrsEndings
+
+LEXICON PrsEndings
+<inf>:>ери
+<hab>:>е
+<fut>:>ийа
+
+LEXICON PstEndings
 <aor>:>и[pst_i]
 <aor>:>о[pst_o]
 <aor>:>а[pst_a]
 <aor>:>u[pst_u]
-

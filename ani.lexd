@@ -1731,8 +1731,18 @@ LEXICON NounOblPl
 # VERB LEXICON
 # -------------------------------------------------------------------------
 
-LEXICON Verb
+LEXICON Verbs
+
 # pst_i
+бутIийдери<V>:бутIийд[pst_i]                                                    # совокупляться; have sexual intercourse
+хъобери<V>:хъоб[pst_i]                                                          # испражняться; defecate
+вучIери<V>:учI[pst_i,initial_aggr]                                              # просыпаться; wake up
+гьинкушери<V>:гьинкуш[pst_i]                                                    # мочиться; urinate
+ххомери<V>:ххомм[pst_i]                                                         # храпеть; snore
+ламери<V>:лам[pst_i]                                                            # лизать; lick
+къаммери<V>:къамм[pst_i]                                                        # кусать; bite
+кIарери<V>:кIар[pst_i]                                                          # блевать; vomit
+тудери<V>:туд[pst_i]                                                            # плевать; spit
 ухIудери<V>:ухIуд[pst_i]                                                        # кашлять;
 къиркъидери<V>:къиркъид[pst_i]                                                  # скрипеть;
 велълъери<V>:велълъ[pst_i]                                                      # смеяться;
@@ -1748,10 +1758,16 @@ LEXICON Verb
 къиннери<V>:къинн[pst_i]                                                        # жадничать;
 кIвахIаллъери<V>:кIвахIаллъ[pst_i]                                              # лениться;
 зигардери<V>:зигард[pst_i]                                                      # стонать;
-чIчIарери<V>:чIчIар[pst_i]                                                      # поскользнуться
+чIчIарери<V>:чIчIар[pst_i]                                                      # поскользнуться;
+релIери<V>:релI[pst_i]                                                          # идти (о дожде, снеге); rain, snow
+авдери<V>:авд[pst_i]                                                            # мяукать; meow 
+гьагьакьери<V>:гьагьакь[pst_i]                                                  # зевать; yawn, gape (v)
+ухIудери<V>:ухIуд[pst_i]                                                        # кашлять; cough (v)
+гIэбчишери<V>:гIэбчиш[pst_i]                                                    # чихать; sneeze (v) 
 векIуъери<V>:екIуъ[pst_i,initial_aggr]                                          # плакать;
 вуххери<V>:ухх[pst_i,initial_aggr]                                              # разводиться;
-велIери<V>:елI[pst_i,initial_aggr]                                              # ходить
+велIери<V>:елI[pst_i,initial_aggr]                                              # ходить;
+вахунери<V>:ахун[pst_i,initial_aggr]                                            # жить, существовать; live, exist
 
 # pst_i,imp_o
 кусдери<V>:кусд[pst_i,imp_o]                                                    # искать;
@@ -1779,36 +1795,45 @@ LEXICON Verb
 шаммери<V>:шамм[pst_i,imp_o]                                                    # бросать;
 къиннери<V>:къинн[pst_i,imp_o]                                                  # мять;
 лъуннери<V>:лъунн[pst_i,imp_o]                                                  # сморкаться;
+кьанери<V>:кьан[pst_i,imp_o]                                                    # дышать; breathe
 бекьери<V>:екь[pst_i,imp_o,initial_aggr]                                        # сеять;
 букъери<V>:укъ[pst_i,imp_o,initial_aggr]                                        # резать;
 веццихъери<V>:еццихъ[pst_i,imp_o,initial_aggr]                                  # хвалить;
 
 # pst_o
+авчери<V>:авч[pst_o]                                                            # мыться; bathe (v.)
+руцIери<V>:руцI[pst_o]                                                          # таять (о льде, снеге); melt (of ice, snow, intr)
 цIатери<V>:цIат[pst_o]                                                          # гореть;
 вахери<V>:вах[pst_o]                                                            # драться;
 чIирчIишери<V>:чIирчIиш[pst_o]                                                  # дрожать;
 хIихIишери<V>:хIихIиш[pst_o]                                                    # ржать;
+гъулгъушери<V>:гъулгъуш[pst_o]                                                  # рычать; roar
+уᵸъуᵸшери<V>:уᵸъуᵸш[pst_o]                                                      # кукарекать; crow
+зунзушери<V>:зунзуш[pst_o]                                                      # жужжать; buzz
+хьавдери<V>:хьавд[pst_o]                                                        # шипеть; hiss
 буцIери<V>:уцI[pst_o,initial_aggr]                                              # таять;
+гьаъери<V>:гьаъм[pst_o]                                                         # видеть; see
+цIатери<V>:цIат[pst_o]                                                          # жечь;
+маъушери<V>:маъуш[pst_o]                                                        # мяукать;
+мяъушери<V>:мяъуш[pst_o]                                                        # мяукать;
+пунхъишери<V>:пунхъиш[pst_o]                                                    # брызгать;
+бахери<V>:бах[pst_o]                                                            # лаять; bark (v.)
+бушери<V>:уш[pst_o,initial_aggr]                                                # красить;
+бершери<V>:ерш[pst_o,initial_aggr]                                              # менять;
+вучIери<V>:уч
 
-# pst_o,imp_o
-цIатери<V>:цIат[pst_o,imp_o]                                                    # жечь;
-маъушери<V>:маъуш[pst_o,imp_o]                                                  # мяукать;
-мяъушери<V>:мяъуш[pst_o,imp_o]                                                  # мяукать;
-пунхъишери<V>:пунхъиш[pst_o,imp_o]                                              # брызгать;
-бушери<V>:уш[pst_o,imp_o,initial_aggr]                                          # красить;
-бершери<V>:ерш[pst_o,imp_o,initial_aggr]                                        # менять;
-
-# pst_a
-бежери<V>:беж[pst_a,imp_o]                                                      # печь;
+# pst_a,imp_o
+бежери<V>:еж[pst_a,imp_o,initial_aggr]                                          # печь, жарить;
 
 # pst_u
 шанохвери<V>:шанох{В}[pst_u]                                                    # гнить;
+зархвери<V>:зарх{В}[pst_u]                                                      # мерзнуть (о человеке); freeze (of human)
 вукквери<V>:укк{В}[pst_u,initial_aggr]                                          # падать;fall
 вутIери<V>:утI[pst_u,initial_aggr]                                              # терять;
+йигьвери<V>:игь{В}[pst_u,initial_aggr]                                          # рожать; bear (v. child)
 
 # pst_u,imp_o
 багвери<V>:аг{В}[initial_aggr,pst_u,imp_o]                                      # считать;
-
 # -------------------------------------------------------------------------
 # ADVERBS
 # -------------------------------------------------------------------------
@@ -2111,11 +2136,19 @@ LEXICON NumeralCrown
 # -------------------------------------------------------------------------
 
 PATTERNS
-(Verb PST)[^[pst_i,pst_o,pst_a,pst_u]]
+(Verbs[-initial_aggr] PstEndings)[^[pst_i,pst_o,pst_a,pst_u]]
+Verbs[-initial_aggr] PrsEndings
 
-LEXICON PST
+((agrCL Verbs[initial_aggr]) PstEndings)[^[pst_i,pst_o,pst_a,pst_u]]
+agrCL Verbs[initial_aggr] PrsEndings
+
+LEXICON PrsEndings
+<inf>:>ери
+<hab>:>е
+<fut>:>ийа
+
+LEXICON PstEndings
 <aor>:>и[pst_i]
 <aor>:>о[pst_o]
 <aor>:>а[pst_a]
 <aor>:>u[pst_u]
-

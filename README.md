@@ -12,8 +12,6 @@ Andi belongs to the Andic group within the Avar-Andic branch of the Nakh-Daghest
 Kaye, S., Moroz, G., Rochant, N., Verhees, S., and Zakirova, A. (Forthc.). Andi (Zilo dialect). In Lander, Y., Maisak, T., and Koryakov, Y., editors, The Caucasian Languages. An International Handbook. De Gruyter Mouton, Berlin/New York.
 ```
 
-Dictionary data was collected in the field by George Moroz.
-
 ## Spelling conventions
 
 All analysis/generation are made with Cyrillic script based on Avar that is mostly understandable for the native speakers. However there are several aspects that is differ from Avar script:
@@ -78,4 +76,4 @@ Moroz, G. (2022) Morphological parser for Zilo Andi. (Version 0.0.1)
 
 ## Number of forms generated: 
 
-40925
+41390
