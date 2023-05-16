@@ -15,7 +15,7 @@ LEXICON Verbs
 геллери<V>:гелл[pst_i]                                      # висеть; hang (v, intr)
 гъурери<V>:гъур[pst_i]                                      # скользить; 
 гьагьакьери<V>:гьагьакь[pst_i]                              # зевать; yawn, gape (v)
-гьеллери<V>:гьелл[pst_i]                                    # бегать; 
+гьеллери<V>:гьелл[pst_i]                                    # бегать, бежать; run
 гьинкушери<V>:гьинкуш[pst_i]                                # мочиться; urinate
 гьиъассордери<V>:гьиъассорд[pst_i]                          # кружиться (в танце); whirl (v, intr, during dance)
 гьиъассорери<V>:гьиъассор[pst_i]                            # крутить (колесо); rotate (v, tr, wheel)
@@ -29,6 +29,7 @@ LEXICON Verbs
 къиннери<V>:къинн[pst_i]                                    # жадничать; 
 къиркъидери<V>:къиркъид[pst_i]                              # скрипеть; 
 ламмери<V>:ламм[pst_i]                                      # лизать; lick
+лъибери<V>:лъиб[pst_i]                                      # прыгать; jump, leap
 релIери<V>:релI[pst_i]                                      # идти (о дожде, снеге); rain, snow
 ссорери<V>:ссор[pst_i]                                      # поворачиваться; turn (intr.)
 таннери<V>:танн[pst_i]                                      # рваться (о верёвке); tear (v, intr, of rope)
@@ -41,6 +42,7 @@ LEXICON Verbs
 хъобери<V>:хъоб[pst_i]                                      # испражняться; defecate
 цIикIкIулъери<V>:цIикIкIулъ[pst_i]                          # свертываться (о молоке); curdle (v, intr, of milk)
 цIиннери<V>:цIинн[pst_i]                                    # знать; know
+чIарери<V>:чIар[pst_i]                                      # скользить; slide, slip
 чIчIарери<V>:чIчIар[pst_i]                                  # поскользнуться; 
 чабери<V>:чаб[pst_i]                                        # сыпаться, течь; pour (intr), flow
 шаннери<V>:шанн[pst_i]                                      # отдыхать; rest
@@ -90,6 +92,7 @@ LEXICON Verbs
 вахери<V>:вах[pst_o]                                        # драться; 
 гъулгъушери<V>:гъулгъуш[pst_o]                              # рычать; roar
 гьаъери<V>:гьаъм[pst_o]                                     # видеть; see
+гьойкIвери<V>:гьовкI{В}[pst_o]                              # приседать (на корточках); crouch
 гьонкIочIери<V>:гьонкIочI[pst_o]                            # хотеть пить; be thirsty
 зунзушери<V>:зунзуш[pst_o]                                  # жужжать; buzz
 маъушери<V>:маъуш[pst_o]                                    # мяукать; 
@@ -107,14 +110,18 @@ LEXICON Verbs
 чолтери<V>:чолт[pst_o]                                      # быть голодным; be hungry
 бекьери<V>:екь[pst_i,imp_o,initial_aggr]                    # сеять; sow
 бещери<V>:ещ[pst_i,imp_o,initial_aggr]                      # ткать; weave, plait
+биххери<V>:ихх[pst_i,imp_o,initial_aggr]                    # нести (в руках, на плечах); carry (v, in hand, carry-on-shoulder)
+биххери<V>:ихх[pst_i,imp_o,initial_aggr]                    # посылать (человека); send (v, a person)
 биччери<V>:ичч[pst_i,imp_o,initial_aggr]                    # ловить (мяч); catch (ball)
 букъери<V>:укъ[pst_i,imp_o,initial_aggr]                    # резать, кроить; 
+букъери<V>:укъ[pst_i,imp_o,initial_aggr]                    # гнать, прогонять; chase
 бухери<V>:ух[pst_i,imp_o,initial_aggr]                      # снимать (одежду); remove (clothes)
 веццихъери<V>:еццихъ[pst_i,imp_o,initial_aggr]              # хвалить; 
 бухери<V>:ух[pst_i,initial_aggr]                            # восходить (о солнце); rise (of sun)
 вахунери<V>:ахун[pst_i,initial_aggr]                        # жить, существовать; live, exist
 векIуъери<V>:екIуъ[pst_i,initial_aggr]                      # плакать; 
 велIери<V>:елI[pst_i,initial_aggr]                          # ходить; 
+вулIери<V>:улI[pst_i,initial_aggr]                          # входить; enter
 вуххери<V>:ухх[pst_i,initial_aggr]                          # разводиться; 
 вучIери<V>:учI[pst_i,initial_aggr]                          # просыпаться; wake up
 байчери<V>:айч[pst_o,initial_aggr]                          # развязывать (узел, веревку); untie (knot, rope)
@@ -122,11 +129,12 @@ LEXICON Verbs
 бихъвери<V>:ихъ{В}[pst_o,initial_aggr]                      # резать, зарезать, забить (скотину); cut, slaughter (cattle)
 буцIери<V>:уцI[pst_o,initial_aggr]                          # таять; 
 бушери<V>:уш[pst_o,initial_aggr]                            # красить, рисовать краской, мазать; paint, smear
+вохъери<V>:охъ[pst_o,initial_aggr]                          # дойти; reach, arrive
 букIери<V>:укI[pst_u,initial_aggr]                          # ронять; drop (vb)
-букквери<V>:укк{В}[pst_u,initial_aggr]                      # падать; fall
 вукквери<V>:укк{В}[pst_u,initial_aggr]                      # падать; fall
 вутIери<V>:утI[pst_u,initial_aggr]                          # терять; 
 йигьвери<V>:игь{В}[pst_u,initial_aggr]                      # рожать; bear (v. child)
+вутIери<V>:вутI[pst_u]                                      # теряться, исчезать; disappear
 зархвери<V>:зарх{В}[pst_u]                                  # мерзнуть (о человеке); freeze (of human)
 шанохвери<V>:шанох{В}[pst_u]                                # гнить; 
 бежери<V>:еж[pst_a,imp_o,initial_aggr]                      # печь, жарить; bake, fry

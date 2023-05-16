@@ -12,7 +12,7 @@ lemma,form,tag,translation_ru,translation_en
 геллери,гелл,pst_i,висеть,"hang (v, intr)"
 гъурери,гъур,pst_i,скользить,
 гьагьакьери,гьагьакь,pst_i,зевать,"yawn, gape (v)"
-гьеллери,гьелл,pst_i,бегать,
+гьеллери,гьелл,pst_i,"бегать, бежать",run
 гьинкушери,гьинкуш,pst_i,мочиться,urinate
 гьиъассордери,гьиъассорд,pst_i,кружиться (в танце),"whirl (v, intr, during dance)"
 гьиъассорери,гьиъассор,pst_i,крутить (колесо),"rotate (v, tr, wheel)"
@@ -127,7 +127,15 @@ lemma,form,tag,translation_ru,translation_en
 шанохвери,шанох{В},pst_u,гнить,
 багвери,аг{В},"pst_u,imp_o,initial_aggr",считать,
 букIери,укI,"pst_u,initial_aggr",ронять,drop (vb)
-букквери,укк{В},"pst_u,initial_aggr",падать,fall
 вукквери,укк{В},"pst_u,initial_aggr",падать,fall
 вутIери,утI,"pst_u,initial_aggr",терять,
 йигьвери,игь{В},"pst_u,initial_aggr",рожать,bear (v. child)
+гьойкIвери,гьовкI{В},pst_o,приседать (на корточках),crouch
+чIарери,чIар,pst_i,скользить,"slide, slip"
+лъибери,лъиб,pst_i,прыгать,"jump, leap"
+вутIери,вутI,pst_u,"теряться, исчезать",disappear
+вохъери,охъ,"pst_o,initial_aggr",дойти,"reach, arrive"
+вулIери,улI,"pst_i,initial_aggr",входить,enter
+биххери,ихх,"pst_i,imp_o,initial_aggr","нести (в руках, на плечах)","carry (v, in hand, carry-on-shoulder)"
+биххери,ихх,"pst_i,imp_o,initial_aggr",посылать (человека),"send (v, a person)"
+букъери,укъ,"pst_i,imp_o,initial_aggr","гнать, прогонять",chase
