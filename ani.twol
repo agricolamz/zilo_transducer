@@ -2,6 +2,7 @@ Alphabet
     б в г д й к л м н п р с т ф х ц ч ш щ ъ ь э I ᵸ я
   	а:а у:у и:и о:о е:е
   	а:0 у:0 и:0 о:0 е:0
+	и:у
     %>:0
     %{adj.pl%}:о %{adj.pl%}:и %{adj.pl%}:у
     %{В%}:в %{В%}:0
@@ -15,8 +16,11 @@ Rules
 "drop morpheme boundary"
 %>:0 <=> _ ;
 
+"i -> u after {W} in verbs"
+и:у <=> %{В%}:0 %>: _ ;
+
 "w + i -> u in verbs"
-%{В%}:0 <=> _ %>: [у:у | о:о] ;
+%{В%}:0 <=> _ %>: [:у | :о];
 
 "vowel change in adj.pl morpheme"
 %{adj.pl%}:о <=> _ ;
@@ -32,5 +36,5 @@ Rules
 "vowel change in adj.pl morpheme after j"
 %{adj.pl%}:и <=> й:й %>: _ ;
 
-"drop vowel before adj.pl morpheme boundary"
-X:0 <=> _ %>: %{adj.pl%}: ; where X in vowels;
+"drop vowel before adj.pl morpheme boundary; conflicts with w + i -> u in verbs; resolved according to (Beesley, Karttunen 2003: 48-49)"
+X:0 <=> .#. [:* - [:* %{В%}:0 %>:]] _ %>: %{adj.pl%}: ; where X in vowels;

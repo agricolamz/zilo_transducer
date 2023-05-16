@@ -97,15 +97,15 @@ LEXICON Case
 <f><gen>:>й[m,v_epentetic,gen]
 <inan1><gen>:>б[m,v_epentetic,gen]
 <inan2><gen>:>р[m,v_epentetic,gen]
-<an.sg><gen>:б[m,v_epentetic,gen]
-<an.pl><gen>:й[m,v_epentetic,gen]
+<an.sg><gen>:>б[m,v_epentetic,gen]
+<an.pl><gen>:>й[m,v_epentetic,gen]
 
 <m><aff>:>во[v_epentetic]
 <f><aff>:>йо[v_epentetic]
 <inan1><aff>:>бо[v_epentetic]
 <inan2><aff>:>ро[v_epentetic]
-<an.sg><aff>:бо[v_epentetic]
-<an.pl><aff>:йо[v_epentetic]
+<an.sg><aff>:>бо[v_epentetic]
+<an.pl><aff>:>йо[v_epentetic]
 
 <sub><ess>:>кьи[ess]
 <sub><lat>:>кьи
