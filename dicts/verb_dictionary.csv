@@ -1,123 +1,133 @@
 lemma,form,tag,translation_ru,translation_en
+бежери,еж,"pst_a,imp_o,initial_aggr","печь, жарить","bake, fry"
+вергъери,ергъ,"pst_a,initial_aggr",шевелиться,move
 авдери,авд,pst_i,мяукать,meow
 анлъери,анлъ,pst_i,слышать,
+бакъакъери,бакъакъ,pst_i,"крошить, резать на куски",cut to pieces
 бекьери,бекь,pst_i,пахать,
+бурери,бур,pst_i,лететь,fly (vb)
 бутIийдери,бутIийд,pst_i,совокупляться,have sexual intercourse
 велълъери,велълъ,pst_i,смеяться,
 гIэбчишери,гIэбчиш,pst_i,чихать,sneeze (v)
+геллери,гелл,pst_i,висеть,"hang (v, intr)"
 гъурери,гъур,pst_i,скользить,
 гьагьакьери,гьагьакь,pst_i,зевать,"yawn, gape (v)"
 гьеллери,гьелл,pst_i,бегать,
 гьинкушери,гьинкуш,pst_i,мочиться,urinate
+гьиъассордери,гьиъассорд,pst_i,кружиться (в танце),"whirl (v, intr, during dance)"
+гьиъассорери,гьиъассор,pst_i,крутить (колесо),"rotate (v, tr, wheel)"
 гьуммедери,гьуммед,pst_i,мычать,
 джабери,джаб,pst_i,убивать,kill
 зигардери,зигард,pst_i,стонать,
 кIарери,кIар,pst_i,блевать,vomit
-кIвахIаллъери,кIвахIаллъ,pst_i,лениться,
+кIурдери,кIурд,pst_i,капать (неперех.),"drip (v, intr)"
+коллери,колл,pst_i,плавать,swim
 къаммери,къамм,pst_i,кусать,bite
 къиннери,къинн,pst_i,жадничать,
 къиркъидери,къиркъид,pst_i,скрипеть,
-ламери,лам,pst_i,лизать,lick
+ламмери,ламм,pst_i,лизать,lick
 релIери,релI,pst_i,"идти (о дожде, снеге)","rain, snow"
+ссорери,ссор,pst_i,поворачиваться,turn (intr.)
+таннери,танн,pst_i,рваться (о верёвке),"tear (v, intr, of rope)"
 тудери,туд,pst_i,плевать,spit
 турери,тур,pst_i,гнить,
-ухIудери,ухIуд,pst_i,кашлять,
-ухIудери,ухIуд,pst_i,кашлять,cough (v)
 уᵸъуᵸдери,уᵸъуᵸд,pst_i,кукарекать,
+ухIудери,ухIуд,pst_i,кашлять,cough (v)
 хIихIидери,хIихIид,pst_i,ржать,
 ххомери,ххомм,pst_i,храпеть,snore
 хъобери,хъоб,pst_i,испражняться,defecate
-цIиннери,цIинн,pst_i,знать,
+цIикIкIулъери,цIикIкIулъ,pst_i,свертываться (о молоке),"curdle (v, intr, of milk)"
+цIиннери,цIинн,pst_i,знать,know
 чIчIарери,чIчIар,pst_i,поскользнуться,
+чабери,чаб,pst_i,"сыпаться, течь","pour (intr), flow"
+шаннери,шанн,pst_i,отдыхать,rest
+барийдери,барийд,"pst_i,imp_o",точить (нож),"whet (v, tr, tool)"
 баъери,баъ,"pst_i,imp_o",читать,
-бещери,бещ,"pst_i,imp_o",ткать,
-букъери,букъ,"pst_i,imp_o",кроить,
+берчIери,берчI,"pst_i,imp_o",доить,milk (v)
+джабери,джаб,"pst_i,imp_o",ударять (однократно),hit (once)
 джидери,джид,"pst_i,imp_o",делать,do
 ирери,ир,"pst_i,imp_o",вздрагивать,
-ихохъери,ихохъ,"pst_i,imp_o",молоть,
+ихохъери,ихохъ,"pst_i,imp_o",молоть муку,"crush, grind (flour)"
+кIаммери,кIамм,"pst_i,imp_o",есть (неперех.),eat
 кIвкIварери,кIвкIвар,"pst_i,imp_o",месить,
-коллери,колл,"pst_i,imp_o",плавать,
+каннери,канн,"pst_i,imp_o",тесать,hew
+кудери,куд,"pst_i,imp_o","просеивать, процеживать (при готовке)","sieve, strain (v, for cooking), sift"
 кусдери,кусд,"pst_i,imp_o",искать,
 къиннери,къинн,"pst_i,imp_o",мять,
 къирери,къир,"pst_i,imp_o",стричь,
 кьанери,кьан,"pst_i,imp_o",дышать,breathe
-кьаннери,кьанн,"pst_i,imp_o",тянуть,
-ламмери,ламм,"pst_i,imp_o",лизать,
+кьаннери,кьанн,"pst_i,imp_o",тянуть (за что-л.),pull (v)
+лIарери,лIар,"pst_i,imp_o",подметать,sweep
+ламмери,ламм,"pst_i,imp_o",лизать,lick
+лолитIамери,лолитIам,"pst_i,imp_o",молотить,thresh
 лъуннери,лъунн,"pst_i,imp_o",сморкаться,
-пудери,пуд,"pst_i,imp_o",дуть,
-пудери,пуд,"pst_i,imp_o",дуть,
+лъурери,лъур,"pst_i,imp_o",трясти,shake
+пудери,пуд,"pst_i,imp_o",дуть (о человеке),"blow (v, of person)"
 рихъери,рихъ,"pst_i,imp_o",царапать,
-хварери,хвар,"pst_i,imp_o",копать,
+сагъидери,сагъид,"pst_i,imp_o","лечить, исцелять","cure, heal"
+тIиннери,тIинн,"pst_i,imp_o",лить,pour
+тантайайдери,тантайайд,"pst_i,imp_o",рвать,tear
+ханнери,ханн,"pst_i,imp_o",косить (траву),"mow (v, grass)"
+хварери,хвар,"pst_i,imp_o",копать,dig
 хханнери,хханн,"pst_i,imp_o",косить,
+хъалбухери,хъалбух,"pst_i,imp_o","чистить, отчищать (овощи, фрукты)","peel (v, tr, of fruit)"
 хъварери,хъвар,"pst_i,imp_o",писать,write
-хъеллери,хъелл,"pst_i,imp_o",чесать,
-хъеллери,хъелл,"pst_i,imp_o",царапать,
+хъеллери,хъелл,"pst_i,imp_o","чесаться (при зуде), чесать, царапать","itch (v), scratch (v) "
+хъурери,хъур,"pst_i,imp_o","тащить, волочить",drag (v)
+цIцIадери,цIцIад,"pst_i,imp_o",пить,drink
 цIцIимми,цIцIимм,"pst_i,imp_o",щипать,pinch
 цIцIуннери,цIцIунн,"pst_i,imp_o",сосать,
-чIаммери,чIамм,"pst_i,imp_o",жевать,
-шаммери,шамм,"pst_i,imp_o",бросать,
-авчери,авч,pst_o,мыться,bathe (v.)
-бахери,бах,pst_o,лаять,bark (v.)
-вахери,вах,pst_o,драться,
-гъулгъушери,гъулгъуш,pst_o,рычать,roar
-гьаъери,гьаъм,pst_o,видеть,see
-зунзушери,зунзуш,pst_o,жужжать,buzz
-маъушери,маъуш,pst_o,мяукать,
-мяъушери,мяъуш,pst_o,мяукать,
-пунхъишери,пунхъиш,pst_o,брызгать,
-руцIери,руцI,pst_o,"таять (о льде, снеге)","melt (of ice, snow, intr)"
-уᵸъуᵸшери,уᵸъуᵸш,pst_o,кукарекать,crow
-хIихIишери,хIихIиш,pst_o,ржать,
-хьавдери,хьавд,pst_o,шипеть,hiss
-цIатери,цIат,pst_o,гореть,
-цIатери,цIат,pst_o,жечь,
-чIирчIишери,чIирчIиш,pst_o,дрожать,
+чIаммери,чIамм,"pst_i,imp_o","жевать, грызть","chew (v), gnaw (v)"
+чIиннери,чIинн,"pst_i,imp_o","бить, избивать (человека)",beat (of human)
+ччаннери,ччанн,"pst_i,imp_o",тереть (рукой),"rub (v, by hand)"
+шаммери,шамм,"pst_i,imp_o","бросать, кидать",throw (v.)
+# щибери,щи,"pst_i,imp_o,final_aggr",веять,winnow
+бекьери,екь,"pst_i,imp_o,initial_aggr",сеять,sow
+бещери,ещ,"pst_i,imp_o,initial_aggr",ткать,"weave, plait"
+биччери,ичч,"pst_i,imp_o,initial_aggr",ловить (мяч),catch (ball)
+букъери,укъ,"pst_i,imp_o,initial_aggr","резать, кроить",
+бухери,ух,"pst_i,imp_o,initial_aggr",снимать (одежду),remove (clothes)
+веццихъери,еццихъ,"pst_i,imp_o,initial_aggr",хвалить,
+гьашкIишери,гьашкIиш,"pst_i,imp_u","качаться, шевелиться (о растении)","rock (v, intr, of plant)"
+бухери,ух,"pst_i,initial_aggr",восходить (о солнце),rise (of sun)
 вахунери,ахун,"pst_i,initial_aggr","жить, существовать","live, exist"
 векIуъери,екIуъ,"pst_i,initial_aggr",плакать,
 велIери,елI,"pst_i,initial_aggr",ходить,
 вуххери,ухх,"pst_i,initial_aggr",разводиться,
 вучIери,учI,"pst_i,initial_aggr",просыпаться,wake up
-бекьери,екь,"pst_i,imp_o,initial_aggr",сеять,
+абчери,абч,pst_o,"мыть (посуду), стирать","wash (dishes), wash (laundry)"
+авчери,авч,pst_o,мыться,bathe (v.)
+бахери,бах,pst_o,лаять,bark (v.)
+вахери,вах,pst_o,драться,
+гъулгъушери,гъулгъуш,pst_o,рычать,roar
+гьаъери,гьаъм,pst_o,видеть,see
+гьонкIочIери,гьонкIочI,pst_o,хотеть пить,be thirsty
+зунзушери,зунзуш,pst_o,жужжать,buzz
+маъушери,маъуш,pst_o,мяукать,
+мяъушери,мяъуш,pst_o,мяукать,
+пунхъишери,пунхъиш,pst_o,брызгать,
+роквери,рок{В},pst_o,жать (убирать зерновые),"reap (v, crops)"
+рохвери,рох{В},pst_o,причесываться,comb (v. intr.)
+руцIери,руцI,pst_o,"таять (о льде, снеге)","melt (of ice, snow, intr)"
+уᵸъуᵸшери,уᵸъуᵸш,pst_o,кукарекать,crow
+хIихIишери,хIихIиш,pst_o,ржать,
+хъурщишери,хъурщиш,pst_o,ползти (о человеке),"crawl (v, of person)"
+хьавдери,хьавд,pst_o,шипеть,hiss
+цIатери,цIат,pst_o,"гореть, жечь",
+чIирчIишери,чIирчIиш,pst_o,дрожать,
+чолтери,чолт,pst_o,быть голодным,be hungry
+вучIери,учI,"pst_o,ablaut",умереть,die
+гьанъохвери,гьанъох{В},"pst_o,imp_u",потеть,perspire
+байчери,айч,"pst_o,initial_aggr","развязывать (узел, веревку)","untie (knot, rope)"
 бершери,ерш,"pst_o,initial_aggr",менять,
-букъери,укъ,"pst_i,imp_o,initial_aggr",резать,
+бихъвери,ихъ{В},"pst_o,initial_aggr","резать, зарезать, забить (скотину)","cut, slaughter (cattle)"
 буцIери,уцI,"pst_o,initial_aggr",таять,
-бушери,уш,"pst_o,initial_aggr",красить,
-веццихъери,еццихъ,"pst_i,imp_o,initial_aggr",хвалить,
+бушери,уш,"pst_o,initial_aggr","красить, рисовать краской, мазать","paint, smear"
+зархвери,зарх{В},pst_u,мерзнуть (о человеке),freeze (of human)
+шанохвери,шанох{В},pst_u,гнить,
+багвери,аг{В},"pst_u,imp_o,initial_aggr",считать,
+букIери,укI,"pst_u,initial_aggr",ронять,drop (vb)
+букквери,укк{В},"pst_u,initial_aggr",падать,fall
 вукквери,укк{В},"pst_u,initial_aggr",падать,fall
 вутIери,утI,"pst_u,initial_aggr",терять,
 йигьвери,игь{В},"pst_u,initial_aggr",рожать,bear (v. child)
-зархвери,зарх{В},pst_u,мерзнуть (о человеке),freeze (of human)
-шанохвери,шанох{В},pst_u,гнить,
-багвери,аг{В},"initial_aggr,pst_u,imp_o",считать,
-бежери,еж,"pst_a,imp_o,initial_aggr","печь, жарить","bake, fry"
-вергъери,ергъ,"pst_a,imp_a,initial_aggr","шевелиться, move",
-вучIери,уч,"pst_o,ablaut",умереть,die
-гьанъохвери,гьанъох{В},"pst_o,imp_u",потеть,perspire
-хъеллери,хъелл,"pst_i,imp_o",чесаться (при зуде),itch (v)
-сагъидери,сагъид,"pst_i,imp_o","лечить, исцелять","cure, heal"
-шаннери,шанн,pst_i,отдыхать,rest
-кIаммери,кIамм,"pst_i,imp_o",есть (неперех.),eat
-цIцIадери,цIцIад,"pst_i,imp_o",пить,drink
-чолтери,чолт,pst_o,быть голодным,be hungry
-гьонкIочIери,гьонкIочI,pst_o,хотеть пить,be thirsty
-чIаммери,чIамм,"pst_i,imp_o","жевать, грызть","chew (v), gnaw (v)"
-хъалбухери,хъалбух,"pst_i,imp_o","чистить, отчищать (овощи, фрукты)","peel (v, tr, of fruit)"
-кудери,куд,"pst_i,imp_o","просеивать, процеживать (при готовке)","sieve, strain (v, for cooking)"
-ихохъери,ихохъ,"pst_i,imp_o",молоть муку,"crush, grind (flour)"
-берчIери,берчI,"pst_i,imp_o",доить,milk (v)
-цIикIкIулъери,цIикIкIулъ,pst_i,свертываться (о молоке),"curdle (v, intr, of milk)"
-бухери,ух,"pst_i,imp_o,initial_aggr",снимать (одежду),remove (clothes)
-рохвери,рох,pst_o,причесываться,comb (v. intr.)
-хварери,хвар,"pst_i,imp_o",копать,dig
-бекьери,бекь,"pst_i,imp_o",сеять,sow
-# щибери,щи,"pst_i,imp_o,final_aggr",веять,winnow
-кудери,куд,"pst_i,imp_o",просеивать,sift
-ханнери,ханн,"pst_i,imp_o",косить (траву),"mow (v, grass)"
-роквери,рок{В},pst_o,жать (убирать зерновые),"reap (v, crops)"
-лолитIамери,лолитIам,"pst_i,imp_o",молотить,thresh
-байчери,айч,"pst_o,initial_aggr","развязывать (узел, веревку)","untie (knot, rope)"
-чIиннери,чIинн,"pst_i,imp_o","бить, избивать (человека)",beat (of human)
-джабери,джаб,"pst_i,imp_o",ударять (однократно),hit (once)
-бихъвери,ихъ{В},"pst_o,initial_aggr","резать, зарезать, забить (скотину)","cut, slaughter (cattle)"
-бакъакъери,бакъакъ,pst_i,"крошить, резать на куски",cut to pieces
-тантайайдери,,,,

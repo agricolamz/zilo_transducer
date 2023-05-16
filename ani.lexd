@@ -1888,78 +1888,87 @@ LEXICON Pronouns
 
 LEXICON Verbs
 
-баъери<V>:баъ[pst_i,imp_o]                                  # читать; 
-бекьери<V>:бекь[pst_i,imp_o]                                # сеять; sow
-берчIери<V>:берчI[pst_i,imp_o]                              # доить; milk (v)
-бещери<V>:бещ[pst_i,imp_o]                                  # ткать; 
-букъери<V>:букъ[pst_i,imp_o]                                # кроить; 
-джидери<V>:джид[pst_i,imp_o]                                # делать; 
-ирери<V>:ир[pst_i,imp_o]                                    # вздрагивать; 
-ихохъери<V>:ихохъ[pst_i,imp_o]                              # молоть; 
-ихохъери<V>:ихохъ[pst_i,imp_o]                              # молоть муку; crush, grind (flour)
-кIаммери<V>:кIамм[pst_i,imp_o]                              # есть (неперех.); eat
-кIвкIварери<V>:кIвкIвар[pst_i,imp_o]                        # месить; 
-коллери<V>:колл[pst_i,imp_o]                                # плавать; 
-кудери<V>:куд[pst_i,imp_o]                                  # просеивать, процеживать (при готовке); sieve, strain (v, for cooking)
-кудери<V>:куд[pst_i,imp_o]                                  # просеивать; sift
-кусдери<V>:кусд[pst_i,imp_o]                                # искать; 
-къиннери<V>:къинн[pst_i,imp_o]                              # мять; 
-къирери<V>:къир[pst_i,imp_o]                                # стричь; 
-кьанери<V>:кьан[pst_i,imp_o]                                # дышать; breathe
-кьаннери<V>:кьанн[pst_i,imp_o]                              # тянуть; 
-ламмери<V>:ламм[pst_i,imp_o]                                # лизать; 
-лъуннери<V>:лъунн[pst_i,imp_o]                              # сморкаться; 
-пудери<V>:пуд[pst_i,imp_o]                                  # дуть; 
-пудери<V>:пуд[pst_i,imp_o]                                  # дуть; 
-рихъери<V>:рихъ[pst_i,imp_o]                                # царапать; 
-сагъидери<V>:сагъид[pst_i,imp_o]                            # лечить, исцелять; cure, heal
-ханнери<V>:ханн[pst_i,imp_o]                                # косить (траву); mow (v, grass)
-хварери<V>:хвар[pst_i,imp_o]                                # копать; 
-хварери<V>:хвар[pst_i,imp_o]                                # копать; dig
-хханнери<V>:хханн[pst_i,imp_o]                              # косить; 
-хъалбухери<V>:хъалбух[pst_i,imp_o]                          # чистить, отчищать (овощи, фрукты); peel (v, tr, of fruit)
-хъварери<V>:хъвар[pst_i,imp_o]                              # писать; write
-хъеллери<V>:хъелл[pst_i,imp_o]                              # чесать; 
-хъеллери<V>:хъелл[pst_i,imp_o]                              # царапать; 
-хъеллери<V>:хъелл[pst_i,imp_o]                              # чесаться (при зуде); itch (v)
-цIцIадери<V>:цIцIад[pst_i,imp_o]                            # пить; drink
-цIцIимми<V>:цIцIимм[pst_i,imp_o]                            # щипать; pinch
-цIцIуннери<V>:цIцIунн[pst_i,imp_o]                          # сосать; 
-чIаммери<V>:чIамм[pst_i,imp_o]                              # жевать; 
-чIаммери<V>:чIамм[pst_i,imp_o]                              # жевать, грызть; chew (v), gnaw (v)
-шаммери<V>:шамм[pst_i,imp_o]                                # бросать; 
 авдери<V>:авд[pst_i]                                        # мяукать; meow
 анлъери<V>:анлъ[pst_i]                                      # слышать; 
+бакъакъери<V>:бакъакъ[pst_i]                                # крошить, резать на куски; cut to pieces
 бекьери<V>:бекь[pst_i]                                      # пахать; 
+бурери<V>:бур[pst_i]                                        # лететь; fly (vb)
 бутIийдери<V>:бутIийд[pst_i]                                # совокупляться; have sexual intercourse
 велълъери<V>:велълъ[pst_i]                                  # смеяться; 
 гIэбчишери<V>:гIэбчиш[pst_i]                                # чихать; sneeze (v)
+геллери<V>:гелл[pst_i]                                      # висеть; hang (v, intr)
 гъурери<V>:гъур[pst_i]                                      # скользить; 
 гьагьакьери<V>:гьагьакь[pst_i]                              # зевать; yawn, gape (v)
 гьеллери<V>:гьелл[pst_i]                                    # бегать; 
 гьинкушери<V>:гьинкуш[pst_i]                                # мочиться; urinate
+гьиъассордери<V>:гьиъассорд[pst_i]                          # кружиться (в танце); whirl (v, intr, during dance)
+гьиъассорери<V>:гьиъассор[pst_i]                            # крутить (колесо); rotate (v, tr, wheel)
 гьуммедери<V>:гьуммед[pst_i]                                # мычать; 
 джабери<V>:джаб[pst_i]                                      # убивать; kill
 зигардери<V>:зигард[pst_i]                                  # стонать; 
 кIарери<V>:кIар[pst_i]                                      # блевать; vomit
-кIвахIаллъери<V>:кIвахIаллъ[pst_i]                          # лениться; 
+кIурдери<V>:кIурд[pst_i]                                    # капать (неперех.); drip (v, intr)
+коллери<V>:колл[pst_i]                                      # плавать; swim
 къаммери<V>:къамм[pst_i]                                    # кусать; bite
 къиннери<V>:къинн[pst_i]                                    # жадничать; 
 къиркъидери<V>:къиркъид[pst_i]                              # скрипеть; 
-ламери<V>:лам[pst_i]                                        # лизать; lick
+ламмери<V>:ламм[pst_i]                                      # лизать; lick
 релIери<V>:релI[pst_i]                                      # идти (о дожде, снеге); rain, snow
+ссорери<V>:ссор[pst_i]                                      # поворачиваться; turn (intr.)
+таннери<V>:танн[pst_i]                                      # рваться (о верёвке); tear (v, intr, of rope)
 тудери<V>:туд[pst_i]                                        # плевать; spit
 турери<V>:тур[pst_i]                                        # гнить; 
-ухIудери<V>:ухIуд[pst_i]                                    # кашлять; 
 ухIудери<V>:ухIуд[pst_i]                                    # кашлять; cough (v)
 уᵸъуᵸдери<V>:уᵸъуᵸд[pst_i]                                  # кукарекать; 
 хIихIидери<V>:хIихIид[pst_i]                                # ржать; 
 ххомери<V>:ххомм[pst_i]                                     # храпеть; snore
 хъобери<V>:хъоб[pst_i]                                      # испражняться; defecate
 цIикIкIулъери<V>:цIикIкIулъ[pst_i]                          # свертываться (о молоке); curdle (v, intr, of milk)
-цIиннери<V>:цIинн[pst_i]                                    # знать; 
+цIиннери<V>:цIинн[pst_i]                                    # знать; know
 чIчIарери<V>:чIчIар[pst_i]                                  # поскользнуться; 
+чабери<V>:чаб[pst_i]                                        # сыпаться, течь; pour (intr), flow
 шаннери<V>:шанн[pst_i]                                      # отдыхать; rest
+барийдери<V>:барийд[pst_i,imp_o]                            # точить (нож); whet (v, tr, tool)
+баъери<V>:баъ[pst_i,imp_o]                                  # читать; 
+берчIери<V>:берчI[pst_i,imp_o]                              # доить; milk (v)
+джабери<V>:джаб[pst_i,imp_o]                                # ударять (однократно); hit (once)
+джидери<V>:джид[pst_i,imp_o]                                # делать; do
+ирери<V>:ир[pst_i,imp_o]                                    # вздрагивать; 
+ихохъери<V>:ихохъ[pst_i,imp_o]                              # молоть муку; crush, grind (flour)
+кIаммери<V>:кIамм[pst_i,imp_o]                              # есть (неперех.); eat
+кIвкIварери<V>:кIвкIвар[pst_i,imp_o]                        # месить; 
+каннери<V>:канн[pst_i,imp_o]                                # тесать; hew
+кудери<V>:куд[pst_i,imp_o]                                  # просеивать, процеживать (при готовке); sieve, strain (v, for cooking), sift
+кусдери<V>:кусд[pst_i,imp_o]                                # искать; 
+къиннери<V>:къинн[pst_i,imp_o]                              # мять; 
+къирери<V>:къир[pst_i,imp_o]                                # стричь; 
+кьанери<V>:кьан[pst_i,imp_o]                                # дышать; breathe
+кьаннери<V>:кьанн[pst_i,imp_o]                              # тянуть (за что-л.); pull (v)
+лIарери<V>:лIар[pst_i,imp_o]                                # подметать; sweep
+ламмери<V>:ламм[pst_i,imp_o]                                # лизать; lick
+лолитIамери<V>:лолитIам[pst_i,imp_o]                        # молотить; thresh
+лъуннери<V>:лъунн[pst_i,imp_o]                              # сморкаться; 
+лъурери<V>:лъур[pst_i,imp_o]                                # трясти; shake
+пудери<V>:пуд[pst_i,imp_o]                                  # дуть (о человеке); blow (v, of person)
+рихъери<V>:рихъ[pst_i,imp_o]                                # царапать; 
+сагъидери<V>:сагъид[pst_i,imp_o]                            # лечить, исцелять; cure, heal
+тIиннери<V>:тIинн[pst_i,imp_o]                              # лить; pour
+тантайайдери<V>:тантайайд[pst_i,imp_o]                      # рвать; tear
+ханнери<V>:ханн[pst_i,imp_o]                                # косить (траву); mow (v, grass)
+хварери<V>:хвар[pst_i,imp_o]                                # копать; dig
+хханнери<V>:хханн[pst_i,imp_o]                              # косить; 
+хъалбухери<V>:хъалбух[pst_i,imp_o]                          # чистить, отчищать (овощи, фрукты); peel (v, tr, of fruit)
+хъварери<V>:хъвар[pst_i,imp_o]                              # писать; write
+хъеллери<V>:хъелл[pst_i,imp_o]                              # чесаться (при зуде), чесать, царапать; itch (v), scratch (v)
+хъурери<V>:хъур[pst_i,imp_o]                                # тащить, волочить; drag (v)
+цIцIадери<V>:цIцIад[pst_i,imp_o]                            # пить; drink
+цIцIимми<V>:цIцIимм[pst_i,imp_o]                            # щипать; pinch
+цIцIуннери<V>:цIцIунн[pst_i,imp_o]                          # сосать; 
+чIаммери<V>:чIамм[pst_i,imp_o]                              # жевать, грызть; chew (v), gnaw (v)
+чIиннери<V>:чIинн[pst_i,imp_o]                              # бить, избивать (человека); beat (of human)
+ччаннери<V>:ччанн[pst_i,imp_o]                              # тереть (рукой); rub (v, by hand)
+шаммери<V>:шамм[pst_i,imp_o]                                # бросать, кидать; throw (v.)
+абчери<V>:абч[pst_o]                                        # мыть (посуду), стирать; wash (dishes), wash (laundry)
 авчери<V>:авч[pst_o]                                        # мыться; bathe (v.)
 бахери<V>:бах[pst_o]                                        # лаять; bark (v.)
 вахери<V>:вах[pst_o]                                        # драться; 
@@ -1971,38 +1980,46 @@ LEXICON Verbs
 мяъушери<V>:мяъуш[pst_o]                                    # мяукать; 
 пунхъишери<V>:пунхъиш[pst_o]                                # брызгать; 
 роквери<V>:рок{В}[pst_o]                                    # жать (убирать зерновые); reap (v, crops)
-рохвери<V>:рох[pst_o]                                       # причесываться; comb (v. intr.)
+рохвери<V>:рох{В}[pst_o]                                    # причесываться; comb (v. intr.)
 руцIери<V>:руцI[pst_o]                                      # таять (о льде, снеге); melt (of ice, snow, intr)
 уᵸъуᵸшери<V>:уᵸъуᵸш[pst_o]                                  # кукарекать; crow
 хIихIишери<V>:хIихIиш[pst_o]                                # ржать; 
+хъурщишери<V>:хъурщиш[pst_o]                                # ползти (о человеке); crawl (v, of person)
 хьавдери<V>:хьавд[pst_o]                                    # шипеть; hiss
-цIатери<V>:цIат[pst_o]                                      # гореть; 
-цIатери<V>:цIат[pst_o]                                      # жечь; 
+цIатери<V>:цIат[pst_o]                                      # гореть, жечь; 
 чIирчIишери<V>:чIирчIиш[pst_o]                              # дрожать; 
 чолтери<V>:чолт[pst_o]                                      # быть голодным; be hungry
+бекьери<V>:екь[pst_i,imp_o,initial_aggr]                    # сеять; sow
+бещери<V>:ещ[pst_i,imp_o,initial_aggr]                      # ткать; weave, plait
+биччери<V>:ичч[pst_i,imp_o,initial_aggr]                    # ловить (мяч); catch (ball)
+букъери<V>:укъ[pst_i,imp_o,initial_aggr]                    # резать, кроить; 
+бухери<V>:ух[pst_i,imp_o,initial_aggr]                      # снимать (одежду); remove (clothes)
+веццихъери<V>:еццихъ[pst_i,imp_o,initial_aggr]              # хвалить; 
+бухери<V>:ух[pst_i,initial_aggr]                            # восходить (о солнце); rise (of sun)
 вахунери<V>:ахун[pst_i,initial_aggr]                        # жить, существовать; live, exist
 векIуъери<V>:екIуъ[pst_i,initial_aggr]                      # плакать; 
 велIери<V>:елI[pst_i,initial_aggr]                          # ходить; 
 вуххери<V>:ухх[pst_i,initial_aggr]                          # разводиться; 
 вучIери<V>:учI[pst_i,initial_aggr]                          # просыпаться; wake up
-бекьери<V>:екь[pst_i,imp_o,initial_aggr]                    # сеять; 
-букъери<V>:укъ[pst_i,imp_o,initial_aggr]                    # резать; 
-бухери<V>:ух[pst_i,imp_o,initial_aggr]                      # снимать (одежду); remove (clothes)
-веццихъери<V>:еццихъ[pst_i,imp_o,initial_aggr]              # хвалить; 
+байчери<V>:айч[pst_o,initial_aggr]                          # развязывать (узел, веревку); untie (knot, rope)
 бершери<V>:ерш[pst_o,initial_aggr]                          # менять; 
+бихъвери<V>:ихъ{В}[pst_o,initial_aggr]                      # резать, зарезать, забить (скотину); cut, slaughter (cattle)
 буцIери<V>:уцI[pst_o,initial_aggr]                          # таять; 
-бушери<V>:уш[pst_o,initial_aggr]                            # красить; 
+бушери<V>:уш[pst_o,initial_aggr]                            # красить, рисовать краской, мазать; paint, smear
+букIери<V>:укI[pst_u,initial_aggr]                          # ронять; drop (vb)
+букквери<V>:укк{В}[pst_u,initial_aggr]                      # падать; fall
 вукквери<V>:укк{В}[pst_u,initial_aggr]                      # падать; fall
 вутIери<V>:утI[pst_u,initial_aggr]                          # терять; 
 йигьвери<V>:игь{В}[pst_u,initial_aggr]                      # рожать; bear (v. child)
 зархвери<V>:зарх{В}[pst_u]                                  # мерзнуть (о человеке); freeze (of human)
 шанохвери<V>:шанох{В}[pst_u]                                # гнить; 
-багвери<V>:аг{В}[initial_aggr,pst_u,imp_o]                  # считать; 
-вергъери<V>:ергъ[pst_a,imp_a,initial_aggr]                  # шевелиться, move; 
 бежери<V>:еж[pst_a,imp_o,initial_aggr]                      # печь, жарить; bake, fry
+вергъери<V>:ергъ[pst_a,initial_aggr]                        # шевелиться; move
 # щибери<V>:щи[pst_i,imp_o,final_aggr]                      # веять; winnow
-вучIери<V>:уч[pst_o,ablaut]                                 # умереть; die
+гьашкIишери<V>:гьашкIиш[pst_i,imp_u]                        # качаться, шевелиться (о растении); rock (v, intr, of plant)
+вучIери<V>:учI[pst_o,ablaut]                                # умереть; die
 гьанъохвери<V>:гьанъох{В}[pst_o,imp_u]                      # потеть; perspire
+багвери<V>:аг{В}[pst_u,imp_o,initial_aggr]                  # считать; 
 # -------------------------------------------------------------------------
 # ADVERBS
 # -------------------------------------------------------------------------
