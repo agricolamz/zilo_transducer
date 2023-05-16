@@ -2192,15 +2192,15 @@ LEXICON PstEndings
 <prog><pl>:>ар>ил[pst_a]
 <prog><pl>:>ур>ил[pst_u]
 
-<prog><pl>:>ирад>ил[pst_i]
-<prog><pl>:>орад>ил[pst_o]
-<prog><pl>:>арад>ил[pst_a]
-<prog><pl>:>урад>ил[pst_u]
+<prog><pl>:>ирадо>л[pst_i]
+<prog><pl>:>орадо>л[pst_o]
+<prog><pl>:>арадо>л[pst_a]
+<prog><pl>:>урадо>л[pst_u]
 
-<prog><pl>:>иралл>ил[pst_i]
-<prog><pl>:>оралл>ил[pst_o]
-<prog><pl>:>аралл>ил[pst_a]
-<prog><pl>:>уралл>ил[pst_u]
+<prog><pl>:>иралло>л[pst_i]
+<prog><pl>:>оралло>л[pst_o]
+<prog><pl>:>аралло>л[pst_a]
+<prog><pl>:>уралло>л[pst_u]
 
 LEXICON Conditional
 <cond>:>бор
