@@ -3,20 +3,76 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
+(Verbs[-initial_aggr] (PstEndings | Aorist | Perfect))[^[pst_i,pst_o,pst_a,pst_u]]
+(Verbs[-initial_aggr] Aorist)[^[pst_i,pst_o,pst_a,pst_u]] Conditional
+(Verbs[-initial_aggr] (Aorist | Perfect))[^[pst_i,pst_o,pst_a,pst_u]] Counterfactual
 (Verbs[-initial_aggr] PstEndings)[^[pst_i,pst_o,pst_a,pst_u]]
+
 Verbs[-initial_aggr] PrsEndings
 
-((agrCL Verbs[initial_aggr]) PstEndings)[^[pst_i,pst_o,pst_a,pst_u]]
+((agrCL Verbs[initial_aggr]) (PstEndings | Aorist | Perfect))[^[pst_i,pst_o,pst_a,pst_u]]
+((agrCL Verbs[initial_aggr]) Aorist)[^[pst_i,pst_o,pst_a,pst_u]] Conditional
+((agrCL Verbs[initial_aggr]) (Aorist | Perfect))[^[pst_i,pst_o,pst_a,pst_u]] Counterfactual
 agrCL Verbs[initial_aggr] PrsEndings
 
 LEXICON PrsEndings
 <inf>:>ери
 <hab>:>е
 <fut>:>ийа
+<fut><pl>:>ийа>л
 
-LEXICON PstEndings
+LEXICON Aorist
 <aor>:>и[pst_i]
 <aor>:>о[pst_o]
 <aor>:>а[pst_a]
 <aor>:>у[pst_u]
 
+LEXICON Perfect
+<pf>:>ий[pst_i]
+<pf>:>ой[pst_o]
+<pf>:>ай[pst_a]
+<pf>:>уй[pst_u]
+
+LEXICON PstEndings
+<cvb>:>ий[pst_i]
+<cvb>:>ой[pst_o]
+<cvb>:>ай[pst_a]
+<cvb>:>уй[pst_u]
+
+<prog>:>ир[pst_i]
+<prog>:>ор[pst_o]
+<prog>:>ар[pst_a]
+<prog>:>ур[pst_u]
+
+<prog>:>ирадо[pst_i]
+<prog>:>орадо[pst_o]
+<prog>:>арадо[pst_a]
+<prog>:>урадо[pst_u]
+
+<prog>:>иралло[pst_i]
+<prog>:>оралло[pst_o]
+<prog>:>аралло[pst_a]
+<prog>:>уралло[pst_u]
+
+<prog><pl>:>ир>ил[pst_i]
+<prog><pl>:>ор>ил[pst_o]
+<prog><pl>:>ар>ил[pst_a]
+<prog><pl>:>ур>ил[pst_u]
+
+<prog><pl>:>ирад>ил[pst_i]
+<prog><pl>:>орад>ил[pst_o]
+<prog><pl>:>арад>ил[pst_a]
+<prog><pl>:>урад>ил[pst_u]
+
+<prog><pl>:>иралл>ил[pst_i]
+<prog><pl>:>оралл>ил[pst_o]
+<prog><pl>:>аралл>ил[pst_a]
+<prog><pl>:>уралл>ил[pst_u]
+
+LEXICON Conditional
+<cond>:>бор
+<conc>:>боло
+
+LEXICON Counterfactual
+<ctrf>:>ламдур
+<ctrf>:>ламдури

@@ -6,7 +6,7 @@ LEXICON Adjectives
 шу[final_aggr]                                                                  # хороший; good
 зарху[final_aggr]                                                               # холодный; cold
 екъуб[final_aggr]                                                               # густой; dense 
-бисси[final_aggr]                                                               # ваш; yours
+бисси[final_aggr]                                                               # ваш; yours 
 охор[initial_aggr,сonsonantal]                                                  # старый; old
 ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
 еъора[initial_aggr]                                                             # тонкий; thin 
@@ -16,6 +16,7 @@ LEXICON Adjectives
 иши[initial_aggr]                                                               # толстый; fat
 ичIоб[initial_aggr]                                                             # испорченный; defective
 ечIедир[initial_aggr,сonsonantal]                                               # черный; black
+екIкIуб[initial_aggr]															# горячий; hot
 ехула[initial_aggr]                                                             # длинный; long
 цIцIиб[initial_aggr,plural_slot]                                                # полный; full, stout
 тIонниб[initial_aggr,plural_slot]                                               # мокрый; wet
@@ -73,9 +74,16 @@ LEXICON Adjectives
 загIип[сonsonantal]                                                             # слабый; weak
 тамаша                                                                          # странный; strange 
 гьенебдий[сonsonantal]                                                          # такой; like that
+хъазан[сonsonantal]																# чугунный; cast-iron
+йахIилжа																		# щедрый; generous
+рахоб[сonsonantal]																# ясный; bright 
+буртIа																			# богатый; rich
+рукъудосси																		# больной; sick
+чIаго																			# живой; alive
 
 # жи=в=гу                                                                       # сам; oneself 
 # жи=б=улгу                                                                     # все; all
 # се=в=ло                                                                       # другой; other
 # гьуду=в=а(л)?                                                                 # туда
+
 
