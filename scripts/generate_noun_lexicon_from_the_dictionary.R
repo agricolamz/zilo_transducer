@@ -16,11 +16,11 @@ df |>
 
 for_noun_dict |>
   arrange(gender, base) |>
-  mutate(base = case_when(gender == "в, в" ~ str_c(base, "[m]"),
-                          gender == "й, й" ~ str_c(base, "[f]"),
-                          gender == "б, й" ~ str_c(base, "[an]"),
-                          gender == "б, б" ~ str_c(base, "[inan1]"),
-                          gender == "р, р" ~ str_c(base, "[inan2]")),
+  mutate(base = case_when(gender == "в, в" ~ str_c(base, "<N>:", base, "[m]"),
+                          gender == "й, й" ~ str_c(base, "<N>:", base, "[f]"),
+                          gender == "б, й" ~ str_c(base, "<N>:", base, "[an]"),
+                          gender == "б, б" ~ str_c(base, "<N>:", base, "[inan1]"),
+                          gender == "р, р" ~ str_c(base, "<N>:", base, "[inan2]")),
          base = str_pad(base, 60, side = "right"),
          base = str_c(base, "# ", meaning_ru, ";")) |>
   pull(base) ->
@@ -28,7 +28,7 @@ for_noun_dict |>
 
 for_noun_dict |>
   arrange(gender, base) |>
-  mutate(base = case_when(gender == "в, в" ~ str_c(base, "<obl>:", obl.sg, "[m]"),
+  mutate(base = case_when(gender == "в, в" ~ str_c(base, "<N><obl>:", obl.sg, "[m]"),
                           TRUE ~ str_c(base, "<N><obl>:", obl.sg)),
          base = str_remove(base, "лIи$"),
          base = str_remove(base, "ув$"),
@@ -39,7 +39,7 @@ for_noun_dict |>
 
 for_noun_dict |>
   arrange(gender, base) |>
-  mutate(base = case_when(gender == "в, в" ~ str_c(base, "<pl>:", abs.pl, "[m]"),
+  mutate(base = case_when(gender == "в, в" ~ str_c(base, "<N><pl>:", abs.pl, "[m]"),
                           TRUE ~ str_c(base, "<N><pl>:", abs.pl)),
          base = str_pad(base, 60, side = "right"),
          base = str_c(base, "# ", meaning_ru, ";")) |>
@@ -48,7 +48,7 @@ for_noun_dict |>
 
 for_noun_dict |>
   arrange(gender, base) |>
-  mutate(base = case_when(gender == "в, в" ~ str_c(base, "<obl.pl>:", obl.pl, "[m]"),
+  mutate(base = case_when(gender == "в, в" ~ str_c(base, "<N><obl.pl>:", obl.pl, "[m]"),
                           TRUE ~ str_c(base, "<N><obl.pl>:", obl.pl)),
          base = str_remove(base, "лIи$"),
          base = str_remove(base, "в$"),

@@ -1,20 +1,20 @@
 suppressPackageStartupMessages(library(tidyverse))
 "# -------------------------------------------------------------------------
-# VERB LEXICON
+# ADJECTIVE LEXICON
 # -------------------------------------------------------------------------
 
-LEXICON Verbs
+LEXICON Adjectives
 " |> 
-  write_lines("ani_lex_verbs.lexd")
+  write_lines("ani_lex_adjectives2.lexd")
 
-read_csv("dicts/dictionary.csv", show_col_types = FALSE) |> 
-  filter(pos == "verb") |> 
+read_csv("dicts/verb_dictionary.csv", show_col_types = FALSE) |> 
+  filter(pos == "adjective") |> 
   add_count(tag) |> 
   arrange(-n, tag, lemma) |> 
   mutate(translation_en = ifelse(is.na(translation_en), "", translation_en),
          tag = ifelse(is.na(tag), "", tag),
-         generate = str_c(lemma, "<V>:", form, "[", tag, "]"),
+         generate = str_c(lemma, "<ADJ>:", form, "[", tag, "]"),
          generate = str_pad(generate, width = 60, side = "right"),
          generate = str_c(generate, "# ", translation_ru, "; ", translation_en)) |> 
   pull(generate) |> 
-  write_lines("ani_lex_verbs.lexd", append = TRUE)
+  write_lines("ani_lex_adjectives2.lexd", append = TRUE)
