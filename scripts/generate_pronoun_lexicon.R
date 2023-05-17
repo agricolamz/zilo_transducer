@@ -1,20 +1,21 @@
 suppressPackageStartupMessages(library(tidyverse))
 "# -------------------------------------------------------------------------
-# ADJECTIVE LEXICON
+# PRONOUNS
 # -------------------------------------------------------------------------
 
-LEXICON Adjectives
-" |> 
-  write_lines("ani_lex_adjectives2.lexd")
+PATTERNS
+Pronouns
 
-read_csv("dicts/verb_dictionary.csv", show_col_types = FALSE) |> 
-  filter(pos == "adjective") |> 
-  add_count(tag) |> 
-  arrange(-n, tag, lemma) |> 
+LEXICON Pronouns
+" |> 
+  write_lines("ani_lex_pronouns.lexd")
+
+read_csv("dictionary.csv", show_col_types = FALSE) |> 
+  filter(pos == "pronoun",
+         is.na(ignore)) |> 
   mutate(translation_en = ifelse(is.na(translation_en), "", translation_en),
-         tag = ifelse(is.na(tag), "", tag),
-         generate = str_c(lemma, "<ADJ>:", form, "[", tag, "]"),
+         generate = str_c(lemma, ":", form),
          generate = str_pad(generate, width = 60, side = "right"),
          generate = str_c(generate, "# ", translation_ru, "; ", translation_en)) |> 
   pull(generate) |> 
-  write_lines("ani_lex_adjectives2.lexd", append = TRUE)
+  write_lines("ani_lex_pronouns.lexd", append = TRUE)

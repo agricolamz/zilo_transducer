@@ -139,7 +139,6 @@ LEXICON Verbs
 шанохвери<V>:шанох{В}[pst_u]                                # гнить; 
 бежери<V>:еж[pst_a,imp_o,initial_aggr]                      # печь, жарить; bake, fry
 вергъери<V>:ергъ[pst_a,initial_aggr]                        # шевелиться; move
-# щибери<V>:щи[pst_i,imp_o,final_aggr]                      # веять; winnow
 гьашкIишери<V>:гьашкIиш[pst_i,imp_u]                        # качаться, шевелиться (о растении); rock (v, intr, of plant)
 вучIери<V>:учI[pst_o,ablaut]                                # умереть; die
 гьанъохвери<V>:гьанъох{В}[pst_o,imp_u]                      # потеть; perspire

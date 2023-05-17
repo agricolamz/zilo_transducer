@@ -1,89 +1,81 @@
 # -------------------------------------------------------------------------
-# ADJECTIVES
+# ADJECTIVE LEXICON
 # -------------------------------------------------------------------------
 
 LEXICON Adjectives
-шу[final_aggr]                                                                  # хороший; good
-зарху[final_aggr]                                                               # холодный; cold
-екъуб[final_aggr]                                                               # густой; dense 
-бисси[final_aggr]                                                               # ваш; yours 
-охор[initial_aggr,сonsonantal]                                                  # старый; old
-ерцIцIом[initial_aggr,сonsonantal]                                              # чистый; clean
-еъора[initial_aggr]                                                             # тонкий; thin 
-ечIуха[initial_aggr]                                                            # большой; clean
-очо[initial_aggr]                                                               # низкий; short
-ехула[initial_aggr]                                                             # высокий; tall
-иши[initial_aggr]                                                               # толстый; fat
-ичIоб[initial_aggr]                                                             # испорченный; defective
-ечIедир[initial_aggr,сonsonantal]                                               # черный; black
-екIкIуб[initial_aggr]															# горячий; hot
-ехула[initial_aggr]                                                             # длинный; long
-цIцIиб[initial_aggr,plural_slot]                                                # полный; full, stout
-тIонниб[initial_aggr,plural_slot]                                               # мокрый; wet
-чIой[initial_aggr,plural_slot]                                                  # мертвый; dead
-чуруки                                                                          # грязный; dirty
-уди                                                                             # глубокий; deep
-ъаб[сonsonantal]                                                                # широкий; wide
-гьацIа                                                                          # белый; white
-чакку                                                                           # желтый; yellow
-хвечи                                                                           # зеленый; green
-цIиᵸву                                                                          # новый; new
-ботIи                                                                           # слепой; blind
-чIчIитIир[сonsonantal]                                                          # узкий; narrow
-лъему                                                                           # жидкий; liquid
-цIцIикIкIу                                                                      # кислый; sour 
-чIило                                                                           # кривой; curved
-гъвенчIил[сonsonantal]                                                          # кривой; curved
-кучIил[сonsonantal]                                                             # левый; left
-олохъан[сonsonantal]                                                            # молодой; young
-кьухъур[сonsonantal]                                                            # низкий; low
-гьадур[сonsonantal]                                                             # готовый; ready 
-уᵸнса                                                                           # тёплый; warm 
-рекъу                                                                           # хромой; lame
-гьири                                                                           # красный; red
-бечIугу                                                                         # пустой; empty
-хъелла                                                                          # худой; thin
-бискин[сonsonantal]                                                             # бедный; poor
-гьанъо                                                                          # беременная; pregnant
-тохи                                                                            # глупый; stupid
-гьанчIчIил[сonsonantal]                                                         # правый; right
-хъвей[сonsonantal]                                                              # серый; grey
-гургума                                                                         # круглый; round
-букьин[сonsonantal]                                                             # горький; bitter 
-гьокIору                                                                        # тяжелый; heavy  
-къваку                                                                          # сильный; strong 
-чIантIи                                                                         # мелкий; small
-лъолколъи                                                                       # легкий; light
-багъу                                                                           # красивый; beautiful
-уцIцIилойсси                                                                    # аккуратный; careful
-мичIи                                                                           # маленький; small
-содо                                                                            # холодный; cold
-мицIа                                                                           # сладкий; sweet
-джиб[сonsonantal]                                                               # каждый; every
-сагъи                                                                           # здоровый; healthy
-чIачIи                                                                          # жирный; fatty
-чора                                                                            # жирный; fat
-содо                                                                            # холодный; cold
-хехи                                                                            # быстрый; fast
-гьиъасси                                                                        # верхний; upper
-мицIцIа                                                                         # вкусный; tasty
-хъачIи                                                                          # грубый; rough
-багимаша                                                                        # дырявый; hole-ridden 
-къалчIар[сonsonantal]                                                           # косой; squint-eyed
-хIалихьати                                                                      # подлый; mean 
-загIип[сonsonantal]                                                             # слабый; weak
-тамаша                                                                          # странный; strange 
-гьенебдий[сonsonantal]                                                          # такой; like that
-хъазан[сonsonantal]																# чугунный; cast-iron
-йахIилжа																		# щедрый; generous
-рахоб[сonsonantal]																# ясный; bright 
-буртIа																			# богатый; rich
-рукъудосси																		# больной; sick
-чIаго																			# живой; alive
 
-# жи=в=гу                                                                       # сам; oneself 
-# жи=б=улгу                                                                     # все; all
-# се=в=ло                                                                       # другой; other
-# гьуду=в=а(л)?                                                                 # туда
-
-
+багимаша<ADJ>:багимаша                                      # дырявый; hole-ridden
+багъу<ADJ>:багъу                                            # красивый; beautiful
+бечIугу<ADJ>:бечIугу                                        # пустой; empty
+ботIи<ADJ>:ботIи                                            # слепой; blind
+буртIа<ADJ>:буртIа                                          # богатый; rich
+гургума<ADJ>:гургума                                        # круглый; round
+гьанъо<ADJ>:гьанъо                                          # беременная; pregnant
+гьацIа<ADJ>:гьацIа                                          # белый; white
+гьири<ADJ>:гьири                                            # красный; red
+гьиъасси<ADJ>:гьиъасси                                      # верхний; upper
+гьокIору<ADJ>:гьокIору                                      # тяжелый; heavy
+йахIилжа<ADJ>:йахIилжа                                      # щедрый; generous
+къваку<ADJ>:къваку                                          # сильный; strong
+лъему<ADJ>:лъему                                            # жидкий; liquid
+лъолколъи<ADJ>:лъолколъи                                    # легкий; light
+мицIа<ADJ>:мицIа                                            # сладкий; sweet
+мицIцIа<ADJ>:мицIцIа                                        # вкусный; tasty
+мичIи<ADJ>:мичIи                                            # маленький; small
+рекъу<ADJ>:рекъу                                            # хромой; lame
+рукъудосси<ADJ>:рукъудосси                                  # больной; sick
+сагъи<ADJ>:сагъи                                            # здоровый; healthy
+содо<ADJ>:содо                                              # холодный; cold
+содо<ADJ>:содо                                              # холодный; cold
+тамаша<ADJ>:тамаша                                          # странный; strange
+тохи<ADJ>:тохи                                              # глупый; stupid
+уди<ADJ>:уди                                                # глубокий; deep
+уцIцIилойсси<ADJ>:уцIцIилойсси                              # аккуратный; careful
+уᵸнса<ADJ>:уᵸнса                                            # тёплый; warm
+хIалихьати<ADJ>:хIалихьати                                  # подлый; mean
+хвечи<ADJ>:хвечи                                            # зеленый; green
+хехи<ADJ>:хехи                                              # быстрый; fast
+хъачIи<ADJ>:хъачIи                                          # грубый; rough
+хъелла<ADJ>:хъелла                                          # худой; thin
+цIиᵸву<ADJ>:цIиᵸву                                          # новый; new
+цIцIикIкIу<ADJ>:цIцIикIкIу                                  # кислый; sour
+чIаго<ADJ>:чIаго                                            # живой; alive
+чIантIи<ADJ>:чIантIи                                        # мелкий; small
+чIачIи<ADJ>:чIачIи                                          # жирный; fatty
+чIило<ADJ>:чIило                                            # кривой; curved
+чакку<ADJ>:чакку                                            # желтый; yellow
+чора<ADJ>:чора                                              # жирный; fat
+чуруки<ADJ>:чуруки                                          # грязный; dirty
+бискин<ADJ>:бискин[сonsonantal]                             # бедный; poor
+букьин<ADJ>:букьин[сonsonantal]                             # горький; bitter
+гъвенчIил<ADJ>:гъвенчIил[сonsonantal]                       # кривой; curved
+гьадур<ADJ>:гьадур[сonsonantal]                             # готовый; ready
+гьанчIчIил<ADJ>:гьанчIчIил[сonsonantal]                     # правый; right
+гьенебдий<ADJ>:гьенебдий[сonsonantal]                       # такой; like that
+джиб<ADJ>:джиб[сonsonantal]                                 # каждый; every
+загIип<ADJ>:загIип[сonsonantal]                             # слабый; weak
+кучIил<ADJ>:кучIил[сonsonantal]                             # левый; left
+къалчIар<ADJ>:къалчIар[сonsonantal]                         # косой; squint-eyed
+кьухъур<ADJ>:кьухъур[сonsonantal]                           # низкий; low
+олохъан<ADJ>:олохъан[сonsonantal]                           # молодой; young
+рахоб<ADJ>:рахоб[сonsonantal]                               # ясный; bright
+хъазан<ADJ>:хъазан[сonsonantal]                             # чугунный; cast-iron
+хъвей<ADJ>:хъвей[сonsonantal]                               # серый; grey
+чIчIитIир<ADJ>:чIчIитIир[сonsonantal]                       # узкий; narrow
+ъаб<ADJ>:ъаб[сonsonantal]                                   # широкий; wide
+бекIкIуб<ADJ>:екIкIуб[initial_aggr]                         # горячий; hot
+бекъуб<ADJ>:екъуб[initial_aggr]                             # густой; dense
+бехула<ADJ>:ехула[initial_aggr]                             # высокий; tall
+бехула<ADJ>:ехула[initial_aggr]                             # длинный; long
+бечIуха<ADJ>:ечIуха[initial_aggr]                           # большой; clean
+беъора<ADJ>:еъора[initial_aggr]                             # тонкий; thin
+бичIоб<ADJ>:ичIоб[initial_aggr]                             # испорченный; defective
+биши<ADJ>:иши[initial_aggr]                                 # толстый; fat
+бочо<ADJ>:очо[initial_aggr]                                 # низкий; short
+берцIцIом<ADJ>:ерцIцIом[initial_aggr,сonsonantal]           # чистый; clean
+бечIедир<ADJ>:ечIедир[initial_aggr,сonsonantal]             # черный; black
+бохор<ADJ>:охор[initial_aggr,сonsonantal]                   # старый; old
+зархуб<ADJ>:зарху[final_aggr]                               # холодный; cold
+шуб<ADJ>:шу[final_aggr]                                     # хороший; good
+битIонниб<ADJ>:тIонниб[initial_aggr,plural_slot]            # мокрый; wet
+бицIцIиб<ADJ>:цIцIиб[initial_aggr,plural_slot]              # полный; full, stout

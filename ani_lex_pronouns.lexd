@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------------
-# NOUN LEXICON
+# PRONOUNS
 # -------------------------------------------------------------------------
 
 PATTERNS
@@ -7,95 +7,91 @@ Pronouns
 
 LEXICON Pronouns
 
-ден<P>:ден
-ден<P><erg>:ден>ни
-ден<P><gen>:ди>б
-ден<P><m><gen>:ди>в
-ден<P><f><gen>:ди>й
-ден<P><inan1><gen>:ди>б
-ден<P><inan2><gen>:ди>р
-ден<P><an.sg><gen>:ди>б
-ден<P><an.pl><gen>:ди>й
-ден<P><dat>:ди>й
-ден<P><dat>:ди>лъу
-ден<P><m><aff>:ди>во
-ден<P><f><aff>:ди>йо
-ден<P><inan1><aff>:ди>бо
-ден<P><inan2><aff>:ди>ро
-ден<P><an.sg><aff>:ди>бо
-ден<P><an.pl><aff>:ди>йо
-
-мен<P>:мен
-мен<P><erg>:мен>ни
-мен<P><gen>:ду>б
-мен<P><m><gen>:ду>в
-мен<P><f><gen>:ду>й
-мен<P><inan1><gen>:ду>б
-мен<P><inan2><gen>:ду>р
-мен<P><an.sg><gen>:ду>б
-мен<P><an.pl><gen>:ду>й
-мен<P><dat>:ду>й
-мен<P><dat>:ду>лъу
-мен<P><m><aff>:ду>во
-мен<P><f><aff>:ду>йо
-мен<P><inan1><aff>:ду>бо
-мен<P><inan2><aff>:ду>ро
-мен<P><an.sg><aff>:ду>бо
-мен<P><an.pl><aff>:ду>йо
-
-илIил<P>:илIил
-илIил<P><erg>:илIи>ди
-илIил<P><gen>:илIи>лIи
-илIил<P><gen>:илIи>б
-илIил<P><m><gen>:илIи>в
-илIил<P><f><gen>:илIи>й
-илIил<P><inan1><gen>:илIи>б
-илIил<P><inan2><gen>:илIи>р
-илIил<P><an.sg><gen>:илIи>б
-илIил<P><an.pl><gen>:илIи>й
-илIил<P><dat>:илIи>й
-илIил<P><dat>:илIи>лъу
-илIил<P><m><aff>:илIи>во
-илIил<P><f><aff>:илIи>йо
-илIил<P><inan1><aff>:илIи>бо
-илIил<P><inan2><aff>:илIи>ро
-илIил<P><an.sg><aff>:илIи>бо
-илIил<P><an.pl><aff>:илIи>йо
-
-ищил<P>:ищил
-ищил<P><erg>:ищи>ди
-ищил<P><gen>:ищи>лIи
-ищил<P><gen>:ищи>б
-ищил<P><m><gen>:ищи>в
-ищил<P><f><gen>:ищи>й
-ищил<P><inan1><gen>:ищи>б
-ищил<P><inan2><gen>:ищи>р
-ищил<P><an.sg><gen>:ищи>б
-ищил<P><an.pl><gen>:ищи>й
-ищил<P><dat>:ищи>й
-ищил<P><dat>:ищи>лъу
-ищил<P><m><aff>:ищи>во
-ищил<P><f><aff>:ищи>йо
-ищил<P><inan1><aff>:ищи>бо
-ищил<P><inan2><aff>:ищи>ро
-ищил<P><an.sg><aff>:ищи>бо
-ищил<P><an.pl><aff>:ищи>йо
-
-биссил<P>:биссил
-биссил<P><erg>:бисси>ди
-биссил<P><gen>:бисси>лIи
-биссил<P><gen>:бисси>б
-биссил<P><m><gen>:бисси>в
-биссил<P><f><gen>:бисси>й
-биссил<P><inan1><gen>:бисси>б
-биссил<P><inan2><gen>:бисси>р
-биссил<P><an.sg><gen>:бисси>б
-биссил<P><an.pl><gen>:бисси>й
-биссил<P><dat>:бисси>й
-биссил<P><dat>:бисси>лъу
-биссил<P><m><aff>:бисси>во
-биссил<P><f><aff>:бисси>йо
-биссил<P><inan1><aff>:бисси>бо
-биссил<P><inan2><aff>:бисси>ро
-биссил<P><an.sg><aff>:бисси>бо
-биссил<P><an.pl><aff>:бисси>йо
+ден<PRON>:ден                                               # я; I
+ден<PRON><erg>:ден>ни                                       # я; I
+ден<PRON><gen>:ди>б                                         # я; I
+ден<PRON><m><gen>:ди>в                                      # я; I
+ден<PRON><f><gen>:ди>й                                      # я; I
+ден<PRON><inan1><gen>:ди>б                                  # я; I
+ден<PRON><inan2><gen>:ди>р                                  # я; I
+ден<PRON><an.sg><gen>:ди>б                                  # я; I
+ден<PRON><an.pl><gen>:ди>й                                  # я; I
+ден<PRON><dat>:ди>й                                         # я; I
+ден<PRON><dat>:ди>лъу                                       # я; I
+ден<PRON><m><aff>:ди>во                                     # я; I
+ден<PRON><f><aff>:ди>йо                                     # я; I
+ден<PRON><inan1><aff>:ди>бо                                 # я; I
+ден<PRON><inan2><aff>:ди>ро                                 # я; I
+ден<PRON><an.sg><aff>:ди>бо                                 # я; I
+ден<PRON><an.pl><aff>:ди>йо                                 # я; I
+мен<PRON>:мен                                               # ты; you (sg)
+мен<PRON><erg>:мен>ни                                       # ты; you (sg)
+мен<PRON><gen>:ду>б                                         # ты; you (sg)
+мен<PRON><m><gen>:ду>в                                      # ты; you (sg)
+мен<PRON><f><gen>:ду>й                                      # ты; you (sg)
+мен<PRON><inan1><gen>:ду>б                                  # ты; you (sg)
+мен<PRON><inan2><gen>:ду>р                                  # ты; you (sg)
+мен<PRON><an.sg><gen>:ду>б                                  # ты; you (sg)
+мен<PRON><an.pl><gen>:ду>й                                  # ты; you (sg)
+мен<PRON><dat>:ду>й                                         # ты; you (sg)
+мен<PRON><dat>:ду>лъу                                       # ты; you (sg)
+мен<PRON><m><aff>:ду>во                                     # ты; you (sg)
+мен<PRON><f><aff>:ду>йо                                     # ты; you (sg)
+мен<PRON><inan1><aff>:ду>бо                                 # ты; you (sg)
+мен<PRON><inan2><aff>:ду>ро                                 # ты; you (sg)
+мен<PRON><an.sg><aff>:ду>бо                                 # ты; you (sg)
+мен<PRON><an.pl><aff>:ду>йо                                 # ты; you (sg)
+илIил<PRON>:илIил                                           # мы (incl); we (incl)
+илIил<PRON><erg>:илIи>ди                                    # мы (incl); we (incl)
+илIил<PRON><gen>:илIи>лIи                                   # мы (incl); we (incl)
+илIил<PRON><gen>:илIи>б                                     # мы (incl); we (incl)
+илIил<PRON><m><gen>:илIи>в                                  # мы (incl); we (incl)
+илIил<PRON><f><gen>:илIи>й                                  # мы (incl); we (incl)
+илIил<PRON><inan1><gen>:илIи>б                              # мы (incl); we (incl)
+илIил<PRON><inan2><gen>:илIи>р                              # мы (incl); we (incl)
+илIил<PRON><an.sg><gen>:илIи>б                              # мы (incl); we (incl)
+илIил<PRON><an.pl><gen>:илIи>й                              # мы (incl); we (incl)
+илIил<PRON><dat>:илIи>й                                     # мы (incl); we (incl)
+илIил<PRON><dat>:илIи>лъу                                   # мы (incl); we (incl)
+илIил<PRON><m><aff>:илIи>во                                 # мы (incl); we (incl)
+илIил<PRON><f><aff>:илIи>йо                                 # мы (incl); we (incl)
+илIил<PRON><inan1><aff>:илIи>бо                             # мы (incl); we (incl)
+илIил<PRON><inan2><aff>:илIи>ро                             # мы (incl); we (incl)
+илIил<PRON><an.sg><aff>:илIи>бо                             # мы (incl); we (incl)
+илIил<PRON><an.pl><aff>:илIи>йо                             # мы (incl); we (incl)
+ищил<PRON>:ищил                                             # мы (excl); we (excl)
+ищил<PRON><erg>:ищи>ди                                      # мы (excl); we (excl)
+ищил<PRON><gen>:ищи>лIи                                     # мы (excl); we (excl)
+ищил<PRON><gen>:ищи>б                                       # мы (excl); we (excl)
+ищил<PRON><m><gen>:ищи>в                                    # мы (excl); we (excl)
+ищил<PRON><f><gen>:ищи>й                                    # мы (excl); we (excl)
+ищил<PRON><inan1><gen>:ищи>б                                # мы (excl); we (excl)
+ищил<PRON><inan2><gen>:ищи>р                                # мы (excl); we (excl)
+ищил<PRON><an.sg><gen>:ищи>б                                # мы (excl); we (excl)
+ищил<PRON><an.pl><gen>:ищи>й                                # мы (excl); we (excl)
+ищил<PRON><dat>:ищи>й                                       # мы (excl); we (excl)
+ищил<PRON><dat>:ищи>лъу                                     # мы (excl); we (excl)
+ищил<PRON><m><aff>:ищи>во                                   # мы (excl); we (excl)
+ищил<PRON><f><aff>:ищи>йо                                   # мы (excl); we (excl)
+ищил<PRON><inan1><aff>:ищи>бо                               # мы (excl); we (excl)
+ищил<PRON><inan2><aff>:ищи>ро                               # мы (excl); we (excl)
+ищил<PRON><an.sg><aff>:ищи>бо                               # мы (excl); we (excl)
+ищил<PRON><an.pl><aff>:ищи>йо                               # мы (excl); we (excl)
+биссил<PRON>:биссил                                         # вы; you (pl)
+биссил<PRON><erg>:бисси>ди                                  # вы; you (pl)
+биссил<PRON><gen>:бисси>лIи                                 # вы; you (pl)
+биссил<PRON><gen>:бисси>б                                   # вы; you (pl)
+биссил<PRON><m><gen>:бисси>в                                # вы; you (pl)
+биссил<PRON><f><gen>:бисси>й                                # вы; you (pl)
+биссил<PRON><inan1><gen>:бисси>б                            # вы; you (pl)
+биссил<PRON><inan2><gen>:бисси>р                            # вы; you (pl)
+биссил<PRON><an.sg><gen>:бисси>б                            # вы; you (pl)
+биссил<PRON><an.pl><gen>:бисси>й                            # вы; you (pl)
+биссил<PRON><dat>:бисси>й                                   # вы; you (pl)
+биссил<PRON><dat>:бисси>лъу                                 # вы; you (pl)
+биссил<PRON><m><aff>:бисси>во                               # вы; you (pl)
+биссил<PRON><f><aff>:бисси>йо                               # вы; you (pl)
+биссил<PRON><inan1><aff>:бисси>бо                           # вы; you (pl)
+биссил<PRON><inan2><aff>:бисси>ро                           # вы; you (pl)
+биссил<PRON><an.sg><aff>:бисси>бо                           # вы; you (pl)
+биссил<PRON><an.pl><aff>:бисси>йо                           # вы; you (pl)

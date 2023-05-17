@@ -3,6 +3,8 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
+NounAbs
+NounAbsPl
 NounObl[m] CasesM
 NounOblPl[m] Case[-f]
 NounObl[-m] Case[-m]
@@ -14,14 +16,14 @@ NumeralsAbs OblStem[m] CasesM
 NumeralsAbs OblStem[-m] (Case[-v_epentetic,-m] | (Epent[sg] Case[v_epentetic,-m]))
 NumeralsAbs OblStem[-m] Epent[sg] Case[-m,gen] Plural?                          ## plural forms of genetive
 
-AdjectiveMSg [<ADJ>:] (OblStem[m] CasesM)?
-AdjectiveMPl [<ADJ>:] Plural (Epent[m] Case[-f])?
-AdjectiveSgConsonantal [<ADJ>:] (Case[-v_epentetic,-m] | (Epent[sg] Case[v_epentetic,-m]))?
-AdjectiveSgConsonantal [<ADJ>:] Epent[sg] Case[-m,gen] Plural?                  ## plural forms of genetive
+AdjectiveMSg (OblStem[m] CasesM)?
+AdjectiveMPl Plural (Epent[m] Case[-f])?
+AdjectiveSgConsonantal (Case[-v_epentetic,-m] | (Epent[sg] Case[v_epentetic,-m]))?
+AdjectiveSgConsonantal Epent[sg] Case[-m,gen] Plural?                  ## plural forms of genetive
 
-AdjectiveSgVocalic [<ADJ>:] (OblStem[-m] (Case[-v_epentetic,-m] | (Epent[sg] Case[v_epentetic,-m])))?
-AdjectivePl [<ADJ>:] Plural (Epent[pl] Case[-m])?
-AdjectivePl [<ADJ>:] Plural Epent[pl] Case[-m,gen] Plural?                      ## plural forms of genetive
+AdjectiveSgVocalic (OblStem[-m] (Case[-v_epentetic,-m] | (Epent[sg] Case[v_epentetic,-m])))?
+AdjectivePl Plural (Epent[pl] Case[-m])?
+AdjectivePl Plural Epent[pl] Case[-m,gen] Plural?                      ## plural forms of genetive
 
 PATTERN AdjectiveMSg
 Adjectives[-initial_aggr,-final_aggr]
