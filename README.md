@@ -76,4 +76,4 @@ Moroz, G. (2022) Morphological parser for Zilo Andi. (Version 0.0.1)
 
 ## Number of forms generated: 
 
-50336
+50851
