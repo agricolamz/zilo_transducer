@@ -7,8 +7,10 @@ LEXICON Adjectives
 багимаша<ADJ>:багимаша                                      # дырявый; hole-ridden
 багъу<ADJ>:багъу                                            # красивый; beautiful
 бечIугу<ADJ>:бечIугу                                        # пустой; empty
+ботIи<ADJ>:ботIи                                            # темный; dark
 ботIи<ADJ>:ботIи                                            # слепой; blind
 буртIа<ADJ>:буртIа                                          # богатый; rich
+гоъи<ADJ>:гоъи                                              # глухой; deaf
 гургума<ADJ>:гургума                                        # круглый; round
 гьанъо<ADJ>:гьанъо                                          # беременная; pregnant
 гьацIа<ADJ>:гьацIа                                          # белый; white
@@ -27,6 +29,7 @@ LEXICON Adjectives
 сагъи<ADJ>:сагъи                                            # здоровый; healthy
 содо<ADJ>:содо                                              # холодный; cold
 содо<ADJ>:содо                                              # холодный; cold
+тIулу<ADJ>:тIулу                                            # плохой; bad
 тамаша<ADJ>:тамаша                                          # странный; strange
 тохи<ADJ>:тохи                                              # глупый; stupid
 уди<ADJ>:уди                                                # глубокий; deep
@@ -36,6 +39,7 @@ LEXICON Adjectives
 хвечи<ADJ>:хвечи                                            # зеленый; green
 хехи<ADJ>:хехи                                              # быстрый; fast
 хъачIи<ADJ>:хъачIи                                          # грубый; rough
+хъвейи<ADJ>:хъвейи                                          # серый; grey
 хъелла<ADJ>:хъелла                                          # худой; thin
 цIиᵸву<ADJ>:цIиᵸву                                          # новый; new
 цIцIикIкIу<ADJ>:цIцIикIкIу                                  # кислый; sour
@@ -46,6 +50,7 @@ LEXICON Adjectives
 чакку<ADJ>:чакку                                            # желтый; yellow
 чора<ADJ>:чора                                              # жирный; fat
 чуруки<ADJ>:чуруки                                          # грязный; dirty
+эсседусси<ADJ>:эсседусси                                    # первый; first
 бискин<ADJ>:бискин[сonsonantal]                             # бедный; poor
 букьин<ADJ>:букьин[сonsonantal]                             # горький; bitter
 гъвенчIил<ADJ>:гъвенчIил[сonsonantal]                       # кривой; curved
@@ -54,6 +59,8 @@ LEXICON Adjectives
 гьенебдий<ADJ>:гьенебдий[сonsonantal]                       # такой; like that
 джиб<ADJ>:джиб[сonsonantal]                                 # каждый; every
 загIип<ADJ>:загIип[сonsonantal]                             # слабый; weak
+кIвагьал<ADJ>:кIвагьал[сonsonantal]                         # ленивый; lazy
+кванор<ADJ>:кванор[сonsonantal]                             # светлый; malt
 кучIил<ADJ>:кучIил[сonsonantal]                             # левый; left
 къалчIар<ADJ>:къалчIар[сonsonantal]                         # косой; squint-eyed
 кьухъур<ADJ>:кьухъур[сonsonantal]                           # низкий; low
@@ -69,13 +76,18 @@ LEXICON Adjectives
 бехула<ADJ>:ехула[initial_aggr]                             # длинный; long
 бечIуха<ADJ>:ечIуха[initial_aggr]                           # большой; clean
 беъора<ADJ>:еъора[initial_aggr]                             # тонкий; thin
+бигьу<ADJ>:игьу[initial_aggr]                               # много; a lot
 бичIоб<ADJ>:ичIоб[initial_aggr]                             # испорченный; defective
 биши<ADJ>:иши[initial_aggr]                                 # толстый; fat
 бочо<ADJ>:очо[initial_aggr]                                 # низкий; short
 берцIцIом<ADJ>:ерцIцIом[initial_aggr,сonsonantal]           # чистый; clean
 бечIедир<ADJ>:ечIедир[initial_aggr,сonsonantal]             # черный; black
 бохор<ADJ>:охор[initial_aggr,сonsonantal]                   # старый; old
+бар<ADJ>:бар[consonantal]                                   # острый; sharp
+цIцIудур<ADJ>:цIцIудур[consonantal]                         # умный; smart
 зархуб<ADJ>:зарху[final_aggr]                               # холодный; cold
 шуб<ADJ>:шу[final_aggr]                                     # хороший; good
 битIонниб<ADJ>:тIонниб[initial_aggr,plural_slot]            # мокрый; wet
 бицIцIиб<ADJ>:цIцIиб[initial_aggr,plural_slot]              # полный; full, stout
+
+

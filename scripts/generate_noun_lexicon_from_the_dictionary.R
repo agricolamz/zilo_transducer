@@ -66,5 +66,6 @@ c(header, "\n\n",
   "LEXICON NounObl", obl.sg_forms, "\n",
   "LEXICON NounAbsPl", abs.pl_forms, "\n",
   "LEXICON NounOblPl", obl.pl_forms, "\n") |>
+  append(x = _, "\n") |> 
   write_lines("ani_lex_nouns.lexd")
 

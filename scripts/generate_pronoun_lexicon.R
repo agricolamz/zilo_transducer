@@ -18,4 +18,5 @@ read_csv("dictionary.csv", show_col_types = FALSE) |>
          generate = str_pad(generate, width = 60, side = "right"),
          generate = str_c(generate, "# ", translation_ru, "; ", translation_en)) |> 
   pull(generate) |> 
+  append(x = _, "\n") |> 
   write_lines("ani_lex_pronouns.lexd", append = TRUE)

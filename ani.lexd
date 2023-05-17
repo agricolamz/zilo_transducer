@@ -7,8 +7,10 @@ LEXICON Adjectives
 багимаша<ADJ>:багимаша                                      # дырявый; hole-ridden
 багъу<ADJ>:багъу                                            # красивый; beautiful
 бечIугу<ADJ>:бечIугу                                        # пустой; empty
+ботIи<ADJ>:ботIи                                            # темный; dark
 ботIи<ADJ>:ботIи                                            # слепой; blind
 буртIа<ADJ>:буртIа                                          # богатый; rich
+гоъи<ADJ>:гоъи                                              # глухой; deaf
 гургума<ADJ>:гургума                                        # круглый; round
 гьанъо<ADJ>:гьанъо                                          # беременная; pregnant
 гьацIа<ADJ>:гьацIа                                          # белый; white
@@ -27,6 +29,7 @@ LEXICON Adjectives
 сагъи<ADJ>:сагъи                                            # здоровый; healthy
 содо<ADJ>:содо                                              # холодный; cold
 содо<ADJ>:содо                                              # холодный; cold
+тIулу<ADJ>:тIулу                                            # плохой; bad
 тамаша<ADJ>:тамаша                                          # странный; strange
 тохи<ADJ>:тохи                                              # глупый; stupid
 уди<ADJ>:уди                                                # глубокий; deep
@@ -36,6 +39,7 @@ LEXICON Adjectives
 хвечи<ADJ>:хвечи                                            # зеленый; green
 хехи<ADJ>:хехи                                              # быстрый; fast
 хъачIи<ADJ>:хъачIи                                          # грубый; rough
+хъвейи<ADJ>:хъвейи                                          # серый; grey
 хъелла<ADJ>:хъелла                                          # худой; thin
 цIиᵸву<ADJ>:цIиᵸву                                          # новый; new
 цIцIикIкIу<ADJ>:цIцIикIкIу                                  # кислый; sour
@@ -46,6 +50,7 @@ LEXICON Adjectives
 чакку<ADJ>:чакку                                            # желтый; yellow
 чора<ADJ>:чора                                              # жирный; fat
 чуруки<ADJ>:чуруки                                          # грязный; dirty
+эсседусси<ADJ>:эсседусси                                    # первый; first
 бискин<ADJ>:бискин[сonsonantal]                             # бедный; poor
 букьин<ADJ>:букьин[сonsonantal]                             # горький; bitter
 гъвенчIил<ADJ>:гъвенчIил[сonsonantal]                       # кривой; curved
@@ -54,6 +59,8 @@ LEXICON Adjectives
 гьенебдий<ADJ>:гьенебдий[сonsonantal]                       # такой; like that
 джиб<ADJ>:джиб[сonsonantal]                                 # каждый; every
 загIип<ADJ>:загIип[сonsonantal]                             # слабый; weak
+кIвагьал<ADJ>:кIвагьал[сonsonantal]                         # ленивый; lazy
+кванор<ADJ>:кванор[сonsonantal]                             # светлый; malt
 кучIил<ADJ>:кучIил[сonsonantal]                             # левый; left
 къалчIар<ADJ>:къалчIар[сonsonantal]                         # косой; squint-eyed
 кьухъур<ADJ>:кьухъур[сonsonantal]                           # низкий; low
@@ -69,16 +76,21 @@ LEXICON Adjectives
 бехула<ADJ>:ехула[initial_aggr]                             # длинный; long
 бечIуха<ADJ>:ечIуха[initial_aggr]                           # большой; clean
 беъора<ADJ>:еъора[initial_aggr]                             # тонкий; thin
+бигьу<ADJ>:игьу[initial_aggr]                               # много; a lot
 бичIоб<ADJ>:ичIоб[initial_aggr]                             # испорченный; defective
 биши<ADJ>:иши[initial_aggr]                                 # толстый; fat
 бочо<ADJ>:очо[initial_aggr]                                 # низкий; short
 берцIцIом<ADJ>:ерцIцIом[initial_aggr,сonsonantal]           # чистый; clean
 бечIедир<ADJ>:ечIедир[initial_aggr,сonsonantal]             # черный; black
 бохор<ADJ>:охор[initial_aggr,сonsonantal]                   # старый; old
+бар<ADJ>:бар[consonantal]                                   # острый; sharp
+цIцIудур<ADJ>:цIцIудур[consonantal]                         # умный; smart
 зархуб<ADJ>:зарху[final_aggr]                               # холодный; cold
 шуб<ADJ>:шу[final_aggr]                                     # хороший; good
 битIонниб<ADJ>:тIонниб[initial_aggr,plural_slot]            # мокрый; wet
 бицIцIиб<ADJ>:цIцIиб[initial_aggr,plural_slot]              # полный; full, stout
+
+
 # -------------------------------------------------------------------------
 # NOUN LEXICON
 # -------------------------------------------------------------------------
@@ -1773,6 +1785,8 @@ LEXICON NounOblPl
 ъерцIцIи<N><obl.pl>:ъерцIцIили                              # сыворотка;
 
 
+
+
 # -------------------------------------------------------------------------
 # PRONOUNS
 # -------------------------------------------------------------------------
@@ -1782,149 +1796,131 @@ Pronouns
 
 LEXICON Pronouns
 
-ден<PRON>:ден                                               # я; I
-ден<PRON><erg>:ден>ни                                       # я; I
-ден<PRON><gen>:ди>б                                         # я; I
-ден<PRON><m><gen>:ди>в                                      # я; I
-ден<PRON><f><gen>:ди>й                                      # я; I
-ден<PRON><inan1><gen>:ди>б                                  # я; I
-ден<PRON><inan2><gen>:ди>р                                  # я; I
-ден<PRON><an.sg><gen>:ди>б                                  # я; I
-ден<PRON><an.pl><gen>:ди>й                                  # я; I
-ден<PRON><dat>:ди>й                                         # я; I
-ден<PRON><dat>:ди>лъу                                       # я; I
-ден<PRON><m><aff>:ди>во                                     # я; I
-ден<PRON><f><aff>:ди>йо                                     # я; I
-ден<PRON><inan1><aff>:ди>бо                                 # я; I
-ден<PRON><inan2><aff>:ди>ро                                 # я; I
-ден<PRON><an.sg><aff>:ди>бо                                 # я; I
-ден<PRON><an.pl><aff>:ди>йо                                 # я; I
-мен<PRON>:мен                                               # ты; you (sg)
-мен<PRON><erg>:мен>ни                                       # ты; you (sg)
-мен<PRON><gen>:ду>б                                         # ты; you (sg)
-мен<PRON><m><gen>:ду>в                                      # ты; you (sg)
-мен<PRON><f><gen>:ду>й                                      # ты; you (sg)
-мен<PRON><inan1><gen>:ду>б                                  # ты; you (sg)
-мен<PRON><inan2><gen>:ду>р                                  # ты; you (sg)
-мен<PRON><an.sg><gen>:ду>б                                  # ты; you (sg)
-мен<PRON><an.pl><gen>:ду>й                                  # ты; you (sg)
-мен<PRON><dat>:ду>й                                         # ты; you (sg)
-мен<PRON><dat>:ду>лъу                                       # ты; you (sg)
-мен<PRON><m><aff>:ду>во                                     # ты; you (sg)
-мен<PRON><f><aff>:ду>йо                                     # ты; you (sg)
-мен<PRON><inan1><aff>:ду>бо                                 # ты; you (sg)
-мен<PRON><inan2><aff>:ду>ро                                 # ты; you (sg)
-мен<PRON><an.sg><aff>:ду>бо                                 # ты; you (sg)
-мен<PRON><an.pl><aff>:ду>йо                                 # ты; you (sg)
-илIил<PRON>:илIил                                           # мы (incl); we (incl)
-илIил<PRON><erg>:илIи>ди                                    # мы (incl); we (incl)
-илIил<PRON><gen>:илIи>лIи                                   # мы (incl); we (incl)
-илIил<PRON><gen>:илIи>б                                     # мы (incl); we (incl)
-илIил<PRON><m><gen>:илIи>в                                  # мы (incl); we (incl)
-илIил<PRON><f><gen>:илIи>й                                  # мы (incl); we (incl)
-илIил<PRON><inan1><gen>:илIи>б                              # мы (incl); we (incl)
-илIил<PRON><inan2><gen>:илIи>р                              # мы (incl); we (incl)
-илIил<PRON><an.sg><gen>:илIи>б                              # мы (incl); we (incl)
-илIил<PRON><an.pl><gen>:илIи>й                              # мы (incl); we (incl)
-илIил<PRON><dat>:илIи>й                                     # мы (incl); we (incl)
-илIил<PRON><dat>:илIи>лъу                                   # мы (incl); we (incl)
-илIил<PRON><m><aff>:илIи>во                                 # мы (incl); we (incl)
-илIил<PRON><f><aff>:илIи>йо                                 # мы (incl); we (incl)
-илIил<PRON><inan1><aff>:илIи>бо                             # мы (incl); we (incl)
-илIил<PRON><inan2><aff>:илIи>ро                             # мы (incl); we (incl)
-илIил<PRON><an.sg><aff>:илIи>бо                             # мы (incl); we (incl)
-илIил<PRON><an.pl><aff>:илIи>йо                             # мы (incl); we (incl)
-ищил<PRON>:ищил                                             # мы (excl); we (excl)
-ищил<PRON><erg>:ищи>ди                                      # мы (excl); we (excl)
-ищил<PRON><gen>:ищи>лIи                                     # мы (excl); we (excl)
-ищил<PRON><gen>:ищи>б                                       # мы (excl); we (excl)
-ищил<PRON><m><gen>:ищи>в                                    # мы (excl); we (excl)
-ищил<PRON><f><gen>:ищи>й                                    # мы (excl); we (excl)
-ищил<PRON><inan1><gen>:ищи>б                                # мы (excl); we (excl)
-ищил<PRON><inan2><gen>:ищи>р                                # мы (excl); we (excl)
-ищил<PRON><an.sg><gen>:ищи>б                                # мы (excl); we (excl)
-ищил<PRON><an.pl><gen>:ищи>й                                # мы (excl); we (excl)
-ищил<PRON><dat>:ищи>й                                       # мы (excl); we (excl)
-ищил<PRON><dat>:ищи>лъу                                     # мы (excl); we (excl)
-ищил<PRON><m><aff>:ищи>во                                   # мы (excl); we (excl)
-ищил<PRON><f><aff>:ищи>йо                                   # мы (excl); we (excl)
-ищил<PRON><inan1><aff>:ищи>бо                               # мы (excl); we (excl)
-ищил<PRON><inan2><aff>:ищи>ро                               # мы (excl); we (excl)
-ищил<PRON><an.sg><aff>:ищи>бо                               # мы (excl); we (excl)
-ищил<PRON><an.pl><aff>:ищи>йо                               # мы (excl); we (excl)
 биссил<PRON>:биссил                                         # вы; you (pl)
-биссил<PRON><erg>:бисси>ди                                  # вы; you (pl)
-биссил<PRON><gen>:бисси>лIи                                 # вы; you (pl)
-биссил<PRON><gen>:бисси>б                                   # вы; you (pl)
-биссил<PRON><m><gen>:бисси>в                                # вы; you (pl)
-биссил<PRON><f><gen>:бисси>й                                # вы; you (pl)
-биссил<PRON><inan1><gen>:бисси>б                            # вы; you (pl)
-биссил<PRON><inan2><gen>:бисси>р                            # вы; you (pl)
-биссил<PRON><an.sg><gen>:бисси>б                            # вы; you (pl)
+биссил<PRON><an.pl><aff>:бисси>йо                           # вы; you (pl)
 биссил<PRON><an.pl><gen>:бисси>й                            # вы; you (pl)
+биссил<PRON><an.pl><gen><pl>:бисси>й>ил                     # вы; you (pl)
+биссил<PRON><an.pl><gen><pl>:бисси>й>ил                     # вы; you (pl)
+биссил<PRON><an.sg><aff>:бисси>бо                           # вы; you (pl)
+биссил<PRON><an.sg><gen>:бисси>б                            # вы; you (pl)
 биссил<PRON><dat>:бисси>й                                   # вы; you (pl)
 биссил<PRON><dat>:бисси>лъу                                 # вы; you (pl)
-биссил<PRON><m><aff>:бисси>во                               # вы; you (pl)
+биссил<PRON><erg>:бисси>ди                                  # вы; you (pl)
 биссил<PRON><f><aff>:бисси>йо                               # вы; you (pl)
+биссил<PRON><f><gen>:бисси>й                                # вы; you (pl)
+биссил<PRON><f><gen><pl>:бисси>й>ил                         # вы; you (pl)
+биссил<PRON><gen>:бисси>лIи                                 # вы; you (pl)
 биссил<PRON><inan1><aff>:бисси>бо                           # вы; you (pl)
+биссил<PRON><inan1><gen>:бисси>б                            # вы; you (pl)
+биссил<PRON><inan1><gen><pl>:бисси>б>ул                     # вы; you (pl)
 биссил<PRON><inan2><aff>:бисси>ро                           # вы; you (pl)
-биссил<PRON><an.sg><aff>:бисси>бо                           # вы; you (pl)
-биссил<PRON><an.pl><aff>:бисси>йо                           # вы; you (pl)
+биссил<PRON><inan2><gen>:бисси>р                            # вы; you (pl)
+биссил<PRON><inan2><gen><pl>:бисси>р>ул                     # вы; you (pl)
+биссил<PRON><m><aff>:бисси>во                               # вы; you (pl)
+биссил<PRON><m><gen>:бисси>в                                # вы; you (pl)
+биссил<PRON><m><gen><pl>:бисси>в>ул                         # вы; you (pl)
+ден<PRON>:ден                                               # я; I
+ден<PRON><an.pl><aff>:ди>йо                                 # я; I
+ден<PRON><an.pl><gen>:ди>й                                  # я; I
+ден<PRON><an.pl><gen><pl>:ди>й>ил                           # я; I
+ден<PRON><an.sg><aff>:ди>бо                                 # я; I
+ден<PRON><an.sg><gen>:ди>б                                  # я; I
+ден<PRON><dat>:ди>й                                         # я; I
+ден<PRON><dat>:ди>лъу                                       # я; I
+ден<PRON><erg>:ден>ни                                       # я; I
+ден<PRON><f><aff>:ди>йо                                     # я; I
+ден<PRON><f><gen>:ди>й                                      # я; I
+ден<PRON><f><gen><pl>:ди>й>ил                               # я; I
+ден<PRON><inan1><aff>:ди>бо                                 # я; I
+ден<PRON><inan1><gen>:ди>б                                  # я; I
+ден<PRON><inan1><gen><pl>:ди>б>ул                           # я; I
+ден<PRON><inan2><aff>:ди>ро                                 # я; I
+ден<PRON><inan2><gen>:ди>р                                  # я; I
+ден<PRON><inan2><gen><pl>:ди>р>ул                           # я; I
+ден<PRON><m><aff>:ди>во                                     # я; I
+ден<PRON><m><gen>:ди>в                                      # я; I
+ден<PRON><m><gen><pl>:ди>в>ул                               # я; I
+илIил<PRON>:илIил                                           # мы (incl); we (incl)
+илIил<PRON><an.pl><aff>:илIи>йо                             # мы (incl); we (incl)
+илIил<PRON><an.pl><gen>:илIи>й                              # мы (incl); we (incl)
+илIил<PRON><an.pl><gen><pl>:илIи>й>ил                       # мы (incl); we (incl)
+илIил<PRON><an.sg><aff>:илIи>бо                             # мы (incl); we (incl)
+илIил<PRON><an.sg><gen>:илIи>б                              # мы (incl); we (incl)
+илIил<PRON><dat>:илIи>й                                     # мы (incl); we (incl)
+илIил<PRON><dat>:илIи>лъу                                   # мы (incl); we (incl)
+илIил<PRON><erg>:илIи>ди                                    # мы (incl); we (incl)
+илIил<PRON><f><aff>:илIи>йо                                 # мы (incl); we (incl)
+илIил<PRON><f><gen>:илIи>й                                  # мы (incl); we (incl)
+илIил<PRON><f><gen><pl>:илIи>й>ил                           # мы (incl); we (incl)
+илIил<PRON><gen>:илIи>лIи                                   # мы (incl); we (incl)
+илIил<PRON><inan1><aff>:илIи>бо                             # мы (incl); we (incl)
+илIил<PRON><inan1><gen>:илIи>б                              # мы (incl); we (incl)
+илIил<PRON><inan1><gen><pl>:илIи>б>ул                       # мы (incl); we (incl)
+илIил<PRON><inan2><aff>:илIи>ро                             # мы (incl); we (incl)
+илIил<PRON><inan2><gen>:илIи>р                              # мы (incl); we (incl)
+илIил<PRON><inan2><gen><pl>:илIи>р>ул                       # мы (incl); we (incl)
+илIил<PRON><m><aff>:илIи>во                                 # мы (incl); we (incl)
+илIил<PRON><m><gen>:илIи>в                                  # мы (incl); we (incl)
+илIил<PRON><m><gen><pl>:илIи>в>ул                           # мы (incl); we (incl)
+ищил<PRON>:ищил                                             # мы (excl); we (excl)
+ищил<PRON><an.pl><aff>:ищи>йо                               # мы (excl); we (excl)
+ищил<PRON><an.pl><gen>:ищи>й                                # мы (excl); we (excl)
+ищил<PRON><an.pl><gen><pl>:ищи>й>ил                         # мы (excl); we (excl)
+ищил<PRON><an.sg><aff>:ищи>бо                               # мы (excl); we (excl)
+ищил<PRON><an.sg><gen>:ищи>б                                # мы (excl); we (excl)
+ищил<PRON><dat>:ищи>й                                       # мы (excl); we (excl)
+ищил<PRON><dat>:ищи>лъу                                     # мы (excl); we (excl)
+ищил<PRON><erg>:ищи>ди                                      # мы (excl); we (excl)
+ищил<PRON><f><aff>:ищи>йо                                   # мы (excl); we (excl)
+ищил<PRON><f><gen>:ищи>й                                    # мы (excl); we (excl)
+ищил<PRON><f><gen><pl>:ищи>й>ил                             # мы (excl); we (excl)
+ищил<PRON><gen>:ищи>лIи                                     # мы (excl); we (excl)
+ищил<PRON><inan1><aff>:ищи>бо                               # мы (excl); we (excl)
+ищил<PRON><inan1><gen>:ищи>б                                # мы (excl); we (excl)
+ищил<PRON><inan1><gen><pl>:ищи>б>ул                         # мы (excl); we (excl)
+ищил<PRON><inan2><aff>:ищи>ро                               # мы (excl); we (excl)
+ищил<PRON><inan2><gen>:ищи>р                                # мы (excl); we (excl)
+ищил<PRON><inan2><gen><pl>:ищи>р>ул                         # мы (excl); we (excl)
+ищил<PRON><m><aff>:ищи>во                                   # мы (excl); we (excl)
+ищил<PRON><m><gen>:ищи>в                                    # мы (excl); we (excl)
+ищил<PRON><m><gen><pl>:ищи>в>ул                             # мы (excl); we (excl)
+мен<PRON>:мен                                               # ты; you (sg)
+мен<PRON><an.pl><aff>:ду>йо                                 # ты; you (sg)
+мен<PRON><an.pl><gen>:ду>й                                  # ты; you (sg)
+мен<PRON><an.pl><gen><pl>:ду>й>ил                           # ты; you (sg)
+мен<PRON><an.sg><aff>:ду>бо                                 # ты; you (sg)
+мен<PRON><an.sg><gen>:ду>б                                  # ты; you (sg)
+мен<PRON><dat>:ду>й                                         # ты; you (sg)
+мен<PRON><dat>:ду>лъу                                       # ты; you (sg)
+мен<PRON><erg>:мен>ни                                       # ты; you (sg)
+мен<PRON><f><aff>:ду>йо                                     # ты; you (sg)
+мен<PRON><f><gen>:ду>й                                      # ты; you (sg)
+мен<PRON><f><gen><pl>:ду>й>ил                               # ты; you (sg)
+мен<PRON><inan1><aff>:ду>бо                                 # ты; you (sg)
+мен<PRON><inan1><gen>:ду>б                                  # ты; you (sg)
+мен<PRON><inan1><gen><pl>:ду>б>ул                           # ты; you (sg)
+мен<PRON><inan2><aff>:ду>ро                                 # ты; you (sg)
+мен<PRON><inan2><gen>:ду>р                                  # ты; you (sg)
+мен<PRON><inan2><gen><pl>:ду>р>ул                           # ты; you (sg)
+мен<PRON><m><aff>:ду>во                                     # ты; you (sg)
+мен<PRON><m><gen>:ду>в                                      # ты; you (sg)
+мен<PRON><m><gen><pl>:ду>в>ул                               # ты; you (sg)
+
+
 # -------------------------------------------------------------------------
 # VERB LEXICON
 # -------------------------------------------------------------------------
 
 LEXICON Verbs
 
-авдери<V>:авд[pst_i]                                        # мяукать; meow
-анлъери<V>:анлъ[pst_i]                                      # слышать; 
-бакъакъери<V>:бакъакъ[pst_i]                                # крошить, резать на куски; cut to pieces
-бекьери<V>:бекь[pst_i]                                      # пахать; 
-бурери<V>:бур[pst_i]                                        # лететь; fly (vb)
-бутIийдери<V>:бутIийд[pst_i]                                # совокупляться; have sexual intercourse
-велълъери<V>:велълъ[pst_i]                                  # смеяться; 
-гIэбчишери<V>:гIэбчиш[pst_i]                                # чихать; sneeze (v)
-геллери<V>:гелл[pst_i]                                      # висеть; hang (v, intr)
-гъурери<V>:гъур[pst_i]                                      # скользить; 
-гьагьакьери<V>:гьагьакь[pst_i]                              # зевать; yawn, gape (v)
-гьеллери<V>:гьелл[pst_i]                                    # бегать, бежать; run
-гьинкушери<V>:гьинкуш[pst_i]                                # мочиться; urinate
-гьиъассордери<V>:гьиъассорд[pst_i]                          # кружиться (в танце); whirl (v, intr, during dance)
-гьиъассорери<V>:гьиъассор[pst_i]                            # крутить (колесо); rotate (v, tr, wheel)
-гьуммедери<V>:гьуммед[pst_i]                                # мычать; 
-джабери<V>:джаб[pst_i]                                      # убивать; kill
-зигардери<V>:зигард[pst_i]                                  # стонать; 
-кIарери<V>:кIар[pst_i]                                      # блевать; vomit
-кIурдери<V>:кIурд[pst_i]                                    # капать (неперех.); drip (v, intr)
-коллери<V>:колл[pst_i]                                      # плавать; swim
-къаммери<V>:къамм[pst_i]                                    # кусать; bite
-къиннери<V>:къинн[pst_i]                                    # жадничать; 
-къиркъидери<V>:къиркъид[pst_i]                              # скрипеть; 
-ламмери<V>:ламм[pst_i]                                      # лизать; lick
-лъибери<V>:лъиб[pst_i]                                      # прыгать; jump, leap
-релIери<V>:релI[pst_i]                                      # идти (о дожде, снеге); rain, snow
-ссорери<V>:ссор[pst_i]                                      # поворачиваться; turn (intr.)
-таннери<V>:танн[pst_i]                                      # рваться (о верёвке); tear (v, intr, of rope)
-тудери<V>:туд[pst_i]                                        # плевать; spit
-турери<V>:тур[pst_i]                                        # гнить; 
-ухIудери<V>:ухIуд[pst_i]                                    # кашлять; cough (v)
-уᵸъуᵸдери<V>:уᵸъуᵸд[pst_i]                                  # кукарекать; 
-хIихIидери<V>:хIихIид[pst_i]                                # ржать; 
-ххомери<V>:ххомм[pst_i]                                     # храпеть; snore
-хъобери<V>:хъоб[pst_i]                                      # испражняться; defecate
-цIикIкIулъери<V>:цIикIкIулъ[pst_i]                          # свертываться (о молоке); curdle (v, intr, of milk)
-цIиннери<V>:цIинн[pst_i]                                    # знать; know
-чIарери<V>:чIар[pst_i]                                      # скользить; slide, slip
-чIчIарери<V>:чIчIар[pst_i]                                  # поскользнуться; 
-чабери<V>:чаб[pst_i]                                        # сыпаться, течь; pour (intr), flow
-шаннери<V>:шанн[pst_i]                                      # отдыхать; rest
 барийдери<V>:барийд[pst_i,imp_o]                            # точить (нож); whet (v, tr, tool)
 баъери<V>:баъ[pst_i,imp_o]                                  # читать; 
-берчIери<V>:берчI[pst_i,imp_o]                              # доить; milk (v)
+бецIцIомийдери<V>:бецIцIомийд[pst_i,imp_o]                  # чистить; clean
 джабери<V>:джаб[pst_i,imp_o]                                # ударять (однократно); hit (once)
 джидери<V>:джид[pst_i,imp_o]                                # делать; do
 ирери<V>:ир[pst_i,imp_o]                                    # вздрагивать; 
 ихохъери<V>:ихохъ[pst_i,imp_o]                              # молоть муку; crush, grind (flour)
+иччери<V>:ичч[pst_i,imp_o]                                  # давать; give
 кIаммери<V>:кIамм[pst_i,imp_o]                              # есть (неперех.); eat
 кIвкIварери<V>:кIвкIвар[pst_i,imp_o]                        # месить; 
 каннери<V>:канн[pst_i,imp_o]                                # тесать; hew
@@ -1941,12 +1937,15 @@ LEXICON Verbs
 лъурери<V>:лъур[pst_i,imp_o]                                # трясти; shake
 пудери<V>:пуд[pst_i,imp_o]                                  # дуть (о человеке); blow (v, of person)
 рихъери<V>:рихъ[pst_i,imp_o]                                # царапать; 
+рихъери<V>:рихъ[pst_i,imp_o]                                # сдирать кожу, свежевать flay, skin (v); flay, skin (v)
 сагъидери<V>:сагъид[pst_i,imp_o]                            # лечить, исцелять; cure, heal
 тIиннери<V>:тIинн[pst_i,imp_o]                              # лить; pour
 тантайайдери<V>:тантайайд[pst_i,imp_o]                      # рвать; tear
 ханнери<V>:ханн[pst_i,imp_o]                                # косить (траву); mow (v, grass)
+ханнери<V>:ханн[pst_i,imp_o]                                # брить; mow (v, grass)
 хварери<V>:хвар[pst_i,imp_o]                                # копать; dig
-хханнери<V>:хханн[pst_i,imp_o]                              # косить; 
+хханнери<V>:хханн[pst_i,imp_o]                              # косить; shave
+ххоммери<V>:ххомм[pst_i,imp_o]                              # храпеть; snore
 хъалбухери<V>:хъалбух[pst_i,imp_o]                          # чистить, отчищать (овощи, фрукты); peel (v, tr, of fruit)
 хъварери<V>:хъвар[pst_i,imp_o]                              # писать; write
 хъеллери<V>:хъелл[pst_i,imp_o]                              # чесаться (при зуде), чесать, царапать; itch (v), scratch (v)
@@ -1958,12 +1957,55 @@ LEXICON Verbs
 чIиннери<V>:чIинн[pst_i,imp_o]                              # бить, избивать (человека); beat (of human)
 ччаннери<V>:ччанн[pst_i,imp_o]                              # тереть (рукой); rub (v, by hand)
 шаммери<V>:шамм[pst_i,imp_o]                                # бросать, кидать; throw (v.)
+авдери<V>:авд[pst_i]                                        # мяукать; meow
+анлъери<V>:анлъ[pst_i]                                      # слышать; 
+бакъакъери<V>:бакъакъ[pst_i]                                # крошить, резать на куски; cut to pieces
+бекьери<V>:бекь[pst_i]                                      # пахать; 
+бурери<V>:бур[pst_i]                                        # лететь; fly (vb)
+бутIийдери<V>:бутIийд[pst_i]                                # совокупляться; have sexual intercourse
+велълъери<V>:велълъ[pst_i]                                  # смеяться; 
+вугъери<V>:вугъ[pst_i]                                      # останавливаться; stop
+гIэбчишери<V>:гIэбчиш[pst_i]                                # чихать; sneeze (v)
+геллери<V>:гелл[pst_i]                                      # висеть; hang (v, intr)
+гъурери<V>:гъур[pst_i]                                      # скользить; 
+гьагьакьери<V>:гьагьакь[pst_i]                              # зевать; yawn, gape (v)
+гьеллери<V>:гьелл[pst_i]                                    # бегать, бежать; run
+гьинкушери<V>:гьинкуш[pst_i]                                # мочиться; urinate
+гьиъассордери<V>:гьиъассорд[pst_i]                          # кружиться (в танце); whirl (v, intr, during dance)
+гьиъассорери<V>:гьиъассор[pst_i]                            # крутить (колесо); rotate (v, tr, wheel)
+гьуммедери<V>:гьуммед[pst_i]                                # мычать; 
+джабери<V>:джаб[pst_i]                                      # убивать; kill
+зигардери<V>:зигард[pst_i]                                  # стонать; 
+кIарери<V>:кIар[pst_i]                                      # блевать; vomit
+кIурдери<V>:кIурд[pst_i]                                    # капать (неперех.); drip (v, intr)
+ккиммери<V>:ккимм[pst_i]                                    # улыбаться; smile
+коллери<V>:колл[pst_i]                                      # плавать; swim
+къаммери<V>:къамм[pst_i]                                    # кусать; bite
+къиннери<V>:къинн[pst_i]                                    # жадничать; 
+къиркъидери<V>:къиркъид[pst_i]                              # скрипеть; 
+ламмери<V>:ламм[pst_i]                                      # лизать; lick
+лъибери<V>:лъиб[pst_i]                                      # прыгать; jump, leap
+релIери<V>:релI[pst_i]                                      # идти (о дожде, снеге); rain, snow
+ссорери<V>:ссор[pst_i]                                      # поворачиваться; turn (intr.)
+таннери<V>:танн[pst_i]                                      # рваться (о верёвке); tear (v, intr, of rope)
+тудери<V>:туд[pst_i]                                        # плевать; spit
+турери<V>:тур[pst_i]                                        # гнить; 
+ухIудери<V>:ухIуд[pst_i]                                    # кашлять; cough (v)
+уᵸъуᵸдери<V>:уᵸъуᵸд[pst_i]                                  # кукарекать; 
+хIихIидери<V>:хIихIид[pst_i]                                # ржать; 
+хъобери<V>:хъоб[pst_i]                                      # испражняться; defecate
+цIикIкIулъери<V>:цIикIкIулъ[pst_i]                          # свертываться (о молоке); curdle (v, intr, of milk)
+цIиннери<V>:цIинн[pst_i]                                    # знать; know
+чIарери<V>:чIар[pst_i]                                      # скользить; slide, slip
+чIчIарери<V>:чIчIар[pst_i]                                  # поскользнуться; 
+чабери<V>:чаб[pst_i]                                        # сыпаться, течь; pour (intr), flow
+шаннери<V>:шанн[pst_i]                                      # отдыхать; rest
 абчери<V>:абч[pst_o]                                        # мыть (посуду), стирать; wash (dishes), wash (laundry)
 авчери<V>:авч[pst_o]                                        # мыться; bathe (v.)
 бахери<V>:бах[pst_o]                                        # лаять; bark (v.)
 вахери<V>:вах[pst_o]                                        # драться; 
 гъулгъушери<V>:гъулгъуш[pst_o]                              # рычать; roar
-гьаъери<V>:гьаъм[pst_o]                                     # видеть; see
+гьаъери<V>:гьаъ[pst_o]                                      # видеть; see
 гьойкIвери<V>:гьовкI{В}[pst_o]                              # приседать (на корточках); crouch
 гьонкIочIери<V>:гьонкIочI[pst_o]                            # хотеть пить; be thirsty
 зунзушери<V>:зунзуш[pst_o]                                  # жужжать; buzz
@@ -1981,7 +2023,9 @@ LEXICON Verbs
 чIирчIишери<V>:чIирчIиш[pst_o]                              # дрожать; 
 чолтери<V>:чолт[pst_o]                                      # быть голодным; be hungry
 бекьери<V>:екь[pst_i,imp_o,initial_aggr]                    # сеять; sow
+берчIери<V>:ерчI[pst_i,imp_o,initial_aggr]                  # доить; milk (v)
 бещери<V>:ещ[pst_i,imp_o,initial_aggr]                      # ткать; weave, plait
+бихери<V>:их[pst_i,imp_o,initial_aggr]                      # брать; take
 биххери<V>:ихх[pst_i,imp_o,initial_aggr]                    # нести (в руках, на плечах); carry (v, in hand, carry-on-shoulder)
 биххери<V>:ихх[pst_i,imp_o,initial_aggr]                    # посылать (человека); send (v, a person)
 биччери<V>:ичч[pst_i,imp_o,initial_aggr]                    # ловить (мяч); catch (ball)
@@ -1989,8 +2033,8 @@ LEXICON Verbs
 букъери<V>:укъ[pst_i,imp_o,initial_aggr]                    # гнать, прогонять; chase
 бухери<V>:ух[pst_i,imp_o,initial_aggr]                      # снимать (одежду); remove (clothes)
 веццихъери<V>:еццихъ[pst_i,imp_o,initial_aggr]              # хвалить; 
+булIери<V>:улI[pst_i,initial_aggr]                          # входить; enter
 бухери<V>:ух[pst_i,initial_aggr]                            # восходить (о солнце); rise (of sun)
-вахунери<V>:ахун[pst_i,initial_aggr]                        # жить, существовать; live, exist
 векIуъери<V>:екIуъ[pst_i,initial_aggr]                      # плакать; 
 велIери<V>:елI[pst_i,initial_aggr]                          # ходить; 
 вулIери<V>:улI[pst_i,initial_aggr]                          # входить; enter
@@ -2002,19 +2046,23 @@ LEXICON Verbs
 буцIери<V>:уцI[pst_o,initial_aggr]                          # таять; 
 бушери<V>:уш[pst_o,initial_aggr]                            # красить, рисовать краской, мазать; paint, smear
 вохъери<V>:охъ[pst_o,initial_aggr]                          # дойти; reach, arrive
+бужери<V>:уж[pst_u,initial_aggr]                            # верить; believe
 букIери<V>:укI[pst_u,initial_aggr]                          # ронять; drop (vb)
 вукквери<V>:укк{В}[pst_u,initial_aggr]                      # падать; fall
 вутIери<V>:утI[pst_u,initial_aggr]                          # терять; 
 йигьвери<V>:игь{В}[pst_u,initial_aggr]                      # рожать; bear (v. child)
 вутIери<V>:вутI[pst_u]                                      # теряться, исчезать; disappear
 зархвери<V>:зарх{В}[pst_u]                                  # мерзнуть (о человеке); freeze (of human)
+рукъвери<V>:рукъ{В}[pst_u]                                  # болеть; be ill
 шанохвери<V>:шанох{В}[pst_u]                                # гнить; 
 бежери<V>:еж[pst_a,imp_o,initial_aggr]                      # печь, жарить; bake, fry
-вергъери<V>:ергъ[pst_a,initial_aggr]                        # шевелиться; move
+бергъери<V>:ергъ[pst_a,initial_aggr]                        # шевелиться; move
 гьашкIишери<V>:гьашкIиш[pst_i,imp_u]                        # качаться, шевелиться (о растении); rock (v, intr, of plant)
 вучIери<V>:учI[pst_o,ablaut]                                # умереть; die
 гьанъохвери<V>:гьанъох{В}[pst_o,imp_u]                      # потеть; perspire
 багвери<V>:аг{В}[pst_u,imp_o,initial_aggr]                  # считать; 
+
+
 # -------------------------------------------------------------------------
 # ADVERBS
 # -------------------------------------------------------------------------
