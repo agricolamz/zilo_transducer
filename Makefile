@@ -8,7 +8,7 @@ ani_lexd.hfst: ani.lexd
 	lexd $< | hfst-txt2fst -o $@
 ani_twol.hfst: ani.twol
 	hfst-twolc $< -o $@
-ani.lexd: $(wildcard ani_*.lexd) ani_lex_verbs.lexd ani_lex_nouns.lexd ani_lex_adjectives.lexd
+ani.lexd: $(wildcard ani_*.lexd)
 	cat ani_*.lexd > ani.lexd
 ani_lex_verbs.lexd: dictionary.csv
 	Rscript scripts/generate_verb_lexicon.R
