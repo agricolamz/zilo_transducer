@@ -1,30 +1,33 @@
-.DEFAULT_GOAL := ani_analizer.hfst
+.PHONY: all
 
-ani_analizer.hfst: ani_generator.hfst
-	hfst-invert $< -o $@
-ani_generator.hfst: ani_lexd.hfst ani_twol.hfst
-	hfst-compose-intersect $^ -o $@
-ani_lexd.hfst: ani.lexd
-	lexd $< | hfst-txt2fst -o $@
-ani_twol.hfst: ani.twol
+all: ani_analyzer.hfstol ani_generator.hfstol ani_analyzer_stem_translation.hfstol
+
+paradigm: ani_generator.hfst
+	echo "$(LEMMA)" | hfst-regexp2fst | hfst-compose-intersect ani_generator.hfst | hfst-fst2strings
+
+ani_%.hfstol: ani_%.hfst
+	hfst-fst2fst -O $< -o $@
+
+ani_analyzer_stem_translation.hfst: ani_rus.lexd ani_analyzer.hfst
+	lexd $< | hfst-txt2fst | hfst-repeat -f 1 | hfst-compose -1 ani_analyzer.hfst -o $@
+
+ani_analyzer.hfst: ani_generator.hfst remove_hyphen.hfst
+	hfst-compose-intersect $^ | hfst-invert -o $@
+
+remove_hyphen.hfst: remove_hyphen.twol
 	hfst-twolc $< -o $@
-ani.lexd: $(wildcard ani_*.lexd)
-	cat ani_*.lexd > ani.lexd
-ani_lex_verbs.lexd: dictionary.csv
-	Rscript scripts/generate_verb_lexicon.R
-ani_lex_adjectives.lexd: dictionary.csv
-	Rscript scripts/generate_adjective_lexicon.R
-ani_lex_pronouns.lexd: dictionary.csv
-	Rscript scripts/generate_pronoun_lexicon.R
-ani_lex_nouns.lexd: 
-	Rscript scripts/generate_noun_lexicon_from_the_dictionary.R
-test.pass.txt: ani_tests.csv
-	awk -F, '$$3 == "pass" {print $$1 ":" $$2}' $^ | sort -u > $@
-test: ani_generator.hfst test.pass.txt
-	bash compare.sh $< test.pass.txt; rm test.*
+
+ani_rus.lexd: ani_generator.hfst
+	Rscript scripts/generate_ani_rus_correspondences.R
+
+ani_generator.hfst: ani_personal_pronouns.hfst ani_demonstratives.hfst
+	hfst-union $^ -o $@
+
+ani_%.hfst: ani_%.lexd
+	lexd $< | hfst-txt2fst -o $@
+
+dictionary.csv:
+	curl https://raw.githubusercontent.com/LingConLab/zilo_dictionary/refs/heads/main/data/data.csv -o data/dictionary.csv
+
 clean:
-	rm *.hfst
-count_forms: write_forms_count
-	hfst-fst2strings ani_analizer.hfst | wc -l
-write_forms_count: ani_analizer.hfst
-	sed -i "$$(cat README.md | wc -l)s/^.*$$/$$(hfst-fst2strings ani_analizer.hfst | wc -l)/" README.md
+	rm *.hfst *.hfstol
