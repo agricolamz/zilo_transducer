@@ -78,11 +78,11 @@ $ echo "мен<PRON>><dat>" | hfst-lookup ani_generator.hfstol
 ```
 $ make paradigm LEMMA="м е н %<PRON%> ?*"
 
-echo "м е н %<PRON%> ?*" | hfst-regexp2fst | hfst-compose-intersect ani_generator.hfst | hfst-fst2strings
 hfst-compose-intersect: Warning: 
 Found output symbols (e.g. "@_IDENTITY_SYMBOL_@") in transducer in
 file <stdin> which will be filtered out because they are
 not found on the input tapes of transducers in file
+
 ani_generator.hfst.
 мен<PRON>><dat>:ду>лъу
 мен<PRON>><dat>:ду>й
@@ -127,6 +127,49 @@ ani_generator.hfst.
 мен<PRON>><cont><lat>:ду>>чIу
 мен<PRON>:мен
 мен<PRON>><erg>:мен>ни
+```
+
+- calculate number of the distinct forms in the paradigm:
+
+```
+$ make paradigm LEMMA="г ь о б о б %<PRON%> ?*" | wc -l
+
+hfst-compose-intersect: Warning: 
+Found output symbols (e.g. "@_IDENTITY_SYMBOL_@") in transducer in
+file <stdin> which will be filtered out because they are
+not found on the input tapes of transducers in file
+ani_generator.hfst.
+
+876
+```
+
+- analyze phrase. There are several output formats that defined by flags `-x`, `-C`. It is possible to change `ani_analyzer_stem_translation.hfstol` into `ani_analyzer.hfstol` in order to get the initial stem instead of the translation.
+
+```
+$ echo "дибо мен гьаъо" | hfst-proc ani_analyzer_stem_translation.hfstol
+
+^дийо/я<PRON>\><aff><an.pl>/я<PRON>\><aff><f>$ ^мен/ты<PRON>$ ^гьаъо/*гьаъо$
+```
+
+```
+$ echo "дибо мен гьаъо" | hfst-proc -x ani_analyzer_stem_translation.hfstol
+дийо	я<PRON>><aff><an.pl>
+дийо	я<PRON>><aff><f>
+
+мен	ты<PRON>
+
+гьаъо	+?
+```
+
+```
+$ echo "дибо мен гьаъо" | hfst-proc -C ani_analyzer_stem_translation.hfstol
+"<дийо>"
+	"я"	PRON > aff an.pl
+	"я"	PRON > aff f
+"<мен>"
+	"ты"	PRON
+"<гьаъо>"
+	"*гьаъо"
 ```
 
 As you see, there are some unusual for the most theoretical linguists hfst convetions:
