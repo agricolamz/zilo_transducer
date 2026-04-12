@@ -19,6 +19,7 @@ Andi belongs to the Andic group within the Avar-Andic branch of the Nakh-Daghest
 - Kaye, S., Moroz, G., Rochant, N., Verhees, S., and Zakirova, A. (Forthc.). Andi (Zilo dialect). In Lander, Y., Maisak, T., and Koryakov, Y., editors, The Caucasian Languages. An International Handbook. De Gruyter Mouton, Berlin/New York.
 - Verhees, S. (2019) Demonstratives in Zilo Andi, handout.
 - Ферхеес, С. (2017) Глагол в зиловском диалекте андийского языка: парадигма, хэндаут.
+- Moroz G. (2017) Zilo numerals, handout.
 
 Lexical basis for the transducer is Online Dictionary of Zilo Andi:
 
