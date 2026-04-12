@@ -8,14 +8,14 @@ substring_search: ani_generator.hfst
 ani_%.hfstol: ani_%.hfst
 	hfst-fst2fst -O $< -o $@
 
-ani_analyzer_stem_translation.hfst: ani_rus.lexd ani_analyzer.hfst
-	lexd $< | hfst-txt2fst | hfst-repeat -f 1 | hfst-compose -1 ani_analyzer.hfst -o $@
+ani_analyzer_stem_translation.hfst: ani_analyzer.hfst
+	lexd ani_rus.lexd | hfst-txt2fst | hfst-repeat -f 1 | hfst-compose -1 ani_analyzer.hfst -o $@
 
 ani_analyzer.hfst: ani_generator.hfst remove_hyphen.hfst
 	hfst-compose-intersect $^ | hfst-invert -o $@
 
 remove_hyphen.hfst: remove_hyphen.twol
-	hfst-twolc $< -o $@
+	hfst-twolc -q $< -o $@
 
 ani_rus.lexd: ani_generator.hfst
 	Rscript scripts/generate_ani_rus_correspondences.R
