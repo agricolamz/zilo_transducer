@@ -4,6 +4,14 @@
 
 This is a repository for a morphological parser for Zilo Andi.
 
+## How to cite this parser
+
+If you want to cite this work use the following format:
+
+```
+Moroz, G. (2026) Morphological parser for Zilo Andi. (Version 0.0.2) https://doi.org/10.5281/zenodo.7123352
+```
+
 ## Background
 
 Andi belongs to the Andic group within the Avar-Andic branch of the Nakh-Daghestanian family. Aglarov (2002: 3) estimates the Andi ethnic population at 40,000, including 17,000 in the historical Andi area situated in the Botlikhsky District of Dagestan and 23,000 outside it, predominantly in the Khasavyurtovsky, Babayurtovsky and Kizilyurtovsky districts of the same republic. A total of 5,800 Andi speakers is recorded in the 2010 Russian census, while the 2002 Russian census recorded 23,729 Andi speakers, which is more consistent with Aglarov's estimate. Each settlement possesses its own distinct variety of the language. However, following Cercvadze (1965: 312), two broad dialect groups can be recognized: Upper Andi, spoken in the villages of Andi, Ashali, Chanko, Gagatli, Gunkha, Rikvani and Zilo, and Lower Andi, spoken in Muni and Kvankhidatli. This morphological parser describes the Upper Andi variety of Zilo (endonym [ziludirab mic'ːi]). The bases of the morphological parser are the field trip data by the author and some published resources:
@@ -29,7 +37,7 @@ All analysis/generation are made with Cyrillic script based on Avar that is most
 
 The following commands will work on some versions of Linux and in Google Colab (just change the dollar sign and the following spase before each command with the exclamation mark).
 
-In order to use it you need to install [`lexd`](https://github.com/apertium/lexd) and [`hfst`](https://github.com/hfst/hfst):
+In order to use the parser you need to install [`lexd`](https://github.com/apertium/lexd) and [`hfst`](https://github.com/hfst/hfst):
 
 ```
 $ curl -sS https://apertium.projectjj.com/apt/install-nightly.sh | sudo bash
@@ -76,7 +84,7 @@ $ echo "мен<PRON>><dat>" | hfst-lookup ani_generator.hfstol
 - generate the paradigm:
 
 ```
-$ make paradigm LEMMA="м е н %<PRON%> ?*"
+$ make substring_search REGEX="м е н %<PRON%> ?*"
 
 hfst-compose-intersect: Warning: 
 Found output symbols (e.g. "@_IDENTITY_SYMBOL_@") in transducer in
@@ -132,7 +140,7 @@ ani_generator.hfst.
 - calculate number of the distinct forms in the paradigm:
 
 ```
-$ make paradigm LEMMA="г ь о б о б %<PRON%> ?*" | wc -l
+$ make substring_search REGEX="г ь о б о б %<PRON%> ?*" | wc -l
 
 hfst-compose-intersect: Warning: 
 Found output symbols (e.g. "@_IDENTITY_SYMBOL_@") in transducer in
@@ -140,7 +148,7 @@ file <stdin> which will be filtered out because they are
 not found on the input tapes of transducers in file
 ani_generator.hfst.
 
-876
+882
 ```
 
 - analyze phrase. There are several output formats that defined by flags `-x`, `-C`. It is possible to change `ani_analyzer_stem_translation.hfstol` into `ani_analyzer.hfstol` in order to get the initial stem instead of the translation.
@@ -179,10 +187,10 @@ As you see, there are some unusual for the most theoretical linguists hfst conve
 - morpheme boundary is marked with the angle bracket `>`;
 - word lemma is followed by POS-tag in capitals.
 
-## How to cite this parser
+## POS coverage of the transducer
 
-If you want to cite this work use the following format:
+At the moment morphological transducer covers:
 
-```
-Moroz, G. (2026) Morphological parser for Zilo Andi. (Version 0.0.2) https://doi.org/10.5281/zenodo.7123352
-```
+- Personal pronouns
+- Demonstratives
+

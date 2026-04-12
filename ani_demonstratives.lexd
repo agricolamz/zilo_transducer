@@ -3,7 +3,7 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
-PronounsAbs
+PronounsAbs ([>:>] [<pl>:ул])?
 PronounsDemOblStem [>:>] [<obl><m>:ш] [>:>] Inflection[-f,-vowel_morpheme,-n.m.sg]
 PronounsDemOblStem [>:>] [<obl><m>:шу] [>:>] Inflection[-f,vowel_morpheme]
 PronounsDemOblStem [>:>] [<obl><m><pl>:лу] [>:>] Inflection[-f]

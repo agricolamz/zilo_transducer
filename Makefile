@@ -2,8 +2,8 @@
 
 all: ani_analyzer.hfstol ani_generator.hfstol ani_analyzer_stem_translation.hfstol
 
-paradigm: ani_generator.hfst
-	@echo "$(LEMMA)" | hfst-regexp2fst | hfst-compose-intersect ani_generator.hfst | hfst-fst2strings
+substring_search: ani_generator.hfst
+	@echo "$(REGEX)" | hfst-regexp2fst | hfst-compose-intersect ani_generator.hfst | hfst-fst2strings
 
 ani_%.hfstol: ani_%.hfst
 	hfst-fst2fst -O $< -o $@
