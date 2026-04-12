@@ -1,7 +1,6 @@
 suppressPackageStartupMessages(library(tidyverse))
 
-"
-PATTERNS
+"PATTERNS
 translations
 
 LEXICON translations
@@ -19,6 +18,9 @@ read_csv("data/dictionary.csv",
   pull(result) |> 
   write_lines("ani_rus.lexd", append = TRUE)
 
-system("hfst-dump-alphabets -1 ani_analyzer.hfst", intern = TRUE) |> 
+read_lines("data/ani_rus_addendum.txt") |> 
+  write_lines("ani_rus.lexd", append = TRUE)
+
+system("hfst-dump-alphabets -1 ani_generator.hfst", intern = TRUE) |> 
   str_subset(">") |> 
   write_lines("ani_rus.lexd", append = TRUE)
