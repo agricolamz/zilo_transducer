@@ -137,6 +137,22 @@ ani_generator.hfst.
 мен<PRON>><erg>:мен>ни
 ```
 
+- generate the subparadigm:
+
+```
+$ make substring_search REGEX="г ь о б %<PRON%> ?* %<erg%> ?*"
+
+hfst-compose-intersect: Warning: 
+Found output symbols (e.g. "@_IDENTITY_SYMBOL_@") in transducer in
+file <stdin> which will be filtered out because they are
+not found on the input tapes of transducers in file
+ani_generator.hfst.
+гьоб<PRON>><obl><m><pl>><erg>:гьо>лу>ди
+гьоб<PRON>><obl><nm>><erg>:гьо>л>ди
+гьоб<PRON>><obl><nm><pl>><erg>:гьо>ли>ди
+гьоб<PRON>><obl><m>><erg>:гьо>ш>ди
+```
+
 - calculate number of the distinct forms in the paradigm:
 
 ```
