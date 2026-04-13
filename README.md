@@ -64,7 +64,7 @@ $ echo "дибо" | hfst-lookup ani_analyzer.hfstol
 дибо    ден<PRON>><aff><inan1>  0,000000
 ```
 
-- analyze some form and translate the stem into Russian
+- analyze some form and translate the stem into Russian (this option is available not for all stems)
 
 ```
 $ echo "дибо" | hfst-lookup ani_analyzer_stem_translation.hfstol

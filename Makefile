@@ -23,8 +23,8 @@ update_dictionary_data: ani_generator.hfst dictionary.csv
 dictionary.csv:
 	curl https://raw.githubusercontent.com/LingConLab/zilo_dictionary/refs/heads/main/data/data.csv -o data/dictionary.csv
 
-ani_generator.hfst: ani_personal_pronouns.hfst ani_demonstratives.hfst
-	hfst-union $^ -o $@
+ani_generator.hfst: ani_personal_pronouns.hfst ani_demonstratives.hfst ani_numerals.hfst
+	hfst-union $< ani_demonstratives.hfst | hfst-union ani_numerals.hfst -o $@
 
 ani_%.hfst: ani_%.lexd
 	lexd $< | hfst-txt2fst -o $@

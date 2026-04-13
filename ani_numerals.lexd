@@ -51,32 +51,62 @@ agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<itn>:цIу] 
 # ordinal numerals
 # -------------------------------------------------------------------------
 
-Numerals[-one,-four,-three] [<NUM>:] [>:>] [<ord>:лдеб]
-Numerals[three] [<NUM>:] [>:>] [<ord>:деб]
-agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<ord>:лдеб]
-Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord>:деб]
-agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord>:деб]
+Numerals[-one,-four,-three] [<NUM>:] [>:>] [<ord>:лдеб] ([>:>] [<pl>:ул])?
+Numerals[three] [<NUM>:] [>:>] [<ord>:деб] ([>:>] [<pl>:ул])?
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<ord>:лдеб] ([>:>] [<pl>:ул])?
+Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord>:деб] ([>:>] [<pl>:ул])?
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord>:деб] ([>:>] [<pl>:ул])?
 
 # -------------------------------------------------------------------------
 # distributive numerals
+# During the tens reduplication two rightmost syllable can be reduplicated. Therefore I decided to list all forms.
 # -------------------------------------------------------------------------
 
-
+<rdp>>чIегу<NUM>><num>:чIе>чIе>гу
+<rdp>>лъобгу<NUM>><num>:лъоб>лъоб>гу
+<rdp>>боъогу<NUM><m>><num>:воъо>воъо>гу
+<rdp>>боъогу<NUM><f>><num>:йоъо>йоъо>гу
+<rdp>>боъогу<NUM><an><sg>><num>:боъо>боъо>гу
+<rdp>>боъогу<NUM><an><pl>><num>:йоъо>йоъо>гу
+<rdp>>боъогу<NUM><inan1>><num>:боъо>боъо>гу
+<rdp>>боъогу<NUM><inan2>><num>:роъо>роъо>гу
+<rdp>>иᵸшдугу<NUM>><num>:иᵸшду>иᵸшду>гу
+<rdp>>ойлIигу<NUM>><num>:ойлIи>ойлIи>гу
+<rdp>>гьокьугу<NUM>><num>:гьокьу>гьокьу>гу
+<rdp>>бейкьигу<NUM>><num>:бейкьи>бейкьи>гу
+<rdp>>гьочIогу<NUM>><num>:гьочIо>гьочIо>гу
+<rdp>>гьоцIогу<NUM>><num>:гьоцIо>гьоцIо>гу
+<rdp>>бешенугу<NUM>><num>:беше>бешену>гу
+<rdp>>озуругу<NUM>><num>:озу>озуру>гу
+<rdp>>озуругу<NUM>><num>:ози>озиру>гу
+<rdp>>чIегу<NUM>><crown>><num>:чIецIол>чIе>цIол>гу
+<rdp>>лъобгу<NUM>><crown>><num>:лъобцIол>лъоб>цIол>гу
+<rdp>>боъогу<NUM><m>><crown>><num>:воъо>воъо>цIол>гу
+<rdp>>боъогу<NUM><f>><crown>><num>:йоъо>йоъо>цIол>гу
+<rdp>>боъогу<NUM><an><sg>><crown>><num>:боъо>боъо>цIол>гу
+<rdp>>боъогу<NUM><an><pl>><crown>><num>:йоъо>йоъо>цIол>гу
+<rdp>>боъогу<NUM><inan1>><crown>><num>:боъо>боъо>цIол>гу
+<rdp>>боъогу<NUM><inan2>><crown>><num>:роъо>роъо>цIол>гу
+<rdp>>иᵸшдугу<NUM>><crown>><num>:иᵸшду>иᵸшду>цIол>гу
+<rdp>>ойлIигу<NUM>><crown>><num>:ойлIи>ойлIи>цIол>гу
+<rdp>>гьокьугу<NUM>><crown>><num>:гьокьу>гьокьу>цIол>гу
+<rdp>>бейкьигу<NUM>><crown>><num>:бейкьи>бейкьи>цIол>гу
+<rdp>>гьочIогу<NUM>><crown>><num>:гьочIо>гьочIо>цIол>гу
 
 LEXICON Numerals
-себ:се[one]                                             # один; one
-чIегу:чIе                                               # два; two
-лъоб:лъоб[three]                                        # три; three
-боъогу:оъо[four]                                        # четыре; four
-иᵸшдугу:иᵸшду                                           # пять; five
-ойлIигу:ойлIи                                           # шесть; six
-гьокьугу:гьокьу                                         # семь; seven
-бейкьигу:бейкьи                                         # восемь; eight
-гьочIогу:гьочIо                                         # девять; nine
-гьоцIогу:гьоцIо[ten]                                    # десять; ten
-бешенугу:бешену[hundred]                                # сто; hundred
-озуругу:озуру[thousand]                                 # тысяча; thousand
-озуругу:озиру[thousand]                                 # тысяча; thousand
+себ:се[one]                                                 # один; one
+чIегу:чIе                                                   # два; two
+лъобгу:лъоб[three]                                          # три; three
+боъогу:оъо[four]                                            # четыре; four
+иᵸшдугу:иᵸшду                                               # пять; five
+ойлIигу:ойлIи                                               # шесть; six
+гьокьугу:гьокьу                                             # семь; seven
+бейкьигу:бейкьи                                             # восемь; eight
+гьочIогу:гьочIо                                             # девять; nine
+гьоцIогу:гьоцIо[ten]                                        # десять; ten
+бешенугу:бешену[hundred]                                    # сто; hundred
+озуругу:озуру[thousand]                                     # тысяча; thousand
+озуругу:озиру[thousand]                                     # тысяча; thousand
 
 LEXICON agrCl
 <m>:в

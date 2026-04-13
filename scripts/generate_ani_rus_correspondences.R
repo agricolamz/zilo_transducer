@@ -12,7 +12,7 @@ read_csv("data/dictionary.csv",
          progress = FALSE) |> 
   filter(str_detect(russian, "\\s", negate = TRUE),
          str_detect(zilo, "\\s", negate = TRUE)) |> 
-  mutate(zilo = str_replace_all(zilo, "[1I]", "ӏ"),
+  mutate(zilo = str_replace_all(zilo, "[1ӏ]", "I"),
          result = str_c(zilo, ":", russian)) |> 
   arrange(result) |> 
   pull(result) |> 
