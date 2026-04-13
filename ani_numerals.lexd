@@ -1,5 +1,7 @@
 # -------------------------------------------------------------------------
 # NUMERALS
+# 
+# I treat 100- and 1000- formations as two words, e. g. лъоб бешенугу '300' and лъоб озуругу '3000' and 
 # -------------------------------------------------------------------------
 
 PATTERNS
@@ -8,42 +10,78 @@ PATTERNS
 # cardinal numerals
 # -------------------------------------------------------------------------
 
-Numerals[one] [>:>] agrCl
-Numerals[-one,-four] [>:>] [<num>:гу]
-agrCl [>:>] Numerals[four] [>:>] [<num>:гу]
-Numerals[ten] [>:>] [<teen_link>:лъий]
-Numerals[-one,-four,-ten] [>:>] [<crown>:цIол] [>:>] ([<num>:гу] | [<linker>:лой])
-agrCl [>:>] Numerals[four] [>:>] [<crown>:цIол] [>:>] ([<num>:гу] | [<linker>:лой])
-(Numerals[-one,-four,-ten] [>:>])? ([бешенугу<NUM>:бешену] | [озуругу<NUM>:озуру] | [озуругу<NUM>:озиру]) ([>:>] [<num>:гу])?
-agrCl [>:>] Numerals[four] [>:>] ([бешенугу<NUM>:бешену] | [озуругу<NUM>:озуру] | [озуругу<NUM>:озиру]) ([>:>] [<num>:гу])?
+Numerals[one] [<NUM>:] [>:>] agrCl
+Numerals[-one,-four] [<NUM>:] ([>:>] [<num>:гу])?
+agrCl [>:>] Numerals[four] [<NUM>:] ([>:>] [<num>:гу])?
+Numerals[ten] [<NUM>:] [>:>] [<teen_link>:лъий]
+Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] ([<num>:гу] | [<linker>:лой])
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] ([<num>:гу] | [<linker>:лой])
 
 # -------------------------------------------------------------------------
 # collective numerals
 # -------------------------------------------------------------------------
 
-Numerals[-one,-four,-three] ([>:>] [<pl>:л])? [>:>] [<num>:гу] [>:>] [<add>:ло]
-agrCl [>:>] Numerals[four] ([>:>] [<pl>:л])? [>:>] [<num>:гу] [>:>] [<add>:ло]
-Numerals[three] ([>:>] [<pl>:ул])? [>:>] [<num>:гу] [>:>] [<add>:ло]
-Numerals[-one,-four,-ten] [>:>] [<crown>:цIол] ([>:>] [<pl>:ул])? [>:>] [<num>:гу] [>:>] [<add>:ло]
-agrCl [>:>] Numerals[four] [>:>] [<crown>:цIол] ([>:>] [<pl>:ул])? [>:>] [<num>:гу] [>:>] [<add>:ло]
-(Numerals[-one,-four,-ten] [>:>])? ([бешенугу<NUM>:бешену] | [озуругу<NUM>:озуру] | [озуругу<NUM>:озиру]) ([>:>] [<pl>:л])? [>:>] [<num>:гу] [>:>] [<add>:ло]
-agrCl [>:>] Numerals[four] [>:>] ([бешенугу<NUM>:бешену] | [озуругу<NUM>:озуру] | [озуругу<NUM>:озиру]) ([>:>] [<pl>:л])? [>:>] [<num>:гу] [>:>] [<add>:ло]
+Numerals[one] [<NUM>:] ([>:>] [<pl>:л])? [>:>] agrCl [>:>] [<add>:ло]
+Numerals[-one,-four,-three] [<NUM>:] ([>:>] [<pl>:л])? [>:>] [<num>:гу] [>:>] [<add>:ло]
+Numerals[three] [<NUM>:] ([>:>] [<pl>:ул])? [>:>] [<num>:гу] [>:>] [<add>:ло]
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<num>:гу] [<add>:ло]
+Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<num>:гу] [>:>] [<add>:ло]
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<num>:гу] [>:>] [<add>:ло]
+
+# -------------------------------------------------------------------------
+# adverbial ordinal
+# -------------------------------------------------------------------------
+
+Numerals[-one,-four] [<NUM>:] [>:>] [<ord><adv>:цIулду]
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<ord><adv>:цIулду]
+Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord><adv>:цIулду]
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord><adv>:цIулду]
+
+# -------------------------------------------------------------------------
+# iterative numerals
+# -------------------------------------------------------------------------
+
+Numerals[one] [<NUM>:] [>:>] agrCl [>:>] [<itn>:цIу] [>:>] [<num>:гу]
+Numerals[-one,-four] [<NUM>:] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
+Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
+
+# -------------------------------------------------------------------------
+# ordinal numerals
+# -------------------------------------------------------------------------
+
+Numerals[-one,-four,-three] [<NUM>:] [>:>] [<ord>:лдеб]
+Numerals[three] [<NUM>:] [>:>] [<ord>:деб]
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<ord>:лдеб]
+Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord>:деб]
+agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord>:деб]
+
+# -------------------------------------------------------------------------
+# distributive numerals
+# -------------------------------------------------------------------------
+
+
 
 LEXICON Numerals
-себ<NUM>:се[one]                                             # один; one
-чIегу<NUM>:чIе                                               # два; two
-лъоб<NUM>:лъоб[three]                                        # три; three
-боъогу<NUM>:оъо[four]                                        # четыре; four
-иᵸшдугу<NUM>:иᵸшду                                           # пять; five
-ойлIигу<NUM>:ойлIи                                           # шесть; six
-гьокьугу<NUM>:гьокьу                                         # семь; seven
-бейкьигу<NUM>:бейкьи                                         # восемь; eight
-гьочIогу<NUM>:гьочIо                                         # девять; nine
-гьоцIогу<NUM>:гьоцIо[ten]                                    # десять; ten
+себ:се[one]                                             # один; one
+чIегу:чIе                                               # два; two
+лъоб:лъоб[three]                                        # три; three
+боъогу:оъо[four]                                        # четыре; four
+иᵸшдугу:иᵸшду                                           # пять; five
+ойлIигу:ойлIи                                           # шесть; six
+гьокьугу:гьокьу                                         # семь; seven
+бейкьигу:бейкьи                                         # восемь; eight
+гьочIогу:гьочIо                                         # девять; nine
+гьоцIогу:гьоцIо[ten]                                    # десять; ten
+бешенугу:бешену[hundred]                                # сто; hundred
+озуругу:озуру[thousand]                                 # тысяча; thousand
+озуругу:озиру[thousand]                                 # тысяча; thousand
 
 LEXICON agrCl
 <m>:в
 <f>:й
 <an><sg>:б
+<an><pl>:й
 <inan1>:б
 <inan2>:р
