@@ -1,0 +1,248 @@
+# -------------------------------------------------------------------------
+# DEMONSTRATIVE PRONOUNS
+# -------------------------------------------------------------------------
+
+PATTERNS
+PronounsAbs ([>:>] [<pl>:ул])?
+PronounsDemOblStem [>:>] [<obl><m>:ш] [>:>] Inflection[-f,-vowel_morpheme,-n.m.sg]
+PronounsDemOblStem [>:>] [<obl><m>:шу] [>:>] Inflection[-f,vowel_morpheme]
+PronounsDemOblStem [>:>] [<obl><m><pl>:лу] [>:>] Inflection[-f]
+PronounsDemOblStem [>:>] [<obl><nm>:л] [>:>] Inflection[-m,-vowel_morpheme]
+PronounsDemOblStem [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-m,vowel_morpheme]
+PronounsDemOblStem [>:>] [<obl><nm><pl>:ли] [>:>] Inflection[-m]
+
+LEXICON PronounsAbs
+гьоб<PRON>><m>:гьо>в                                         # proximal
+гьоб<PRON>><f>:гьо>й                                         # proximal
+гьоб<PRON>><an><sg>:гьо>б                                    # proximal
+гьоб<PRON>><an><pl>:гьо>й                                    # proximal
+гьоб<PRON>><inan1>:гьо>б                                     # proximal
+гьоб<PRON>><inan2>:гьо>р                                     # proximal
+гьобоб<PRON><m>><m>:гьово>в                                  # proximal
+гьобоб<PRON><f>><f>:гьойо>й                                  # proximal
+гьобоб<PRON><an><sg>><an><sg>:гьобо>б                        # proximal
+гьобоб<PRON><an><pl>><an><pl>:гьойо>й                        # proximal
+гьобоб<PRON><inan1>><inan1>:гьобо>б                          # proximal
+гьобоб<PRON><inan2>><inan2>:гьоро>р                          # proximal
+гьоноб<PRON>><m>:гьоно>в                                     # proximal
+гьоноб<PRON>><f>:гьоно>й                                     # proximal
+гьоноб<PRON>><an><sg>:гьоно>б                                # proximal
+гьоноб<PRON>><an><pl>:гьоно>й                                # proximal
+гьоноб<PRON>><inan1>:гьоно>б                                 # proximal
+гьоноб<PRON>><inan2>:гьоно>р                                 # proximal
+гьеб<PRON>><m>:гье>в                                         # medial
+гьеб<PRON>><f>:гье>й                                         # medial
+гьеб<PRON>><an><sg>:гье>б                                    # medial
+гьеб<PRON>><an><pl>:гье>й                                    # medial
+гьеб<PRON>><inan1>:гье>б                                     # medial
+гьеб<PRON>><inan2>:гье>р                                     # medial
+гьебеб<PRON><m>><m>:гьеве>в                                  # medial
+гьебеб<PRON><f>><f>:гьейе>й                                  # medial
+гьебеб<PRON><an><sg>><an><sg>:гьебе>б                        # medial
+гьебеб<PRON><an><pl>><an><pl>:гьейе>й                        # medial
+гьебеб<PRON><inan1>><inan1>:гьебе>б                          # medial
+гьебеб<PRON><inan2>><inan2>:гьере>р                          # medial
+гьенеб<PRON>><m>:гьене>в                                     # medial
+гьенеб<PRON>><f>:гьене>й                                     # medial
+гьенеб<PRON>><an><sg>:гьене>б                                # medial
+гьенеб<PRON>><an><pl>:гьене>й                                # medial
+гьенеб<PRON>><inan1>:гьене>б                                 # medial
+гьенеб<PRON>><inan2>:гьене>р                                 # medial
+гьедеб<PRON>><m>:гьеде>в                                     # distal
+гьедеб<PRON>><f>:гьеде>й                                     # distal
+гьедеб<PRON>><an><sg>:гьеде>б                                # distal
+гьедеб<PRON>><an><pl>:гьеде>й                                # distal
+гьедеб<PRON>><inan1>:гьеде>б                                 # distal
+гьедеб<PRON>><inan2>:гьеде>р                                 # distal
+гьегеб<PRON>><lower>><m>:гье>ге>в                            # distal
+гьегеб<PRON>><lower>><f>:гье>ге>й                            # distal
+гьегеб<PRON>><lower>><an><sg>:гье>ге>б                       # distal
+гьегеб<PRON>><lower>><an><pl>:гье>ге>й                       # distal
+гьегеб<PRON>><lower>><inan1>:гье>ге>б                        # distal
+гьегеб<PRON>><lower>><inan2>:гье>ге>р                        # distal
+гьелъеб<PRON>><upper>><m>:гье>лъе>в                          # distal
+гьелъеб<PRON>><upper>><f>:гье>лъе>й                          # distal
+гьелъеб<PRON>><upper>><an><sg>:гье>лъе>б                     # distal
+гьелъеб<PRON>><upper>><an><pl>:гье>лъе>й                     # distal
+гьелъеб<PRON>><upper>><inan1>:гье>лъе>б                      # distal
+гьелъеб<PRON>><upper>><inan2>:гье>лъе>р                      # distal
+гьендеб<PRON>><m>:гьенде>в                                   # distal
+гьендеб<PRON>><f>:гьенде>й                                   # distal
+гьендеб<PRON>><an><sg>:гьенде>б                              # distal
+гьендеб<PRON>><an><pl>:гьенде>й                              # distal
+гьендеб<PRON>><inan1>:гьенде>б                               # distal
+гьендеб<PRON>><inan2>:гьенде>р                               # distal
+гьенедеб<PRON>><m>:гьенеде>в                                 # distal
+гьенедеб<PRON>><f>:гьенеде>й                                 # distal
+гьенедеб<PRON>><an><sg>:гьенеде>б                            # distal
+гьенедеб<PRON>><an><pl>:гьенеде>й                            # distal
+гьенедеб<PRON>><inan1>:гьенеде>б                             # distal
+гьенедеб<PRON>><inan2>:гьенеде>р                             # distal
+гьундеб<PRON>><m>:гьунде>в                                   # distal
+гьундеб<PRON>><f>:гьунде>й                                   # distal
+гьундеб<PRON>><an><sg>:гьунде>б                              # distal
+гьундеб<PRON>><an><pl>:гьунде>й                              # distal
+гьундеб<PRON>><inan1>:гьунде>б                               # distal
+гьундеб<PRON>><inan2>:гьунде>р                               # distal
+гьунгоб<PRON>><lower>><m>:гьун>го>в                          # distal
+гьунгоб<PRON>><lower>><f>:гьун>го>й                          # distal
+гьунгоб<PRON>><lower>><an><sg>:гьун>го>б                     # distal
+гьунгоб<PRON>><lower>><an><pl>:гьун>го>й                     # distal
+гьунгоб<PRON>><lower>><inan1>:гьун>го>б                      # distal
+гьунгоб<PRON>><lower>><inan2>:гьун>го>р                      # distal
+гьунлъоб<PRON>><upper>><m>:гьун>лъо>в                        # distal
+гьунлъоб<PRON>><upper>><f>:гьун>лъо>й                        # distal
+гьунлъоб<PRON>><upper>><an><sg>:гьун>лъо>б                   # distal
+гьунлъоб<PRON>><upper>><an><pl>:гьун>лъо>й                   # distal
+гьунлъоб<PRON>><upper>><inan1>:гьун>лъо>б                    # distal
+гьунлъоб<PRON>><upper>><inan2>:гьун>лъо>р                    # distal
+гьунудоб<PRON>><m>:гьунудо>в                                 # distal
+гьунудоб<PRON>><f>:гьунудо>й                                 # distal
+гьунудоб<PRON>><an><sg>:гьунудо>б                            # distal
+гьунудоб<PRON>><an><pl>:гьунудо>й                            # distal
+гьунудоб<PRON>><inan1>:гьунудо>б                             # distal
+гьунудоб<PRON>><inan2>:гьунудо>р                             # distal
+гьунугоб<PRON>><lower>><m>:гьуну>го>в                        # distal
+гьунугоб<PRON>><lower>><f>:гьуну>го>й                        # distal
+гьунугоб<PRON>><lower>><an><sg>:гьуну>го>б                   # distal
+гьунугоб<PRON>><lower>><an><pl>:гьуну>го>й                   # distal
+гьунугоб<PRON>><lower>><inan1>:гьуну>го>б                    # distal
+гьунугоб<PRON>><lower>><inan2>:гьуну>го>р                    # distal
+гьунулъоб<PRON>><upper>><m>:гьуну>лъо>в                      # distal
+гьунулъоб<PRON>><upper>><f>:гьуну>лъо>й                      # distal
+гьунулъоб<PRON>><upper>><an><sg>:гьуну>лъо>б                 # distal
+гьунулъоб<PRON>><upper>><an><pl>:гьуну>лъо>й                 # distal
+гьунулъоб<PRON>><upper>><inan1>:гьуну>лъо>б                  # distal
+гьунулъоб<PRON>><upper>><inan2>:гьуну>лъо>р                  # distal
+гьидиб<PRON>><an><sg>:гьиди>б                                # distal
+гьидиб<PRON>><an><pl>:гьиди>й                                # distal
+гьидиб<PRON>><inan1>:гьиди>б                                 # distal
+гьидиб<PRON>><inan2>:гьиди>р                                 # distal
+гьигиб<PRON>><lower>><m>:гьи>ги>в                            # distal
+гьигиб<PRON>><lower>><f>:гьи>ги>й                            # distal
+гьигиб<PRON>><lower>><an><sg>:гьи>ги>б                       # distal
+гьигиб<PRON>><lower>><an><pl>:гьи>ги>й                       # distal
+гьигиб<PRON>><lower>><inan1>:гьи>ги>б                        # distal
+гьигиб<PRON>><lower>><inan2>:гьи>ги>р                        # distal
+гьилъиб<PRON>><upper>><m>:гьи>лъи>в                          # distal
+гьилъиб<PRON>><upper>><f>:гьи>лъи>й                          # distal
+гьилъиб<PRON>><upper>><an><sg>:гьи>лъи>б                     # distal
+гьилъиб<PRON>><upper>><an><pl>:гьи>лъи>й                     # distal
+гьилъиб<PRON>><upper>><inan1>:гьи>лъи>б                      # distal
+гьилъиб<PRON>><upper>><inan2>:гьи>лъи>р                      # distal
+гьиндиб<PRON>><an><sg>:гьинди>б                              # distal
+гьиндиб<PRON>><an><pl>:гьинди>й                              # distal
+гьиндиб<PRON>><inan1>:гьинди>б                               # distal
+гьиндиб<PRON>><inan2>:гьинди>р                               # distal
+гьингиб<PRON>><lower>><m>:гьин>ги>в                          # distal
+гьингиб<PRON>><lower>><f>:гьин>ги>й                          # distal
+гьингиб<PRON>><lower>><an><sg>:гьин>ги>б                     # distal
+гьингиб<PRON>><lower>><an><pl>:гьин>ги>й                     # distal
+гьингиб<PRON>><lower>><inan1>:гьин>ги>б                      # distal
+гьингиб<PRON>><lower>><inan2>:гьин>ги>р                      # distal
+гьинлъиб<PRON>><upper>><m>:гьин>лъи>в                        # distal
+гьинлъиб<PRON>><upper>><f>:гьин>лъи>й                        # distal
+гьинлъиб<PRON>><upper>><an><sg>:гьин>лъи>б                   # distal
+гьинлъиб<PRON>><upper>><an><pl>:гьин>лъи>й                   # distal
+гьинлъиб<PRON>><upper>><inan1>:гьин>лъи>б                    # distal
+гьинлъиб<PRON>><upper>><inan2>:гьин>лъи>р                    # distal
+гьинидиб<PRON>><an><sg>:гьиниди>б                            # distal
+гьинидиб<PRON>><an><pl>:гьиниди>й                            # distal
+гьинидиб<PRON>><inan1>:гьиниди>б                             # distal
+гьинидиб<PRON>><inan2>:гьиниди>р                             # distal
+гьинигиб<PRON>><lower>><m>:гьини>ги>в                        # distal
+гьинигиб<PRON>><lower>><f>:гьини>ги>й                        # distal
+гьинигиб<PRON>><lower>><an><sg>:гьини>ги>б                   # distal
+гьинигиб<PRON>><lower>><an><pl>:гьини>ги>й                   # distal
+гьинигиб<PRON>><lower>><inan1>:гьини>ги>б                    # distal
+гьинигиб<PRON>><lower>><inan2>:гьини>ги>р                    # distal
+гьинилъиб<PRON>><upper>><m>:гьини>лъи>в                      # distal
+гьинилъиб<PRON>><upper>><f>:гьини>лъи>й                      # distal
+гьинилъиб<PRON>><upper>><an><sg>:гьини>лъи>б                 # distal
+гьинилъиб<PRON>><upper>><an><pl>:гьини>лъи>й                 # distal
+гьинилъиб<PRON>><upper>><inan1>:гьини>лъи>б                  # distal
+гьинилъиб<PRON>><upper>><inan2>:гьини>лъи>р                  # distal
+
+LEXICON PronounsDemOblStem
+гьоб<PRON>:гьо                                               # proximal
+гьобоб<PRON><m>:гьово                                        # proximal
+гьобоб<PRON><f>:гьойо                                        # proximal
+гьобоб<PRON><an><sg>:гьобо                                   # proximal
+гьобоб<PRON><an><pl>:гьойо                                   # proximal
+гьобоб<PRON><inan1>:гьобо                                    # proximal
+гьобоб<PRON><inan2>:гьоро                                    # proximal
+гьоноб<PRON>:гьоно                                           # proximal
+гьеб<PRON>:гье                                               # medial
+гьебеб<PRON><m>:гьеве                                        # medial
+гьебеб<PRON><f>:гьейе                                        # medial
+гьебеб<PRON><an><sg>:гьебе                                   # medial
+гьебеб<PRON><an><pl>:гьейе                                   # medial
+гьебеб<PRON><inan1>:гьебе                                    # medial
+гьебеб<PRON><inan2>:гьере                                    # medial
+гьенеб<PRON>:гьене                                           # medial
+гьедеб<PRON>:гьеде                                           # distal
+гьегеб<PRON>><lower>:гье>ге                                  # distal
+гьелъеб<PRON>><upper>:гье>лъе                                # distal
+гьендеб<PRON>:гьенде                                         # distal
+гьенедеб<PRON>:гьенеде                                       # distal
+гьундеб<PRON>:гьунде                                         # distal
+гьунгоб<PRON>><lower>:гьун>го                                # distal
+гьунлъоб<PRON>><upper>:гьун>лъо                              # distal
+гьунудоб<PRON>:гьунудо                                       # distal
+гьунугоб<PRON>><lower>:гьуну>го                              # distal
+гьунулъоб<PRON>><upper>:гьуну>лъо                            # distal
+гьидиб<PRON>:гьиди                                           # distal
+гьигиб<PRON>><lower>:гьи>ги                                  # distal
+гьилъиб<PRON>><upper>:гьи>лъи                                # distal
+гьиндиб<PRON>:гьинди                                         # distal
+гьингиб<PRON>><lower>:гьин>ги                                # distal
+гьинлъиб<PRON>><upper>:гьин>лъи                              # distal
+гьинидиб<PRON>:гьиниди                                       # distal
+гьинигиб<PRON>><lower>:гьини>ги                              # distal
+гьинилъиб<PRON>><upper>:гьини>лъи                            # distal
+
+LEXICON Inflection
+<gen>:лIи[f]
+<gen><pl>:лI>ол[f]
+<dat>:лъу[n.m.sg]
+<erg>:ди
+<dat>:й[vowel_morpheme]
+<gen><m>:в[m,vowel_morpheme]
+<gen><f>:й[m,vowel_morpheme]
+<gen><an><sg>:б[m,vowel_morpheme]
+<gen><an><pl>:й[m,vowel_morpheme]
+<gen><inan1>:б[m,vowel_morpheme]
+<gen><inan2>:р[m,vowel_morpheme]
+<gen><m>><pl>:в>ул[m,vowel_morpheme]
+<gen><f>><pl>:й>ил[m,vowel_morpheme]
+<gen><an><pl>><pl>:й>ил[m,vowel_morpheme]
+<gen><inan1>><pl>:б>ул[m,vowel_morpheme]
+<gen><inan2>><pl>:р>ул[m,vowel_morpheme]
+<aff><m>:во[vowel_morpheme]
+<aff><f>:йо[vowel_morpheme]
+<aff><an><sg>:бо[vowel_morpheme]
+<aff><an><pl>:йо[vowel_morpheme]
+<aff><inan1>:бо[vowel_morpheme]
+<aff><inan2>:ро[vowel_morpheme]
+<sub><ess>:кьи
+<sub><lat>:кьи
+<sub>><el>:кьи>кку
+<super><ess>:ъа
+<super><lat>:ъо
+<super>><el>:ъа>кку
+<in><ess>:ла
+<in><lat>:ди
+<in>><el>:ла>кку
+<inter><ess>:лIи
+<inter><lat>:лIи
+<inter>><el>:лIи>кку
+<ad><ess>:ха
+<ad><lat>:хо
+<ad>><el>:хо>кку
+<apud><ess>:хъи
+<apud><lat>:хъи
+<apud>><el>:хъи>кку
+<cont><ess>:чIу
+<cont><lat>:чIу
+<cont>><el>:чIу>кку
+

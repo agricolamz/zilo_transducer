@@ -1,0 +1,8 @@
+Alphabet
+    %>:0;
+
+Rules
+
+"drop morpheme boundary"
+%>:0 <=> _ ;
+

@@ -1,0 +1,73 @@
+# -------------------------------------------------------------------------
+# PERSONAL PRONOUNS
+# -------------------------------------------------------------------------
+
+PATTERNS
+PronounsAbs
+PronounsErg
+PronounsObl [<PRON>:] [>:>] Inflection
+
+LEXICON PronounsAbs
+ден<PRON>:ден                                                # я; I
+мен<PRON>:мен                                                # ты; you (sg)
+илIил<PRON>:илIил                                            # мы (incl); we (incl)
+ищил<PRON>:ищил                                              # мы (excl); we (excl)
+биссил<PRON>:биссил                                          # вы; you (pl)
+
+LEXICON PronounsErg
+ден<PRON>><erg>:ден>ни                                       # я; I
+мен<PRON>><erg>:мен>ни                                       # ты; you (sg)
+илIил<PRON>><erg>:илIи>ди                                    # мы (incl); we (incl)
+ищил<PRON>><erg>:ищи>ди                                      # мы (excl); we (excl)
+биссил<PRON>><erg>:бисси>ди                                  # вы; you (pl)
+
+LEXICON PronounsObl
+ден:ди                                                       # я; I
+мен:ду                                                       # ты; you (sg)
+илIил:илIи                                                   # мы (incl); we (incl)
+ищил:ищи                                                     # мы (excl); we (excl)
+биссил:бисси                                                 # вы; you (pl)
+
+LEXICON Inflection
+<dat>:й
+<dat>:лъу
+<gen>:лIи
+<gen><m>:в
+<gen><f>:й
+<gen><an><sg>:б
+<gen><an><pl>:й
+<gen><inan1>:б
+<gen><inan2>:р
+<gen><m>><pl>:в>ул
+<gen><f>><pl>:й>ил
+<gen><an><pl>><pl>:й>ил
+<gen><inan1>><pl>:б>ул
+<gen><inan2>><pl>:р>ул
+<aff><m>:во
+<aff><f>:йо
+<aff><an><sg>:бо
+<aff><an><pl>:йо
+<aff><inan1>:бо
+<aff><inan2>:ро
+<sub><ess>:кьи
+<sub><lat>:кьи
+<sub>><el>:кьи>кку
+<super><ess>:ъа
+<super><lat>:ъо
+<super>><el>:ъа>кку
+<in><ess>:ла
+<in><lat>:ди
+<in>><el>:ла>кку
+<inter><ess>:лIи
+<inter><lat>:лIи
+<inter>><el>:лIи>кку
+<ad><ess>:ха
+<ad><lat>:хо
+<ad>><el>:хо>кку
+<apud><ess>:хъи
+<apud><lat>:хъи
+<apud>><el>:хъи>кку
+<cont><ess>:чIу
+<cont><lat>:чIу
+<cont>><el>:чIу>кку
+

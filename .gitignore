@@ -1,6 +1,4 @@
 .~lock*
 *.~lock*
 *.hfst
-test.*
-.Rproj.user
-*.swp
+*.hfstol
