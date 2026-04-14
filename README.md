@@ -210,5 +210,5 @@ At the moment morphological transducer covers:
 
 - Personal pronouns
 - Demonstratives
-- Numerals (without diclension)
+- Numerals
 
