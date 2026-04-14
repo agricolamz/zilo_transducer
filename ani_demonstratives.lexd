@@ -4,9 +4,9 @@
 
 PATTERNS
 PronounsAbs ([>:>] [<pl>:ул])?
-PronounsDemOblStem [>:>] [<obl><m>:ш] [>:>] Inflection[-f,-vowel_morpheme,-n.m.sg]
-PronounsDemOblStem [>:>] [<obl><m>:шу] [>:>] Inflection[-f,vowel_morpheme]
-PronounsDemOblStem [>:>] [<obl><m><pl>:лу] [>:>] Inflection[-f]
+PronounsDemOblStem [>:>] [<obl><m>:ш] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
+PronounsDemOblStem [>:>] [<obl><m>:шу] [>:>] Inflection[-nm,vowel_morpheme]
+PronounsDemOblStem [>:>] [<obl><m><pl>:лу] [>:>] Inflection[-nm]
 PronounsDemOblStem [>:>] [<obl><nm>:л] [>:>] Inflection[-m,-vowel_morpheme]
 PronounsDemOblStem [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-m,vowel_morpheme]
 PronounsDemOblStem [>:>] [<obl><nm><pl>:ли] [>:>] Inflection[-m]
@@ -202,8 +202,8 @@ LEXICON PronounsDemOblStem
 гьинилъиб<PRON>><upper>:гьини>лъи                            # distal
 
 LEXICON Inflection
-<gen>:лIи[f]
-<gen><pl>:лI>ол[f]
+<gen>:лIи[nm]
+<gen><pl>:лI>ол[nm]
 <dat>:лъу[n.m.sg]
 <erg>:ди
 <dat>:й[vowel_morpheme]
