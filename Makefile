@@ -40,4 +40,4 @@ ani_%.lexd: ani_%_formation.lexd ani_%_lexicon.lexd
 	cat $^ > $@
 
 clean:
-	rm -f *.hfst *.hfstol
+	rm -f *.hfst *.hfstol ani_adjectives.lexd
