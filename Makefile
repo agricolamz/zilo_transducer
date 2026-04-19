@@ -19,6 +19,7 @@ remove_hyphen.hfst: remove_hyphen.twol
 
 update_dictionary_data: ani_generator.hfst dictionary.csv
 	Rscript scripts/generate_ani_rus_correspondences.R
+	Rscript scripts/generate_ani_rus_adjectives_lexicon.R
 
 dictionary.csv:
 	curl https://raw.githubusercontent.com/LingConLab/zilo_dictionary/refs/heads/main/data/data.csv -o data/dictionary.csv
@@ -34,6 +35,9 @@ ani_%_twol.hfst: ani_%.twol
 
 ani_%.hfst: ani_%.lexd
 	lexd $< | hfst-txt2fst -o $@
+
+ani_%.lexd: ani_%_formation.lexd ani_%_lexicon.lexd
+	cat $^ > $@
 
 clean:
 	rm -f *.hfst *.hfstol

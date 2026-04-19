@@ -1,26 +1,3 @@
-# -------------------------------------------------------------------------
-# ADJECTIVES
-# -------------------------------------------------------------------------
-
-PATTERNS
-Adjective_no_class [<ADJ>:]
-Adjective_class_suffix [>:>] agrCl
-agrCl [>:>] Adjective_class_prefix
-agrCl[-m,-pl] [>:>] [:и] Adjective_class_prefix_i_u [<ADJ>:]
-agrCl[m] [>:>] [:у] Adjective_class_prefix_i_u [<ADJ>:]
-agrCl [>:>] [:о] Adjective_class_prefix_i_u[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
-agrCl [>:>] [:о] Adjective_class_prefix_i_u[b] [<ADJ>:] [>:>] [<pl>:{pl}ул]
-Adjective_class_internal(1) :agrCl Adjective_class_internal(2) [<ADJ>:] agrCl:
-agrCl [>:>] Adjective_class_prefix_and_internal(1) :agrCl Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:
-
-LEXICON agrCl
-<m>:в[m]
-<f>:й
-<an><sg>:б
-<an><pl>:й[pl]
-<inan1>:б
-<inan2>:р
-
 LEXICON Adjective_class_internal(2)
 
 аблъин:a :лъин                                              # похожий
