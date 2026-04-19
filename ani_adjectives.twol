@@ -1,0 +1,16 @@
+Alphabet
+    %{pl%}:0 
+    е и а о у
+    е:0 и:0 а:0 о:0 у:0;
+
+Sets
+    Vowels = е и а о у;
+
+Rules
+
+"Plural -ol removes stem final vowel"
+Vowels:0 <=> _ %{pl%}:0;
+
+"Remove %{pl%}"
+%{pl%}:0 <=> _ ;
+

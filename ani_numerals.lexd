@@ -73,7 +73,6 @@ agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
 Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
 agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
 
-
 PATTERN CardinalNumerals
 Numerals[-one,-four] [<NUM>:] ([>:>] [<num>:гу])?
 agrCl [>:>] Numerals[four] [<NUM>:] ([>:>] [<num>:гу])?

@@ -82,7 +82,7 @@ $ echo "мен<PRON>><dat>" | hfst-lookup ani_generator.hfstol
 мен<PRON>><dat> ду>лъу  0,000000
 ```
 
-- generate the paradigm:
+- generate the paradigm[^prefixes]:
 
 ```
 $ make substring_search REGEX="м е н %<PRON%> ?*"
@@ -137,6 +137,8 @@ ani_generator.hfst.
 мен<PRON>:мен
 мен<PRON>><erg>:мен>ни
 ```
+
+[^prefixes]: It is important to note the case of word with prefixes. In case you expect that there are prefixes it is important to modify regular expression, e. g. `make substring_search REGEX="?* б и ц I ц I и б %<ADJ%> ?*"`
 
 - generate the subparadigm:
 
