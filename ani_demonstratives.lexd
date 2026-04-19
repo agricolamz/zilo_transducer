@@ -3,6 +3,7 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
+
 PronounsAbs ([>:>] [<pl>:ул])?
 PronounsDemOblStem [>:>] [<obl><m>:ш] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
 PronounsDemOblStem [>:>] [<obl><m>:шу] [>:>] Inflection[-nm,vowel_morpheme]
@@ -11,7 +12,9 @@ PronounsDemOblStem [>:>] [<obl><nm>:л] [>:>] Inflection[-m,-vowel_morpheme]
 PronounsDemOblStem [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-m,vowel_morpheme]
 PronounsDemOblStem [>:>] [<obl><nm><pl>:ли] [>:>] Inflection[-m]
 
+
 LEXICON PronounsAbs
+
 гьоб<PRON>><m>:гьо>в                                         # proximal
 гьоб<PRON>><f>:гьо>й                                         # proximal
 гьоб<PRON>><an><sg>:гьо>б                                    # proximal
@@ -163,7 +166,9 @@ LEXICON PronounsAbs
 гьинилъиб<PRON>><upper>><inan1>:гьини>лъи>б                  # distal
 гьинилъиб<PRON>><upper>><inan2>:гьини>лъи>р                  # distal
 
+
 LEXICON PronounsDemOblStem
+
 гьоб<PRON>:гьо                                               # proximal
 гьобоб<PRON><m>:гьово                                        # proximal
 гьобоб<PRON><f>:гьойо                                        # proximal
@@ -201,7 +206,9 @@ LEXICON PronounsDemOblStem
 гьинигиб<PRON>><lower>:гьини>ги                              # distal
 гьинилъиб<PRON>><upper>:гьини>лъи                            # distal
 
+
 LEXICON Inflection
+
 <gen>:лIи[nm]
 <gen><pl>:лI>ол[nm]
 <dat>:лъу[n.m.sg]

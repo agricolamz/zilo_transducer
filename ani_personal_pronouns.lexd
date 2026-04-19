@@ -3,32 +3,41 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
+
 PronounsAbs
 PronounsErg
 PronounsObl [<PRON>:] [>:>] Inflection
 
+
 LEXICON PronounsAbs
+
 ден<PRON>:ден                                                # я; I
 мен<PRON>:мен                                                # ты; you (sg)
 илIил<PRON>:илIил                                            # мы (incl); we (incl)
 ищил<PRON>:ищил                                              # мы (excl); we (excl)
 биссил<PRON>:биссил                                          # вы; you (pl)
 
+
 LEXICON PronounsErg
+
 ден<PRON>><erg>:ден>ни                                       # я; I
 мен<PRON>><erg>:мен>ни                                       # ты; you (sg)
 илIил<PRON>><erg>:илIи>ди                                    # мы (incl); we (incl)
 ищил<PRON>><erg>:ищи>ди                                      # мы (excl); we (excl)
 биссил<PRON>><erg>:бисси>ди                                  # вы; you (pl)
 
+
 LEXICON PronounsObl
+
 ден:ди                                                       # я; I
 мен:ду                                                       # ты; you (sg)
 илIил:илIи                                                   # мы (incl); we (incl)
 ищил:ищи                                                     # мы (excl); we (excl)
 биссил:бисси                                                 # вы; you (pl)
 
+
 LEXICON Inflection
+
 <dat>:й
 <dat>:лъу
 <gen>:лIи

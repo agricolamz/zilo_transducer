@@ -1,5 +1,12 @@
 suppressPackageStartupMessages(library(tidyverse))
 
+"# -------------------------------------------------------------------------
+# DO NOT EDIT! THIS FILE IS CREATED AUTOMATICALLY!
+# -------------------------------------------------------------------------
+" |> 
+  write_lines("ani_adjectives_lexicon.lexd")
+
+
 read_csv("data/dictionary.csv",
          show_col_types = FALSE, 
          progress = FALSE) |> 
@@ -17,4 +24,4 @@ read_csv("data/dictionary.csv",
   ungroup() |> 
   mutate(result = str_c(transducer_lexicon_group, "\n\n", transducer_entry, "\n\n")) |> 
   pull(result) |> 
-  write_lines("ani_adjectives_lexicon.lexd")
+  write_lines("ani_adjectives_lexicon.lexd", append = TRUE)

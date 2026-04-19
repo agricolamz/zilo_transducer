@@ -1,7 +1,12 @@
 suppressPackageStartupMessages(library(tidyverse))
 
-"PATTERNS
+"# -------------------------------------------------------------------------
+# DO NOT EDIT! THIS FILE IS CREATED AUTOMATICALLY!
+# -------------------------------------------------------------------------
+
+PATTERNS
 translations
+
 
 LEXICON translations
 " |> 

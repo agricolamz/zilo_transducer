@@ -73,14 +73,18 @@ agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
 Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
 agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<itn>:цIу] [>:>] [<num>:гу]
 
+
 PATTERN CardinalNumerals
+
 Numerals[-one,-four] [<NUM>:] ([>:>] [<num>:гу])?
 agrCl [>:>] Numerals[four] [<NUM>:] ([>:>] [<num>:гу])?
 Numerals[ten] [<NUM>:] [>:>] [<teen_link>:лъий]
 Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] ([<num>:гу] | [<linker>:лой])
 agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] ([<num>:гу] | [<linker>:лой])
 
+
 PATTERN CollectiveNumerals
+
 Numerals[one] [<NUM>:] ([>:>] [<pl>:л])? [>:>] agrCl [>:>] [<add>:ло]
 Numerals[-one,-four,-three] [<NUM>:] ([>:>] [<pl>:л])? [>:>] [<num>:гу] [>:>] [<add>:ло]
 Numerals[three] [<NUM>:] ([>:>] [<pl>:ул])? [>:>] [<num>:гу] [>:>] [<add>:ло]
@@ -88,14 +92,18 @@ agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<num>:гу] [<add>:ло]
 Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<num>:гу] [>:>] [<add>:ло]
 agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<num>:гу] [>:>] [<add>:ло]
 
+
 PATTERN OrdinalNumerals
+
 Numerals[-one,-four,-three] [<NUM>:] [>:>] [<ord>:лдеб]
 Numerals[three] [<NUM>:] [>:>] [<ord>:деб]
 agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<ord>:лдеб]
 Numerals[-one,-four,-ten,-hundred,-thousand] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord>:деб]
 agrCl [>:>] Numerals[four] [<NUM>:] [>:>] [<crown>:цIол] [>:>] [<ord>:деб]
 
+
 LEXICON DistributiveNumerals
+
 <rdp>>чIегу<NUM>><num>:чIе>чIе>гу
 <rdp>>лъобгу<NUM>><num>:лъоб>лъоб>гу
 <rdp>>боъогу<NUM><m>><num>:воъо>воъо>гу
@@ -127,7 +135,9 @@ LEXICON DistributiveNumerals
 <rdp>>бейкьигу<NUM>><crown>><num>:бейкьи>бейкьи>цIол>гу
 <rdp>>гьочIогу<NUM>><crown>><num>:гьочIо>гьочIо>цIол>гу
 
+
 LEXICON Numerals
+
 себ:се[one]                                                 # один; one
 чIегу:чIе                                                   # два; two
 лъобгу:лъоб[three]                                          # три; three
@@ -142,7 +152,9 @@ LEXICON Numerals
 озуругу:озуру[thousand]                                     # тысяча; thousand
 озуругу:озиру[thousand]                                     # тысяча; thousand
 
+
 LEXICON agrCl
+
 <m>:в
 <f>:й[f]
 <an><sg>:б
@@ -150,7 +162,9 @@ LEXICON agrCl
 <inan1>:б
 <inan2>:р
 
+
 LEXICON Inflection
+
 <gen>:лIи[nm]
 <gen><pl>:лI>ол[nm]
 <dat>:лъу[n.m.sg]
