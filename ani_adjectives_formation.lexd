@@ -4,21 +4,24 @@
 
 PATTERNS
 Adjective_no_class [<ADJ>:]
-Adjective_class_suffix [<ADJ>:] [>:>] agrCl
-agrCl [>:>] Adjective_class_prefix [<ADJ>:]
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[-jCL] ([>:>] [<pl>:ул])?
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[jCL] ([>:>] [<pl>:ил])?
+agrCl [>:>] Adjective_class_prefix [<ADJ>:] ([>:>] [<pl>:ол])?
+
 agrCl[-m,-pl] [>:>] [:и] Adjective_class_prefix_i_u [<ADJ>:]
 agrCl[m] [>:>] [:у] Adjective_class_prefix_i_u [<ADJ>:]
 agrCl [>:>] [:о] Adjective_class_prefix_i_u[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
 agrCl [>:>] [:о] Adjective_class_prefix_i_u[b] [<ADJ>:] [>:>] [<pl>:{pl}ул]
-Adjective_class_internal(1) :agrCl Adjective_class_internal(2) [<ADJ>:] agrCl:
+
+Adjective_class_internal(1) :agrCl Adjective_class_internal(2) [<ADJ>:] agrCl: ([>:>] [<pl>:ол])?
 agrCl [>:>] Adjective_class_prefix_and_internal(1) :agrCl Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:
 
 
 LEXICON agrCl
 <m>:в[m]
-<f>:й
+<f>:й[jCL]
 <an><sg>:б
-<an><pl>:й[pl]
+<an><pl>:й[pl,jCL]
 <inan1>:б
 <inan2>:р
 
