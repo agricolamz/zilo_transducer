@@ -23,5 +23,7 @@ read_csv("data/dictionary.csv",
   summarise(transducer_entry = str_c(transducer_entry, collapse = "\n")) |> 
   ungroup() |> 
   mutate(result = str_c(transducer_lexicon_group, "\n\n", transducer_entry, "\n\n")) |> 
+  select(result) |> 
+  na.omit() |> 
   pull(result) |> 
   write_lines("ani_adjectives_lexicon.lexd", append = TRUE)

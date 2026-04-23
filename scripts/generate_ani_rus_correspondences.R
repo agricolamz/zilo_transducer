@@ -18,7 +18,9 @@ read_csv("data/dictionary.csv",
   filter(str_detect(russian, "\\s", negate = TRUE),
          str_detect(zilo, "\\s", negate = TRUE)) |> 
   mutate(zilo = str_replace_all(zilo, "[1ӏ]", "I"),
-         result = str_c(zilo, ":", russian)) |> 
+         result = if_else(is.na(pos),
+                          str_c(zilo, ":", russian),
+                          str_c(zilo, "<", pos, ">", ":", russian, "<", pos, ">"))) |> 
   arrange(result) |> 
   pull(result) |> 
   write_lines("ani_rus.lexd", append = TRUE)

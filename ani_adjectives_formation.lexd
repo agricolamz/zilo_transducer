@@ -6,21 +6,25 @@ PATTERNS
 Adjective_no_class [<ADJ>:]
 Adjective_no_class[b] [<ADJ>:] [>:>] [<pl>:ул]
 Adjective_no_class[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
-Adjective_class_suffix [<ADJ>:] [>:>] agrCl[-jCL] ([>:>] [<pl>:ул])?
-Adjective_class_suffix [<ADJ>:] [>:>] agrCl[jCL] ([>:>] [<pl>:ил])?
-agrCl [>:>] Adjective_class_prefix [<ADJ>:] ([>:>] [<pl>:{pl}ол])?
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[-jCL,-sg] [>:>] [<pl>:ул]
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[jCL] [>:>] [<pl>:ил]
+agrCl [>:>] Adjective_class_prefix [<ADJ>:]
+agrCl[-sg] [>:>] Adjective_class_prefix[b] [<ADJ>:] [>:>] [<pl>:ул]
+agrCl[-sg] [>:>] Adjective_class_prefix[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
 agrCl[-m,-pl] [>:>] [:и] Adjective_class_prefix_i_u [<ADJ>:]
 agrCl[m] [>:>] [:у] Adjective_class_prefix_i_u [<ADJ>:]
-agrCl [>:>] [:о] Adjective_class_prefix_i_u[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
 agrCl [>:>] [:о] Adjective_class_prefix_i_u[b] [<ADJ>:] [>:>] [<pl>:ул]
-Adjective_class_internal(1) :agrCl Adjective_class_internal(2) [<ADJ>:] agrCl: ([>:>] [<pl>:ол])?
+agrCl [>:>] [:о] Adjective_class_prefix_i_u[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
+Adjective_class_internal(1) :agrCl Adjective_class_internal(2) [<ADJ>:] agrCl:
+Adjective_class_internal(1) :agrCl[-sg] Adjective_class_internal(2) [<ADJ>:] agrCl:[-sg] [>:>] [<pl>:ол]
 agrCl [>:>] Adjective_class_prefix_and_internal(1) :agrCl Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:
-
+agrCl[-sg] [>:>] Adjective_class_prefix_and_internal(1) :agrCl[-sg] Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:[-sg] [>:>] [<pl>:{pl}ол]
 
 LEXICON agrCl
 <m>:в[m]
 <f>:й[jCL]
-<an><sg>:б
+<an><sg>:б[sg]
 <an><pl>:й[pl,jCL]
 <inan1>:б
 <inan2>:р
