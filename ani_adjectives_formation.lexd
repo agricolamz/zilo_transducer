@@ -3,29 +3,127 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
+
 Adjective_no_class [<ADJ>:]
+Adjective_no_class [<ADJ>:] [>:>] [<obl><m>:ш] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
+Adjective_no_class [<ADJ>:] [>:>] [<obl><m>:шу] [>:>] Inflection[-nm,vowel_morpheme]
+Adjective_no_class [<ADJ>:] [>:>] [<obl><nm>:л] [>:>] Inflection[-m,-vowel_morpheme]
+Adjective_no_class [<ADJ>:] [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-m,vowel_morpheme]
 Adjective_no_class[b] [<ADJ>:] [>:>] [<pl>:ул]
+Adjective_no_class[b] [<ADJ>:] [>:>] [<pl>:ул] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+Adjective_no_class[b] [<ADJ>:] [>:>] [<pl>:ул] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
 Adjective_no_class[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
+Adjective_no_class[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+Adjective_no_class[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
+
 Adjective_class_suffix [<ADJ>:] [>:>] agrCl
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[m] [>:>] [<obl><m>:ш] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[m] [>:>] [<obl><m>:шу] [>:>] Inflection[-nm,vowel_morpheme]
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[-m,-pl] [>:>] [<obl><nm>:л] [>:>] Inflection[-m,-vowel_morpheme]
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[-m,-pl] [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-m,vowel_morpheme]
 Adjective_class_suffix [<ADJ>:] [>:>] agrCl[-jCL,-sg] [>:>] [<pl>:ул]
 Adjective_class_suffix [<ADJ>:] [>:>] agrCl[jCL] [>:>] [<pl>:ил]
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[m] [>:>] [<pl>:ул] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[-jCL,-sg,-m] [>:>] [<pl>:ул] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
+Adjective_class_suffix [<ADJ>:] [>:>] agrCl[jCL] [>:>] [<pl>:ил] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
+
 agrCl [>:>] Adjective_class_prefix [<ADJ>:]
+agrCl[m] [>:>] Adjective_class_prefix [<ADJ>:] [>:>] [<obl><m>:ш] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
+agrCl[m] [>:>] Adjective_class_prefix [<ADJ>:] [>:>] [<obl><m>:шу] [>:>] Inflection[-nm,vowel_morpheme]
+agrCl[-m,-pl] [>:>] Adjective_class_prefix [<ADJ>:] [>:>] [<obl><nm>:л] [>:>] Inflection[-m,-vowel_morpheme]
+agrCl[-m,-pl] [>:>] Adjective_class_prefix [<ADJ>:] [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-m,vowel_morpheme]
 agrCl[-sg] [>:>] Adjective_class_prefix[b] [<ADJ>:] [>:>] [<pl>:ул]
+agrCl[m] [>:>] Adjective_class_prefix[b] [<ADJ>:] [>:>] [<pl>:ул] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+agrCl[-sg,-m] [>:>] Adjective_class_prefix[b] [<ADJ>:] [>:>] [<pl>:ул] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
 agrCl[-sg] [>:>] Adjective_class_prefix[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
-agrCl[-m,-pl] [>:>] [:и] Adjective_class_prefix_i_u [<ADJ>:]
+agrCl[m] [>:>] Adjective_class_prefix[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+agrCl[-sg,-m] [>:>] Adjective_class_prefix[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
+
 agrCl[m] [>:>] [:у] Adjective_class_prefix_i_u [<ADJ>:]
-agrCl [>:>] [:о] Adjective_class_prefix_i_u[b] [<ADJ>:] [>:>] [<pl>:ул]
-agrCl [>:>] [:о] Adjective_class_prefix_i_u[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
+agrCl[m] [>:>] [:у] Adjective_class_prefix_i_u [<ADJ>:] [>:>] [<obl><m>:ш] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
+agrCl[m] [>:>] [:у] Adjective_class_prefix_i_u [<ADJ>:] [<obl><m>:шу] [>:>] Inflection[-nm,vowel_morpheme]
+agrCl[-m,-pl] [>:>] [:и] Adjective_class_prefix_i_u [<ADJ>:]
+agrCl[-m,-pl] [>:>] [:и] Adjective_class_prefix_i_u [<ADJ>:] [>:>] [<obl><nm>:л] [>:>] Inflection[-m,-vowel_morpheme]
+agrCl[-m,-pl] [>:>] [:и] Adjective_class_prefix_i_u [<ADJ>:] [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-m,vowel_morpheme]
+agrCl[-sg] [>:>] [:о] Adjective_class_prefix_i_u[b] [<ADJ>:] [>:>] [<pl>:ул]
+agrCl[-sg] [>:>] [:о] Adjective_class_prefix_i_u[b] [<ADJ>:] [>:>] [<pl>:ул] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+agrCl[-sg,-m] [>:>] [:о] Adjective_class_prefix_i_u[b] [<ADJ>:] [>:>] [<pl>:ул] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
+agrCl[-sg] [>:>] [:о] Adjective_class_prefix_i_u[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол]
+agrCl[-sg] [>:>] [:о] Adjective_class_prefix_i_u[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+agrCl[-sg,-m] [>:>] [:о] Adjective_class_prefix_i_u[-b] [<ADJ>:] [>:>] [<pl>:{pl}ол] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
+
 Adjective_class_internal(1) :agrCl Adjective_class_internal(2) [<ADJ>:] agrCl:
-Adjective_class_internal(1) :agrCl[-sg] Adjective_class_internal(2) [<ADJ>:] agrCl:[-sg] [>:>] [<pl>:ол]
+Adjective_class_internal(1) :agrCl[m] Adjective_class_internal(2) [<ADJ>:] agrCl:[m] [>:>] [<obl><m>:ш] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
+Adjective_class_internal(1) :agrCl[m] Adjective_class_internal(2) [<ADJ>:] agrCl:[m] [>:>] [<obl><m>:шу] [>:>] Inflection[-nm,vowel_morpheme]
+Adjective_class_internal(1) :agrCl[-m,-pl] Adjective_class_internal(2) [<ADJ>:] agrCl:[-m,-pl] [>:>] [<obl><nm>:л] [>:>] Inflection[-m,-vowel_morpheme]
+Adjective_class_internal(1) :agrCl[-m,-pl] Adjective_class_internal(2) [<ADJ>:] agrCl:[-m,-pl] [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-m,vowel_morpheme]
+Adjective_class_internal(1) :agrCl[-sg] Adjective_class_internal(2) [<ADJ>:] agrCl:[-sg] [>:>] [<pl>:{pl}ол]
+Adjective_class_internal(1) :agrCl[m] Adjective_class_internal(2) [<ADJ>:] agrCl:[m] [>:>] [<pl>:{pl}ол] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+Adjective_class_internal(1) :agrCl[-m,-sg] Adjective_class_internal(2) [<ADJ>:] agrCl:[-m,-sg] [>:>] [<pl>:{pl}ол] [>:>] [<obl><nm>:и] [>:>] Inflection[-m]
+
 agrCl [>:>] Adjective_class_prefix_and_internal(1) :agrCl Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:
+agrCl[m] [>:>] Adjective_class_prefix_and_internal(1) :agrCl[m] Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:[m] [>:>] [<obl><m>:ш] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
+agrCl[m] [>:>] Adjective_class_prefix_and_internal(1) :agrCl[m] Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:[m] [>:>] [<obl><m>:шу] [>:>] Inflection[-nm,vowel_morpheme]
+agrCl[-m,-pl] [>:>] Adjective_class_prefix_and_internal(1) :agrCl[-m,-pl] Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:[-m,-pl] [>:>] [<obl><nm>:л] [>:>] Inflection[-nm,-vowel_morpheme,-n.m.sg]
+agrCl[-m,-pl] [>:>] Adjective_class_prefix_and_internal(1) :agrCl[-m,-pl] Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:[-m,-pl] [>:>] [<obl><nm>:ллъи] [>:>] Inflection[-nm,vowel_morpheme]
 agrCl[-sg] [>:>] Adjective_class_prefix_and_internal(1) :agrCl[-sg] Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:[-sg] [>:>] [<pl>:{pl}ол]
+agrCl[m] [>:>] Adjective_class_prefix_and_internal(1) :agrCl[m] Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:[m] [>:>] [<pl>:{pl}ол] [>:>] [<obl><m>:у] [>:>] Inflection[-nm]
+agrCl[-m,-sg] [>:>] Adjective_class_prefix_and_internal(1) :agrCl[-m,-sg] Adjective_class_prefix_and_internal(2) [<ADJ>:] agrCl:[-m,-sg] [>:>] [<pl>:{pl}ол] [>:>] [<obl><nm>:и] [>:>] Inflection[-nm]
+
 
 LEXICON agrCl
+
 <m>:в[m]
 <f>:й[jCL]
 <an><sg>:б[sg]
 <an><pl>:й[pl,jCL]
 <inan1>:б
 <inan2>:р
+
+
+LEXICON Inflection
+
+<gen>:лIи[nm]
+<gen><pl>:лI>ол[nm]
+<dat>:лъу[n.m.sg]
+<erg>:ди
+<dat>:й[vowel_morpheme]
+<gen><m>:в[m,vowel_morpheme]
+<gen><f>:й[m,vowel_morpheme]
+<gen><an><sg>:б[m,vowel_morpheme]
+<gen><an><pl>:й[m,vowel_morpheme]
+<gen><inan1>:б[m,vowel_morpheme]
+<gen><inan2>:р[m,vowel_morpheme]
+<gen><m>><pl>:в>ул[m,vowel_morpheme]
+<gen><f>><pl>:й>ил[m,vowel_morpheme]
+<gen><an><pl>><pl>:й>ил[m,vowel_morpheme]
+<gen><inan1>><pl>:б>ул[m,vowel_morpheme]
+<gen><inan2>><pl>:р>ул[m,vowel_morpheme]
+<aff><m>:во[vowel_morpheme]
+<aff><f>:йо[vowel_morpheme]
+<aff><an><sg>:бо[vowel_morpheme]
+<aff><an><pl>:йо[vowel_morpheme]
+<aff><inan1>:бо[vowel_morpheme]
+<aff><inan2>:ро[vowel_morpheme]
+<sub><ess>:кьи
+<sub><lat>:кьи
+<sub>><el>:кьи>кку
+<super><ess>:ъа
+<super><lat>:ъо
+<super>><el>:ъа>кку
+<in><ess>:ла
+<in><lat>:ди
+<in>><el>:ла>кку
+<inter><ess>:лIи
+<inter><lat>:лIи
+<inter>><el>:лIи>кку
+<ad><ess>:ха
+<ad><lat>:хо
+<ad>><el>:хо>кку
+<apud><ess>:хъи
+<apud><lat>:хъи
+<apud>><el>:хъи>кку
+<cont><ess>:чIу
+<cont><lat>:чIу
+<cont>><el>:чIу>кку
 
