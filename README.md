@@ -214,4 +214,5 @@ At the moment morphological transducer covers:
 - Demonstratives
 - Numerals
 - Adjectives
+- Adverbs
 
