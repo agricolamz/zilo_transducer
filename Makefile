@@ -21,6 +21,7 @@ update_dictionary_data: ani_generator.hfst dictionary.csv
 	Rscript scripts/generate_ani_rus_correspondences.R
 	Rscript scripts/generate_ani_rus_adjectives_lexicon.R
 	Rscript scripts/generate_ani_rus_adverbs_lexicon.R
+	Rscript scripts/generate_ani_rus_nouns_lexicon.R
 
 dictionary.csv:
 	curl https://raw.githubusercontent.com/LingConLab/zilo_dictionary/refs/heads/main/data/data.csv -o data/dictionary.csv
