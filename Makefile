@@ -26,8 +26,8 @@ update_dictionary_data: ani_generator.hfst dictionary.csv
 dictionary.csv:
 	curl https://raw.githubusercontent.com/LingConLab/zilo_dictionary/refs/heads/main/data/data.csv -o data/dictionary.csv
 
-ani_generator.hfst: ani_personal_pronouns.hfst ani_demonstratives.hfst ani_numerals.hfst ani_adjectives_merged.hfst ani_adverbs.hfst
-	hfst-union ani_personal_pronouns.hfst ani_demonstratives.hfst | hfst-union ani_numerals.hfst | hfst-union ani_adjectives_merged.hfst | hfst-union ani_adverbs.hfst -o $@
+ani_generator.hfst: ani_personal_pronouns.hfst ani_demonstratives.hfst ani_numerals.hfst ani_adjectives_merged.hfst ani_adverbs.hfst ani_nouns_merged.hfst
+	hfst-union ani_personal_pronouns.hfst ani_demonstratives.hfst | hfst-union ani_numerals.hfst | hfst-union ani_adverbs.hfst | hfst-union ani_adjectives_merged.hfst | hfst-union ani_nouns_merged.hfst -o $@
 
 ani_%_merged.hfst: ani_%.hfst ani_%_twol.hfst
 	hfst-compose-intersect $^ -o $@
@@ -42,4 +42,4 @@ ani_%.lexd: ani_%_formation.lexd ani_%_lexicon.lexd
 	cat $^ > $@
 
 clean:
-	rm -f *.hfst *.hfstol ani_adjectives.lexd ani_adverbs.lexd
+	rm -f *.hfst *.hfstol ani_adjectives.lexd ani_adverbs.lexd ani_nouns.lexd

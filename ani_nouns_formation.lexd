@@ -1,0 +1,60 @@
+# -------------------------------------------------------------------------
+# NOUNS
+# -------------------------------------------------------------------------
+
+PATTERNS
+
+Nouns_Abs [<N>:]
+Nouns_Abs_Pl
+Nouns_Obl[m] [>:>] Inflection[-nm]
+Nouns_Obl[-m] [>:>] Inflection[-m]
+Nouns_Obl_Pl[m] [>:>] Inflection[-nm]
+Nouns_Obl_Pl[-m] [>:>] Inflection[-m]
+
+
+LEXICON Inflection
+
+<gen>:лIи[nm]
+<gen><pl>:лI>ол[nm]
+<dat>:лъу
+<erg>:{erg}ди
+<dat>:й
+<gen><m>:в[m]
+<gen><f>:й[m]
+<gen><an><sg>:б[m]
+<gen><an><pl>:й[m]
+<gen><inan1>:б[m]
+<gen><inan2>:р[m]
+<gen><m>><pl>:в>ул[m]
+<gen><f>><pl>:й>ил[m]
+<gen><an><pl>><pl>:й>ил[m]
+<gen><inan1>><pl>:б>ул[m]
+<gen><inan2>><pl>:р>ул[m]
+<aff><m>:во
+<aff><f>:йо
+<aff><an><sg>:бо
+<aff><an><pl>:йо
+<aff><inan1>:бо
+<aff><inan2>:ро
+<sub><ess>:кьи
+<sub><lat>:кьи
+<sub>><el>:кьи>кку
+<super><ess>:ъа
+<super><lat>:ъо
+<super>><el>:ъа>кку
+<in><ess>:ла
+<in><lat>:ди
+<in>><el>:ла>кку
+<inter><ess>:лIи
+<inter><lat>:лIи
+<inter>><el>:лIи>кку
+<ad><ess>:ха
+<ad><lat>:хо
+<ad>><el>:хо>кку
+<apud><ess>:хъи
+<apud><lat>:хъи
+<apud>><el>:хъи>кку
+<cont><ess>:чIу
+<cont><lat>:чIу
+<cont>><el>:чIу>кку
+
