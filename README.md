@@ -173,14 +173,14 @@ ani_generator.hfst.
 - analyze phrase. There are several output formats that defined by flags `-x`, `-C`. It is possible to change `ani_analyzer_stem_translation.hfstol` into `ani_analyzer.hfstol` in order to get the initial stem instead of the translation.
 
 ```
-$ echo "дибо мен гьаъо" | hfst-proc ani_analyzer_stem_translation.hfstol
+$ echo "дийо мен гьаъо" | hfst-proc ani_analyzer_stem_translation.hfstol
 
-^дийо/я<PRON>\><aff><an.pl>/я<PRON>\><aff><f>$ ^мен/ты<PRON>$ ^гьаъо/*гьаъо$
+^дийо/я<PRON>\><aff><an><pl>/я<PRON>\><aff><f>$ ^мен/ты<PRON>$ ^гьаъо/*гьаъо$
 ```
 
 ```
-$ echo "дибо мен гьаъо" | hfst-proc -x ani_analyzer_stem_translation.hfstol
-дийо	я<PRON>><aff><an.pl>
+$ echo "дийо мен гьаъо" | hfst-proc -x ani_analyzer_stem_translation.hfstol
+дийо	я<PRON>><aff><an><pl>
 дийо	я<PRON>><aff><f>
 
 мен	ты<PRON>
@@ -191,7 +191,7 @@ $ echo "дибо мен гьаъо" | hfst-proc -x ani_analyzer_stem_translation
 ```
 $ echo "дибо мен гьаъо" | hfst-proc -C ani_analyzer_stem_translation.hfstol
 "<дийо>"
-	"я"	PRON > aff an.pl
+	"я"	PRON > aff an pl
 	"я"	PRON > aff f
 "<мен>"
 	"ты"	PRON

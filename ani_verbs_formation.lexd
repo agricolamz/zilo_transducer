@@ -6,7 +6,8 @@ PATTERNS
 
 # Verb_Imperative_Transitive ([>:>] [<pl>:ул])?
 # Verb_Imperative_Intransitive
-# Verb_Imperative_Transitive_class_internal(1) :agrCl Verb_Imperative_Transitive_class_internal(2) [<V>:] agrCl: [>:>] [<imp>:о] ([>:>] [<pl>:ул])?
+Verb_Imperative_Transitive_class_internal(1) :agrCl[-pl] Verb_Imperative_Transitive_class_internal(2) [<V>:] agrCl: [>:>] [<imp>:б]
+Verb_Imperative_Transitive_class_internal(1) :agrCl[-sg] Verb_Imperative_Transitive_class_internal(2) [<V>:] agrCl: [>:>] [<imp>:б] ([>:>] [<pl>:ул])?
 Verb_Imperative_Intransitive_class_internal(1) :agrCl Verb_Imperative_Intransitive_class_internal(2) [<V>:] agrCl: [>:>] [<imp>:о]
 # agrCl [>:>] Verb_Imperative_Transitive_class_prefix ([>:>] [<pl>:ул])?
 agrCl [>:>] Verb_Imperative_Intransitive_class_prefix
@@ -36,6 +37,10 @@ LEXICON agrCl
 
 LEXICON Verb_Imperative_Intransitive_class_internal(2)
 абчери:а :ч
+
+
+LEXICON Verb_Imperative_Transitive_class_internal(2)
+гьевцIери:гье :цIи
 
 
 LEXICON  Verb_Imperative_Intransitive_class_prefix
