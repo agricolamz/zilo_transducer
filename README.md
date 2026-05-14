@@ -49,7 +49,7 @@ After you can clone the repository and compile it:
 
 ```
 $ git clone git@github.com:agricolamz/zilo_transducer.git
-$ cd zilo_trasducer
+$ cd zilo_transducer
 $ make
 ```
 
