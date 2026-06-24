@@ -6,6 +6,10 @@ PATTERNS
 
 Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олл] [>:>] ([<inf>:у] | npst_Inflection | Imperative | still_not_present)
 Stems_with_Agr[causative,nasal] [>:>] [<caus>:онн] [>:>] ([<inf>:у] | npst_Inflection | Imperative | still_not_present)
+Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олъ] [<aor>:и]
+Stems_with_Agr[causative,nasal] [>:>] [<caus>:онлъ] [<aor>:и]
+Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олъ] [:и] pst_Inflection
+Stems_with_Agr[causative,nasal] [>:>] [<caus>:онлъ] [:и] pst_Inflection
 
 
 PATTERN Stems_with_Agr
@@ -18,8 +22,8 @@ agrCl[m] [>:>] [:у] (Verb_class_prefix_i_a | Verb_class_prefix_i_o)
 agrCl[-m,-pl] [>:>] [:и] (Verb_class_prefix_i_a | Verb_class_prefix_i_o)
 agrCl[-jCl] [>:>] [:у] Verb_class_prefix_u_a
 agrCl[jCl] [>:>] [:и] Verb_class_prefix_u_a
-agrCl[-sg] [>:>] [:а] (Verb_class_prefix_i_a | Verb_class_prefix_u_a)
-agrCl[-sg] [>:>] [:о] Verb_class_prefix_i_o
+agrCl[-sg] [>:>] [<pl>:а] (Verb_class_prefix_i_a | Verb_class_prefix_u_a)
+agrCl[-sg] [>:>] [<pl>:о] Verb_class_prefix_i_o
 
 Verb_class_internal(1) :agrCl Verb_class_internal(2) [<V>:] agrCl:
 
@@ -37,6 +41,13 @@ LEXICON agrCl
 <inan1>:б
 <inan2>:р
 
+LEXICON pst_Inflection
+
+<prf>:й
+<prog>:р
+<prog>:радо
+<prog>:ралло
+
 
 LEXICON npst_Inflection
 
@@ -48,7 +59,20 @@ LEXICON npst_Inflection
 <npst><ptcp>:ийа
 <neg><fut>:еcса
 
+
 LEXICON Imperative
 
 <imp>:о
 <imp>><opt>:о>до
+
+
+LEXICON pst_Inflection
+
+<hab>:е
+<hab>><futimp>:е>хъо
+<proh>:есхъо
+<proh>><opt>:есхъо>до
+<fut>:ийа
+<npst><ptcp>:ийа
+<neg><fut>:еcса
+
