@@ -1,0 +1,333 @@
+# -------------------------------------------------------------------------
+# DO NOT EDIT! THIS FILE IS CREATED AUTOMATICALLY!
+# -------------------------------------------------------------------------
+
+LEXICON Verb
+
+кьвагьуноллу<V>:кьвагьун[causative]                         # стрелять
+гелоллу<V>:гел[causative]                                   # вешать
+чIаболлу<V>:чIаб[causative]                                 # гнуть
+бажаруноллу<V>:бажарун[causative]                           # мочь
+танноллу<V>:танн[causative]                                 # рвать
+чаболлу<V>:чаб[causative]                                   # сыпать
+ссороллу<V>:ссор[causative]                                 # переворачивать
+гьебцIоллу<V>:гьебцI[causative]                             # поднимать
+ароллу<V>:ар[causative]                                     # рубить
+абжоллу<V>:абж[causative]                                   # смешивать
+оболлу<V>:об[causative]                                     # макать
+рокъоллу<V>:рокъ[causative]                                 # мирить
+бучIчIоллу<V>:бучIчI[causative]                             # мстить
+чIчIуроллу<V>:чIчIур[causative]                             # сплющиваться
+оххонну<V>:охх[nasal,causative]                             # кипятить
+куликонну<V>:кулик[nasal,causative]                         # щекотать
+бисонну<V>:бис[nasal,causative]                             # находить
+къуллонну<V>:къулл[nasal,causative]                         # горбиться
+оххинну<V>:охх[nasal,npst-i]                                # кипеть
+кьихинну<V>:кьих[nasal,npst-i]                              # засыпать
+гьалчIинну<V>:гьалчI[nasal,npst-i]                          # смотреть
+кьихинну<V>:кьих[nasal,transitive,npst-i]                   # спать
+рокъинну<V>:рокъ[nasal,transitive,npst-i]                   # закрывать
+архинну<V>:арх[nasal,transitive,npst-i]                     # открываться
+басинну<V>:бас[nasal,transitive,npst-i]                     # мерить
+архинну<V>:арх[nasal,transitive,npst-i]                     # открывать
+басинну<V>:бас[nasal,transitive,npst-i]                     # взвешивать
+сукIунну<V>:сукI[nasal,transitive,npst-u]                   # складывать
+бикIкIунну<V>:бикIкIу[nasal,transitive]                     # глотать
+хъухъанну<V>:хъухъа[nasal,transitive]                       # пилить
+рацIцIинну<V>:рацIцIи[nasal,transitive]                     # спрашивать
+хьваъунну<V>:хьваъу[nasal,transitive]                       # махать
+байбихьунну<V>:байбихьу[nasal,transitive]                   # начинаться
+бикьинну<V>:бикьи[nasal,transitive]                         # надевать
+берхьунну<V>:берхьу[nasal,transitive]                       # топтать
+гуккунну<V>:гукку[nasal,transitive]                         # обманывать
+туркIунну<V>:туркIу[nasal,transitive]                       # дергать
+хIапунну<V>:хIапу[nasal]                                    # лаять
+зиркъунну<V>:зиркъу[nasal]                                  # скрипеть
+чIаланну<V>:чIала[nasal]                                    # надоедать
+хъуршунну<V>:хъуршу[nasal]                                  # ползать
+щаккунну<V>:щакку[nasal]                                    # подозревать
+звархунну<V>:зварху[nasal]                                  # звенеть
+эбчунну<V>:эбчу[nasal]                                      # чихать
+гугарунну<V>:гугару[nasal]                                  # бороться
+хьвадунну<V>:хьваду[nasal]                                  # двигаться
+кьвагьунну<V>:кьвагьу[nasal]                                # лопаться
+къабшунну<V>:къабшу[nasal]                                  # мигать
+къабшунну<V>:къабщу[nasal]                                  # моргать
+пулхунну<V>:пулху[nasal]                                    # пузыриться
+эдеъунну<V>:эдеъу[nasal]                                    # спешить
+даъбадунну<V>:даъбаду[nasal]                                # спорить
+кьватIунну<V>:кьватIу[nasal]                                # трескаться
+ургъунну<V>:ургъу[nasal]                                    # думать
+хIалтIунну<V>:хIалтIу[nasal]                                # работать
+чIунтунну<V>:чIунту[nasal]                                  # ветшать
+гвангъунну<V>:гвангъу[nasal]                                # вспыхивать
+хъитIунну<V>:хъитIу[nasal]                                  # нагло смотреть
+чIугьунну<V>:чIугьу[nasal]                                  # гордиться
+къвакIунну<V>:къвакIу[nasal]                                # крепнуть
+гьаджатунну<V>:гьаджату[nasal]                              # понадобиться
+бежери<V>:беж[thematic-a,transitive]                        # печь (глагол)
+гъуммери<V>:гъумм[thematic-i,transitive]                    # бадаться
+цIатери<V>:цIат[thematic-i,transitive]                      # жечь
+кустери<V>:куст[thematic-i,transitive]                      # искать
+хханнери<V>:хханн[thematic-i,transitive]                    # косить
+букъери<V>:букъ[thematic-i,transitive]                      # кроить
+ламмери<V>:ламм[thematic-i,transitive]                      # лизать
+маъушери<V>:маъуш[thematic-i,transitive]                    # мяукать
+хъварери<V>:хъвар[thematic-i,transitive]                    # писать
+бещери<V>:бещ[thematic-i,transitive]                        # ткать
+кьаннери<V>:кьанн[thematic-i,transitive]                    # тянуть
+баъери<V>:баъ[thematic-i,transitive]                        # читать
+хъеллери<V>:хъелл[thematic-i,transitive]                    # чесать
+пудери<V>:пуд[thematic-i,transitive]                        # дуть
+цIцIуннери<V>:цIцIунн[thematic-i,transitive]                # сосать
+джидери<V>:джид[thematic-i,transitive]                      # делать
+чIаммери<V>:чIамм[thematic-i,transitive]                    # жевать
+хварери<V>:хвар[thematic-i,transitive]                      # копать
+кIвкIварери<V>:кIвкIвар[thematic-i,transitive]              # месить
+ихохъери<V>:ихохъ[thematic-i,transitive]                    # молоть
+бекьери<V>:бекь[thematic-i,transitive]                      # пахать
+къирери<V>:къир[thematic-i,transitive]                      # стричь
+рихъери<V>:рихъ[thematic-i,transitive]                      # царапать
+хъеллери<V>:хъелл[thematic-i,transitive]                    # царапать
+пунхъишери<V>:пунхъиш[thematic-i,transitive]                # брызгать
+шаммери<V>:шамм[thematic-i,transitive]                      # бросать
+бушери<V>:буш[thematic-i,transitive]                        # красить
+къиннери<V>:къинн[thematic-i,transitive]                    # мять
+къиройдери<V>:къиройд[thematic-i,transitive]                # ранить
+лъуннери<V>:лъунн[thematic-i,transitive]                    # сморкаться
+цIцIиммери<V>:цIцIимм[thematic-i,transitive]                # щипать
+рулIери<V>:рулI[thematic-i,transitive]                      # говорить
+къорери<V>:къор[thematic-i,transitive]                      # петь
+къорери<V>:къор[thematic-i,transitive]                      # позвать
+къорери<V>:къор[thematic-i,transitive]                      # позвонить
+тIиннери<V>:тIинн[thematic-i,transitive]                    # лить
+ходери<V>:ход[thematic-i,transitive]                        # просить
+хоммери<V>:хомм[thematic-i,transitive]                      # храпеть
+бецIцIомийдери<V>:бецIцIомийд[thematic-i,transitive]        # чистить
+ханнери<V>:ханн[thematic-i,transitive]                      # брить
+иччери<V>:ичч[thematic-i,transitive]                        # давать
+кIаммери<V>:кIамм[thematic-i,transitive]                    # есть
+роквери<V>:рокв[thematic-i,transitive]                      # жать
+шаншуннери<V>:шаншунн[thematic-i,transitive]                # нюхать
+тудери<V>:туд[thematic-i,transitive]                        # плевать
+щоммери<V>:щомм[thematic-i,transitive]                      # свистеть
+джабери<V>:джаб[thematic-i,transitive]                      # убивать
+чIчIабери<V>:чIчIаб[thematic-i,transitive]                  # убивать
+щоммери<V>:щомм[thematic-i,transitive]                      # шипеть
+чихамшери<V>:чихамш[thematic-i,transitive]                  # полоскать
+гьацIайдери<V>:гьацIайд[thematic-i,transitive]              # белить
+бекъашери<V>:бекъаш[thematic-i,transitive]                  # грабить
+чIерлIери<V>:чIерлI[thematic-i,transitive]                  # делить
+цIеннери<V>:цIенн[thematic-i,transitive]                    # защищать
+кьаннери<V>:кьанн[thematic-i,transitive]                    # курить
+хварери<V>:хвар[thematic-i,transitive]                      # полоть
+хъеллери<V>:хъелл[thematic-i,transitive]                    # скоблить
+кIутIишери<V>:кIутIиш[thematic-i,transitive]                # стучать
+гьакъийдери<V>:гьакъийд[thematic-i,transitive]              # унижать
+цIиннолъери<V>:цIиннолъ[thematic-i,transitive]              # учить
+къорери<V>:къор[thematic-i,transitive]                      # звать
+сагъийдери<V>:сагъийд[thematic-i,transitive]                # лечить
+цIцIадери<V>:цIцIад[thematic-i,transitive]                  # пить
+каннери<V>:канн[thematic-i,transitive]                      # тесать
+лъурери<V>:лъур[thematic-i,transitive]                      # трясти
+къаммери<V>:къамм[thematic-i,transitive]                    # кусать
+кудери<V>:куд[thematic-i,transitive]                        # просеивать
+бекъашолери<V>:бекъашол[thematic-i,transitive]              # прятать
+рихъери<V>:рихъ[thematic-i,transitive]                      # свежевать
+джабери<V>:джаб[thematic-i,transitive]                      # ударять
+гъуммери<V>:гъумм[thematic-i,transitive]                    # бодаться
+кьаннери<V>:кьанн[thematic-i,transitive]                    # взвешивать
+цIцIурери<V>:цIцIур[thematic-i,transitive]                  # выжимать
+лъарери<V>:лъар[thematic-i,transitive]                      # гладить
+иччери<V>:ичч[thematic-i,transitive]                        # дарить
+сабсашери<V>:сабсаш[thematic-i,transitive]                  # ковыряться
+хъватIишери<V>:хъватIиш[thematic-i,transitive]              # ковыряться
+хъубийдери<V>:хъубийд[thematic-i,transitive]                # пачкать
+чурукийдери<V>:чурукийд[thematic-i,transitive]              # пачкать
+хъиннери<V>:хъинн[thematic-i,transitive]                    # дробить
+шарери<V>:шар[thematic-i,transitive]                        # разбрасывать
+шаршашери<V>:шаршаш[thematic-i,transitive]                  # разбрасывать
+бечIуйдери<V>:бечIуйд[thematic-i,transitive]                # разгружать
+мичIчIирийдери<V>:мичIчIирийд[thematic-i,transitive]        # прореживать
+мичIчIируйдери<V>:мичIчIируйд[thematic-i,transitive]        # прореживать
+каннери<V>:канн[thematic-i,transitive]                      # строгать
+оббадери<V>:оббад[thematic-i,transitive]                    # целовать
+цIцIоммери<V>:цIцIомм[thematic-i,transitive]                # целовать
+палбукъери<V>:палбукъ[thematic-i,transitive]                # гадать
+ухIудери<V>:ухIуд[thematic-i]                               # кашлять
+къиркъидери<V>:къиркъид[thematic-i]                         # скрипеть
+коллери<V>:колл[thematic-i]                                 # плавать
+ирери<V>:ир[thematic-i]                                     # вздрагивать
+турери<V>:тур[thematic-i]                                   # гнить
+цIиннери<V>:цIинн[thematic-i]                               # знать
+уᵸъуᵸдери<V>:уᵸъуᵸд[thematic-i]                             # кукарекать
+гьуммедери<V>:гьуммед[thematic-i]                           # мычать
+гъурери<V>:гъур[thematic-i]                                 # скользить
+анлъери<V>:анлъ[thematic-i]                                 # слышать
+гьеллери<V>:гьелл[thematic-i]                               # бегать
+къиннери<V>:къинн[thematic-i]                               # жадничать
+гьиᵸрилъери<V>:гьиᵸрилъ[thematic-i]                         # краснеть
+кIвахIаллъери<V>:кIвахIаллъ[thematic-i]                     # лениться
+олохъанлъери<V>:олохъанлъ[thematic-i]                       # молодеть
+зигардери<V>:зигард[thematic-i]                             # стонать
+гъаргъадери<V>:гъаргъад[thematic-i]                         # блеять
+багIадери<V>:багIад[thematic-i]                             # блеять
+сирери<V>:сир[thematic-i]                                   # бояться
+вугъери<V>:вугъ[thematic-i]                                 # останавливаться
+вучIчIери<V>:вучIчI[thematic-i]                             # просыпаться
+таннери<V>:танн[thematic-i]                                 # рваться
+ккиммери<V>:ккимм[thematic-i]                               # улыбаться
+зуннери<V>:зунн[thematic-i]                                 # жужжать
+кIурдери<V>:кIурд[thematic-i]                               # капать
+релIери<V>:релI[thematic-i]                                 # идти (об осадках)
+лъибери<V>:лъиб[thematic-i]                                 # прыгать
+анччери<V>:анчч[thematic-i]                                 # слушать
+хьавдери<V>:хьавд[thematic-i]                               # шипеть
+бискинлъери<V>:бискинлъ[thematic-i]                         # беднеть
+гъулгъудери<V>:гъулгъуд[thematic-i]                         # ворчать
+ссорери<V>:ссор[thematic-i]                                 # вращаться
+абдаллъери<V>:абдаллъ[thematic-i]                           # глупеть
+хIадурлъери<V>:хIадурлъ[thematic-i]                         # готовиться
+чIабери<V>:чIаб[thematic-i]                                 # дремать
+чаккулъери<V>:чаккулъ[thematic-i]                           # желтеть
+хвечилъери<V>:хвечилъ[thematic-i]                           # зеленеть
+къудери<V>:къуд[thematic-i]                                 # кудахтать
+рокъери<V>:рокъ[thematic-i]                                 # мириться
+гьацIалъери<V>:гьацIалъ[thematic-i]                         # седеть
+кванлъери<V>:кванлъ[thematic-i]                             # светать
+ботIилъери<V>:ботIилъ[thematic-i]                           # слепнуть
+анччери<V>:анчч[thematic-i]                                 # смысл
+ххеххери<V>:ххехх[thematic-i]                               # спешить
+гьокIорулъери<V>:гьокIорулъ[thematic-i]                     # тяжелеть
+къулкъудери<V>:къулкъуд[thematic-i]                         # урчать
+къуркъудери<V>:къуркъуд[thematic-i]                         # урчать
+гьеллери<V>:гьелл[thematic-i]                               # бежать
+гьомдери<V>:гьомд[thematic-i]                               # выть
+тIебери<V>:тIеб[thematic-i]                                 # гнуться
+гъулгъудери<V>:гъулгъуд[thematic-i]                         # рычать
+кIкIуннери<V>:кIкIунн[thematic-i]                           # рычать
+гьацIалъери<V>:гьацIалъ[thematic-i]                         # белеть
+гоъилъери<V>:гоъилъ[thematic-i]                             # глохнуть
+вугъери<V>:вугъ[thematic-i]                                 # задерживать
+гиригирери<V>:гиригир[thematic-i]                           # катиться
+бурери<V>:бур[thematic-i]                                   # летать
+зигардери<V>:зигард[thematic-i]                             # ныть, скулить
+кIкIуннери<V>:кIкIунн[thematic-i]                           # скулить
+ругьунлъери<V>:ругьунлъ[thematic-i]                         # привыкать
+парпадери<V>:парпад[thematic-i]                             # развеваться
+лъуналъери<V>:лъуналъ[thematic-i]                           # слабеть
+ккубайдери<V>:ккубайд[thematic-i]                           # молиться
+къиннери<V>:къинн[thematic-i]                               # колоть
+хубери<V>:хуб[thematic-i]                                   # колоть
+шаннери<V>:шанн[thematic-i]                                 # отдыхать
+чIчIарери<V>:чIчIар[thematic-i]                             # поскользнуться
+бахери<V>:бах[thematic-o]                                   # лаять
+цIатери<V>:цIат[thematic-o]                                 # гореть
+чIирчIишери<V>:чIирчIиш[thematic-o]                         # дрожать
+хIихIишери<V>:хIихIиш[thematic-o]                           # ржать
+лълъимкъишери<V>:лълъимкъиш[thematic-o]                     # всхлипывать
+гьанкIери<V>:гьанкI[thematic-o]                             # качаться
+гьаъери<V>:гьаъ[thematic-o]                                 # видеть
+чолтери<V>:чолт[thematic-o]                                 # проголодаться
+къорокъери<V>:къорокъ[thematic-o]                           # хотеть
+реччери<V>:речч[thematic-o]                                 # забывать
+гьалтери<V>:гьалт[thematic-o]                               # остывать
+шанохвери<V>:шанохв[thematic-u]                             # пахнуть гнилью
+къеценхъвери<V>:къеценхъв[thematic-u]                       # спорить
+рукъвери<V>:рукъв[thematic-u]                               # болеть
+вейхъвери<V>:вейхъв[thematic-u]                             # ругать
+
+
+LEXICON Verb_class_internal(2)
+
+гьебцIери:гье :цI[thematic-i]                               # подниматься
+абчери:а :ч[thematic-o,transitive]                          # стирать
+абчери:а :ч[thematic-o,transitive]                          # купать
+абчери:а :ч[thematic-o,transitive]                          # купаться
+
+
+LEXICON Verb_class_prefix
+
+бергъоллу<V>:ергъ[causative]                                # качать
+бахоллу<V>:ах[causative]                                    # продавать
+буцIоллу<V>:уцI[causative]                                  # плавить
+буцIоллу<V>:уцI[causative]                                  # таять
+бергъоллу<V>:ергъ[causative]                                # шевелить
+бершоллу<V>:ерш[causative]                                  # меняться
+бучIонну<V>:бучI[nasal,causative]                           # приоткрывать
+борчIонну<V>:орчI[nasal,causative]                          # спасать
+бергьонну<V>:ергь[nasal,causative]                          # радовать
+боххинну<V>:охх[nasal,transitive,npst-i]                    # сосать
+бахинну<V>:ах[nasal,transitive,npst-i]                      # шить
+бакIарунну<V>:акIару[nasal,transitive]                      # собирать
+бакIарунну<V>:бакIару[nasal,transitive]                     # собираться
+бергьинну<V>:ергьа[nasal]                                   # радоваться
+беддонну<V>:еддо[nasal]                                     # говорить
+бечIанну<V>:ечIа[nasal]                                     # вянуть
+бежери<V>:еж[thematic-a,transitive]                         # жарить
+бергъери<V>:ергъ[thematic-a]                                # шевелиться
+бекьери<V>:екь[thematic-i,transitive]                       # сеять
+беццихъери<V>:еццихъ[thematic-i,transitive]                 # хвалить
+берчIери<V>:ерчI[thematic-i,transitive]                     # доить
+бехъащери<V>:ехъащ[thematic-i,transitive]                   # воровать
+бацIери<V>:ацI[thematic-i,transitive]                       # соединять
+белълъери<V>:елълъ[thematic-i]                              # смеяться
+бекIуъери<V>:екIуъ[thematic-i]                              # плакать
+белIери<V>:елI[thematic-i]                                  # ходить
+бечIедирлъери<V>:ечIедирлъ[thematic-i]                      # чернеть
+бегулъери<V>:егулъ[thematic-i]                              # пьянеть
+бохорлъери<V>:охорлъ[thematic-i]                            # стареть
+бершери<V>:ерш[thematic-o,transitive]                       # менять
+бушери<V>:уш[thematic-o,transitive]                         # мазать
+беддери<V>:едд[thematic-o,transitive]                       # оставаться
+бочIери<V>:очI[thematic-o,transitive]                       # выбирать
+беддери<V>:едд[thematic-o,transitive]                       # оставлять
+бахери<V>:ах[thematic-o]                                    # драться
+буцIери<V>:уцI[thematic-o]                                  # таять
+бужери<V>:уж[thematic-u]                                    # верить
+
+
+LEXICON Verb_class_prefix_i_a
+
+бичIчIери<V>:чIчI[thematic-i]                               # встать
+
+
+LEXICON Verb_class_prefix_i_o
+
+бикIоллу<V>:кI[causative]                                   # класть
+бичIоллу<V>:чI[causative]                                   # портить
+биколлу<V>:к[causative]                                     # зажигать
+биконну<V>:к[nasal,causative]                               # кормить
+билъонну<V>:билъо[nasal,transitive]                         # варить
+билъонну<V>:билъо[nasal,transitive]                         # вариться
+бижунну<V>:жу[nasal]                                        # расти
+бихонну<V>:хо[nasal]                                        # ссориться
+биъунну<V>:ъу[nasal]                                        # созревать
+биконну<V>:ко[nasal]                                        # есть
+бихъинну<V>:хъи[nasal]                                      # ломаться
+бичIчIунну<V>:чIчIу[nasal]                                  # понимать
+биконну<V>:ко[nasal]                                        # кушать
+биччери<V>:чч[thematic-i,transitive]                        # держать
+биччери<V>:чч[thematic-i,transitive]                        # ловить
+бихери<V>:х[thematic-i,transitive]                          # брать
+бихери<V>:х[thematic-i,transitive]                          # покупать
+биччери<V>:чч[thematic-i,transitive]                        # хватать
+биххери<V>:хх[thematic-i]                                   # разводиться
+бичIери<V>:чI[thematic-o]                                   # гаснуть
+биъери<V>:ъ[thematic-o]                                     # приходить
+бичIери<V>:чI[thematic-o]                                   # умирать
+бикIвери<V>:кIв[thematic-o]                                 # быть
+бичIери<V>:чI[thematic-o]                                   # портиться
+битIери<V>:тI[thematic-u]                                   # терять
+битIери<V>:тI[thematic-u]                                   # заблудиться
+бикъвери<V>:къв[thematic-u]                                 # сохнуть
+
+
+LEXICON Verb_class_prefix_u_a
+
+букIоллу<V>:кI[causative]                                   # сбивать
+буъинну<V>:ъ[nasal,npst-i]                                  # идти
+бучIчIунну<V>:чIчIу[nasal]                                  # убегать
+букъери<V>:къ[thematic-i,transitive]                        # резать
+
+

@@ -4,26 +4,29 @@
 
 PATTERNS
 
-# Verb_Imperative_Transitive ([>:>] [<pl>:ул])?
-# Verb_Imperative_Intransitive
-Verb_Imperative_Transitive_class_internal(1) :agrCl[-pl] Verb_Imperative_Transitive_class_internal(2) [<V>:] agrCl: [>:>] [<imp>:б]
-Verb_Imperative_Transitive_class_internal(1) :agrCl[-sg] Verb_Imperative_Transitive_class_internal(2) [<V>:] agrCl: [>:>] [<imp>:б] ([>:>] [<pl>:ул])?
-Verb_Imperative_Intransitive_class_internal(1) :agrCl Verb_Imperative_Intransitive_class_internal(2) [<V>:] agrCl: [>:>] [<imp>:о]
-# agrCl [>:>] Verb_Imperative_Transitive_class_prefix ([>:>] [<pl>:ул])?
-agrCl [>:>] Verb_Imperative_Intransitive_class_prefix
-# agrCl[m] [>:>] [:у] Verb_Imperative_Transitive_class_prefix_i_u ([>:>] [<pl>:ул])?
-# agrCl[-m,-pl] [>:>] [:и] Verb_Imperative_Transitive_class_prefix_i_u ([>:>] [<pl>:ул])?
-# agrCl[-sg] [>:>] [:о] Verb_Imperative_Transitive_class_prefix_i_u ([>:>] [<pl>:ул])?
-agrCl[m] [>:>] [:у] Verb_Imperative_Intransitive_class_prefix_i_u
-agrCl[-m,-pl] [>:>] [:и] Verb_Imperative_Intransitive_class_prefix_i_u
-agrCl[-sg] [>:>] [:о] Verb_Imperative_Intransitive_class_prefix_i_u
-agrCl[-jCl] [>:>] [:у] Verb_Imperative_Transitive_class_prefix_u_i
-agrCl[f] [>:>] [:и] Verb_Imperative_Transitive_class_prefix_u_i
-agrCl[-sg] [>:>] [:о] Verb_Imperative_Transitive_class_prefix_u_i ([>:>] [<pl>:ул])?
-# agrCl[-jCl] [>:>] [:у] Verb_Imperative_Intransitive_class_prefix_u_i
-# agrCl[f] [>:>] [:и] Verb_Imperative_Intransitive_class_prefix_u_i
-# agrCl[-sg] [>:>] [:о] Verb_Imperative_Intransitive_class_prefix_u_i
+Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олл] [>:>] ([<inf>:у] | npst_Inflection | Imperative | still_not_present)
+Stems_with_Agr[causative,nasal] [>:>] [<caus>:онн] [>:>] ([<inf>:у] | npst_Inflection | Imperative | still_not_present)
 
+
+PATTERN Stems_with_Agr
+
+Verb
+
+agrCl [>:>] Verb_class_prefix
+
+agrCl[m] [>:>] [:у] (Verb_class_prefix_i_a | Verb_class_prefix_i_o)
+agrCl[-m,-pl] [>:>] [:и] (Verb_class_prefix_i_a | Verb_class_prefix_i_o)
+agrCl[-jCl] [>:>] [:у] Verb_class_prefix_u_a
+agrCl[jCl] [>:>] [:и] Verb_class_prefix_u_a
+agrCl[-sg] [>:>] [:а] (Verb_class_prefix_i_a | Verb_class_prefix_u_a)
+agrCl[-sg] [>:>] [:о] Verb_class_prefix_i_o
+
+Verb_class_internal(1) :agrCl Verb_class_internal(2) [<V>:] agrCl:
+
+PATTERN still_not_present
+
+[<hab>:е] [>:>] agrCl [>:>] [<snp>:агъий]
+[<hab>:е] [>:>] agrCl [>:>] [<snp>:агъи] [>:>] [<pf>:й] [>:>] [<neg>:ссу]
 
 LEXICON agrCl
 
@@ -35,21 +38,17 @@ LEXICON agrCl
 <inan2>:р
 
 
-LEXICON Verb_Imperative_Intransitive_class_internal(2)
-абчери:а :ч
+LEXICON npst_Inflection
 
+<hab>:е
+<hab>><futimp>:е>хъо
+<proh>:есхъо
+<proh>><opt>:есхъо>до
+<fut>:ийа
+<npst><ptcp>:ийа
+<neg><fut>:еcса
 
-LEXICON Verb_Imperative_Transitive_class_internal(2)
-гьевцIери:гье :цIи
+LEXICON Imperative
 
-
-LEXICON  Verb_Imperative_Intransitive_class_prefix
-бакIарунну<V>><imp>:акIар>он
-
-
-LEXICON Verb_Imperative_Intransitive_class_prefix_i_u
-бикIоллу<V>><imp>:кIолл>о
-
-
-LEXICON Verb_Imperative_Transitive_class_prefix_u_i
-буъинну<V>><imp>:ъо>м
+<imp>:о
+<imp>><opt>:о>до
