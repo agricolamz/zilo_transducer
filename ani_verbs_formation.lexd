@@ -17,6 +17,7 @@ Stems_with_Agr[thematic-i,transitive] [:и] [>:>] (Imperative[transitive,-nasal]
 Stems_with_Agr[thematic-o,transitive] [:о] [>:>] (Imperative[transitive,-nasal])
 Stems_with_Agr[thematic-u,transitive] [:у] [>:>] (Imperative[transitive,-nasal])
 Stems_with_Agr[thematic-a,transitive] [:а] [>:>] (Imperative[transitive,-nasal])
+Stems_with_Agr[nasal,-transitive,npst-i] [:инн] [>:>] npst_Inflection
 Stems_with_Agr[nasal,-transitive,npst-i] [:о] [>:>] (Imperative[nasal] | nasal_athematic_pst_Inflection)
 Stems_with_Agr[nasal,-transitive,npst-i] [:он] [>:>] pst_Inflection[nasal]
 
