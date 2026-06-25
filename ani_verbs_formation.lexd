@@ -6,11 +6,19 @@ PATTERNS
 
 Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олл] [>:>] ([<inf>:у] | npst_Inflection | Imperative | still_not_present)
 Stems_with_Agr[causative,nasal] [>:>] [<caus>:онн] [>:>] ([<inf>:у] | npst_Inflection | Imperative | still_not_present)
-Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олъ] [<aor>:и]
-Stems_with_Agr[causative,nasal] [>:>] [<caus>:онлъ] [<aor>:и]
 Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олъ] [:и] pst_Inflection[-intransitive,-nasal]
 Stems_with_Agr[causative,nasal] [>:>] [<caus>:онлъ] [:и] pst_Inflection[-intransitive,-nasal]
-
+Stems_with_Agr[-causative,-nasal] [>:>] ([<inf>:ери] | npst_Inflection | still_not_present)
+Stems_with_Agr[thematic-i,-transitive,-causative,-nasal] [:и] [>:>] (Imperative[-transitive,-nasal] | pst_Inflection[-nasal])
+Stems_with_Agr[thematic-o,-transitive,-causative,-nasal] [:о] [>:>] (Imperative[-transitive,-nasal] | pst_Inflection[-nasal])
+Stems_with_Agr[thematic-u,-transitive,-causative,-nasal] [:у] [>:>] (Imperative[-transitive,-nasal] | pst_Inflection[-nasal])
+Stems_with_Agr[thematic-a,-transitive,-causative,-nasal] [:а] [>:>] (Imperative[-transitive,-nasal] | pst_Inflection[-nasal])
+Stems_with_Agr[thematic-i,transitive] [:и] [>:>] (Imperative[transitive,-nasal])
+Stems_with_Agr[thematic-o,transitive] [:о] [>:>] (Imperative[transitive,-nasal])
+Stems_with_Agr[thematic-u,transitive] [:у] [>:>] (Imperative[transitive,-nasal])
+Stems_with_Agr[thematic-a,transitive] [:а] [>:>] (Imperative[transitive,-nasal])
+Stems_with_Agr[nasal,-transitive,npst-i] [:о] [>:>] (Imperative[nasal] | nasal_athematic_pst_Inflection)
+Stems_with_Agr[nasal,-transitive,npst-i] [:он] [>:>] pst_Inflection[nasal]
 
 PATTERN Stems_with_Agr
 
@@ -41,45 +49,71 @@ LEXICON agrCl
 <inan1>:б
 <inan2>:р
 
+
 LEXICON pst_Inflection
 
-<neg>:ссу
+<aor>:
+<aor>:[nasal]
+<aor><neg>:ссу
+<aor><neg>:ссу[nasal]
 <pf>:й
+<pf>:ний[nasal]
 <pf>><neg>:й>ссу
+<pf>><neg>:ний>ссу[nasal]
 <neg><cvb>:чIигу
+<neg><cvb>:чIигу[nasal]
 <prog>:р
 <prog>:радо
 <prog>:ралло
 <prog>><neg>:р>ссу
 <prog>><neg>:радо>ссу
 <prog>><neg>:ралло>ссу
-<prog>:мадо[nasal]
-<prog>:малло[nasal]
-<prog>><neg>:мадо>ссу[nasal]
-<prog>><neg>:малло>ссу[nasal]
 <rep>:доди
 <pf>><rep>:й>гъоди
 <opt>:до[intransitive]
 <neg><opt>:ссу>до[intransitive]
 <cond>:бор
-<cond>:мор[nasal]
 <pf>><ctrf>:й>ламдур
 <pf>><ctrf>:й>ламдури
+<pf>><ctrf>:ний>ламдур[nasal]
+<pf>><ctrf>:ний>ламдури[nasal]
 <conc>:боло
 <conc>:болло
+<pfv><ptcp>:б
+<pfv><ptcp>><pl>:б>ул
+<pfv><ptcp>><imm><conv>:б>лълъугу
+<pfv><ptcp><temp>:рби
+<pfv><ptcp><temp>:рбигьи
+<pfv><ptcp><temp>:нирби[nasal]
+<pfv><ptcp><temp>:нирбигьи[nasal]
+<term><conv>:ло
+<msd>:р
+<msd>:нир[nasal]
+<neg>><msd>:ссу>р
+<neg>><msd>:ссу>р[nasal]
+
+LEXICON nasal_athematic_pst_Inflection
+<prog>:мадо[nasal]
+<prog>:малло[nasal]
+<prog>><neg>:мадо>ссу[nasal]
+<prog>><neg>:малло>ссу[nasal]
 <conc>:моло[nasal]
 <conc>:молло[nasal]
-<pst><ptcp>:б
-<pst><ptcp>:м[nasal]
-<pst><ptcp>><pl>:б>ул
-<pst><ptcp>><pl>:м>ул[nasal]
+<msd>:н[nasal]
+<cond>:мор[nasal]
+<pfv><ptcp>:м[nasal]
+<pfv><ptcp>><pl>:м>ул[nasal]
+<pfv><ptcp>><imm><conv>:м>лълъугу[nasal]
 
 LEXICON npst_Inflection
 
 <hab>:е
 <hab>><futimp>:е>хъо
+<hab>><neg>><purp>:е>ссу>рий
 <proh>:есхъо
 <proh>><opt>:есхъо>до
+<hab>><pref><cvb>:е>бди
+<hab>><anter><cvb>:е>блълъирий
 <fut>:ийа
 <npst><ptcp>:ийа
 <npst><ptcp>><pl>:ийа>л
@@ -88,17 +122,10 @@ LEXICON npst_Inflection
 
 LEXICON Imperative
 
-<imp>:о
-<imp>><opt>:о>до
-
-
-LEXICON pst_Inflection
-
-<hab>:е
-<hab>><futimp>:е>хъо
-<proh>:есхъо
-<proh>><opt>:есхъо>до
-<fut>:ийа
-<npst><ptcp>:ийа
-<neg><fut>:еcса
+<imp>:о[transitive]
+<imp>><opt>:о>до[transitive]
+<imp>:б
+<imp>:м[nasal]
+<imp>><pl>:б>ул
+<imp>><pl>:м>ул[nasal]
 
