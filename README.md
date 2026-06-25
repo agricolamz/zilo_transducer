@@ -206,6 +206,18 @@ As you see, there are some unusual for the most theoretical linguists hfst conve
 - morpheme boundary is marked with the angle bracket `>`;
 - word lemma is followed by POS-tag in capitals.
 
+It is possible to convert it to more common lingustic view, using the following command (you need to have `awk` installed):
+
+```
+$ echo "дийо мен гьаъо" | hfst-proc -x ani_analyzer_stem_translation.hfstol | awk -f linguistic_view.awk
+дийо	я.PRON-aff.an.pl
+дийо	я.PRON-aff.f
+
+мен	ты.PRON
+
+гьаъо	+?
+```
+
 ## POS coverage of the transducer
 
 At the moment morphological transducer covers:

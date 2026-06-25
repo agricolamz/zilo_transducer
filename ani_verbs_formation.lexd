@@ -8,8 +8,8 @@ Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олл] [>:>] ([<inf>:у] | npst_
 Stems_with_Agr[causative,nasal] [>:>] [<caus>:онн] [>:>] ([<inf>:у] | npst_Inflection | Imperative | still_not_present)
 Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олъ] [<aor>:и]
 Stems_with_Agr[causative,nasal] [>:>] [<caus>:онлъ] [<aor>:и]
-Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олъ] [:и] pst_Inflection
-Stems_with_Agr[causative,nasal] [>:>] [<caus>:онлъ] [:и] pst_Inflection
+Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олъ] [:и] pst_Inflection[-intransitive,-nasal]
+Stems_with_Agr[causative,nasal] [>:>] [<caus>:онлъ] [:и] pst_Inflection[-intransitive,-nasal]
 
 
 PATTERN Stems_with_Agr
@@ -43,11 +43,36 @@ LEXICON agrCl
 
 LEXICON pst_Inflection
 
-<prf>:й
+<neg>:ссу
+<pf>:й
+<pf>><neg>:й>ссу
+<neg><cvb>:чIигу
 <prog>:р
 <prog>:радо
 <prog>:ралло
-
+<prog>><neg>:р>ссу
+<prog>><neg>:радо>ссу
+<prog>><neg>:ралло>ссу
+<prog>:мадо[nasal]
+<prog>:малло[nasal]
+<prog>><neg>:мадо>ссу[nasal]
+<prog>><neg>:малло>ссу[nasal]
+<rep>:доди
+<pf>><rep>:й>гъоди
+<opt>:до[intransitive]
+<neg><opt>:ссу>до[intransitive]
+<cond>:бор
+<cond>:мор[nasal]
+<pf>><ctrf>:й>ламдур
+<pf>><ctrf>:й>ламдури
+<conc>:боло
+<conc>:болло
+<conc>:моло[nasal]
+<conc>:молло[nasal]
+<pst><ptcp>:б
+<pst><ptcp>:м[nasal]
+<pst><ptcp>><pl>:б>ул
+<pst><ptcp>><pl>:м>ул[nasal]
 
 LEXICON npst_Inflection
 
@@ -57,6 +82,7 @@ LEXICON npst_Inflection
 <proh>><opt>:есхъо>до
 <fut>:ийа
 <npst><ptcp>:ийа
+<npst><ptcp>><pl>:ийа>л
 <neg><fut>:еcса
 
 
