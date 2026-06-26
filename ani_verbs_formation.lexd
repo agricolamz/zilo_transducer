@@ -26,23 +26,23 @@ Stems_with_Agr[-causative,-nasal,thematic-a] [<aor>:а] ([>:>] [<neg>:ссу])?
 Stems_with_Agr[-causative,-nasal,thematic-a,transitive] [:а] [>:>] pst_Inflection[-nasal,transitive]
 Stems_with_Agr[-causative,-nasal,thematic-a,-transitive] [:а] [>:>] pst_Inflection[-nasal,-transitive]
 Stems_with_Agr[-causative,-nasal,thematic-a,-transitive] [:а] [>:>] Imperative[-nasal,-transitive]
-Stems_with_Agr[nasal,-npst-i,-npst-u] [<aor>:н] ([>:>] [<neg>:ссу])?
-Stems_with_Agr[nasal,-npst-i,-npst-u] [:н] [>:>] pst_Inflection[nasal]
-Stems_with_Agr[nasal,-npst-i,-npst-u,-transitive] [>:>] Imperative[nasal,-transitive]
-Stems_with_Agr[nasal,-npst-i,-npst-u,transitive] [>:>] Imperative[nasal,transitive]
-Stems_with_Agr[nasal,-npst-i,-npst-u] [:нн] [>:>] ([<inf>:у] | npst_Inflection)
-Stems_with_Agr[nasal,npst-i] [<aor>:он] ([>:>] [<neg>:ссу])?
-Stems_with_Agr[nasal,npst-i] [:он] [>:>] pst_Inflection[nasal]
-Stems_with_Agr[nasal,npst-i] [:о] [>:>] nasal_athematic_pst_Inflection
-Stems_with_Agr[nasal,npst-i] [:инн] [>:>] npst_Inflection
-Stems_with_Agr[nasal,npst-i,-transitive] [:о] [>:>] Imperative[nasal]
-Stems_with_Agr[nasal,npst-i,transitive] [>:>] [<imp>:он]
-Stems_with_Agr[nasal,npst-u] [<aor>:он] ([>:>] [<neg>:ссу])?
-Stems_with_Agr[nasal,npst-u] [:он] [>:>] pst_Inflection[nasal]
-Stems_with_Agr[nasal,npst-u] [:о] [>:>] nasal_athematic_pst_Inflection
-Stems_with_Agr[nasal,npst-u] [:унн] [>:>] npst_Inflection
-Stems_with_Agr[nasal,npst-u,-transitive] [:о] [>:>] Imperative[nasal]
-Stems_with_Agr[nasal,npst-u,transitive] [>:>] [<imp>:он]
+Stems_with_Agr[-causative,nasal,-npst-i,-npst-u] [<aor>:н] ([>:>] [<neg>:ссу])?
+Stems_with_Agr[-causative,nasal,-npst-i,-npst-u] [:н] [>:>] pst_Inflection[nasal]
+Stems_with_Agr[-causative,nasal,-npst-i,-npst-u,-transitive] [>:>] Imperative[nasal,-transitive]
+Stems_with_Agr[-causative,nasal,-npst-i,-npst-u,transitive] [>:>] Imperative[nasal,transitive]
+Stems_with_Agr[-causative,nasal,-npst-i,-npst-u] [:нн] [>:>] ([<inf>:у] | npst_Inflection)
+Stems_with_Agr[-causative,nasal,npst-i] [<aor>:он] ([>:>] [<neg>:ссу])?
+Stems_with_Agr[-causative,nasal,npst-i] [:он] [>:>] pst_Inflection[nasal]
+Stems_with_Agr[-causative,nasal,npst-i] [:о] [>:>] nasal_athematic_pst_Inflection
+Stems_with_Agr[-causative,nasal,npst-i] [:инн] [>:>] npst_Inflection
+Stems_with_Agr[-causative,nasal,npst-i,-transitive] [:о] [>:>] Imperative[nasal]
+Stems_with_Agr[-causative,nasal,npst-i,transitive] [>:>] [<imp>:он]
+Stems_with_Agr[-causative,nasal,npst-u] [<aor>:он] ([>:>] [<neg>:ссу])?
+Stems_with_Agr[-causative,nasal,npst-u] [:он] [>:>] pst_Inflection[nasal]
+Stems_with_Agr[-causative,nasal,npst-u] [:о] [>:>] nasal_athematic_pst_Inflection
+Stems_with_Agr[-causative,nasal,npst-u] [:унн] [>:>] npst_Inflection
+Stems_with_Agr[-causative,nasal,npst-u,-transitive] [:о] [>:>] Imperative[nasal]
+Stems_with_Agr[-causative,nasal,npst-u,transitive] [>:>] [<imp>:он]
 
 
 PATTERN Stems_with_Agr
@@ -103,7 +103,9 @@ LEXICON pst_Inflection
 <conc>:боло
 <conc>:болло
 <pfv><ptcp>:б
+<pfv><ptcp>:ниб[nasal]
 <pfv><ptcp>><pl>:б>ул
+<pfv><ptcp>><pl>:ниб>ул[nasal]
 <pfv><ptcp>><imm><conv>:б>лълъугу
 <pfv><ptcp><temp>:рби
 <pfv><ptcp><temp>:рбигьи
