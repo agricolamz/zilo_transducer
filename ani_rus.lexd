@@ -1669,6 +1669,8 @@ LEXICON translations
 гьинидиб<PRON>:DEM<PRON>
 гьинигиб<PRON>:DEM<PRON>
 гьинилъиб<PRON>:DEM<PRON>
+бигъи<V>:остоваться<V>
+бикIвери<V>:быть<V>
 <ADJ>
 <ADV>
 <N>
@@ -1688,6 +1690,7 @@ LEXICON translations
 <cond>
 <cont>
 <conv>
+<cop>
 <crown>
 <ctrf>
 <cvb>

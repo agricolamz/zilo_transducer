@@ -233,3 +233,7 @@ At the moment morphological transducer covers:
 - Nouns
 - Verbs
 
+TBD
+
+- clitics and particles
+- Participle and masdar inflection

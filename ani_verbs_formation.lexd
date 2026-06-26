@@ -3,12 +3,11 @@
 # -------------------------------------------------------------------------
 
 PATTERNS
-
+Stems_with_Agr[irregular]
 Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олл] [>:>] ([<inf>:у] | npst_Inflection | Imperative[-nasal,transitive] | still_not_present)
 Stems_with_Agr[causative,nasal] [>:>] [<caus>:онн] [>:>] ([<inf>:у] | npst_Inflection | Imperative[nasal,transitive] | still_not_present)
 Stems_with_Agr[causative,-nasal] [>:>] [<caus>:олъ] [:и] pst_Inflection[-intransitive,-nasal]
 Stems_with_Agr[causative,nasal] [>:>] [<caus>:онлъ] [:и] pst_Inflection[-intransitive,-nasal]
-
 Stems_with_Agr[-causative,-nasal] [>:>] ([<inf>:ери] | npst_Inflection | still_not_present)
 Stems_with_Agr[-causative,-nasal,transitive] [>:>] Imperative[-nasal,transitive]
 Stems_with_Agr[-causative,-nasal,thematic-i] [<aor>:и] ([>:>] [<neg>:ссу])?
@@ -60,6 +59,11 @@ agrCl[-sg] [>:>] [<pl>:о] Verb_class_prefix_i_o
 
 Verb_class_internal(1) :agrCl Verb_class_internal(2) [<V>:] agrCl:
 
+agrCl[m] [>:>] [:у] Irregular_verbs[class_prefix_i_o]
+agrCl[-m,-pl] [>:>] [:и] Irregular_verbs[class_prefix_i_o]
+agrCl[-sg] [>:>] [<pl>:о] Irregular_verbs[class_prefix_i_o]
+
+Irregular_verbs[-class_prefix_i_o]
 
 PATTERN still_not_present
 
@@ -156,3 +160,24 @@ LEXICON Imperative
 <imp>><pl>:б>ул
 <imp>><pl>:м>ул[nasal]
 
+
+LEXICON Irregular_verbs
+<cop>:джи[irregular]
+<cop><neg>:ссу[irregular]
+бигъи<V><aor>:гъи[class_prefix_i_o,irregular]
+бигъи<V>><pf>:гъи>й[class_prefix_i_o,irregular]
+бигъи<V>><inf>><neg>:гъе>ри>ссу[class_prefix_i_o,irregular]
+бигъи<V>><neg>><inf>:гъе>ссу>ри[class_prefix_i_o,irregular]
+бикIвери<V><aor>:кIо[class_prefix_i_o,irregular]
+бикIвери<V>><pfv><ptcp>:кIо>б[class_prefix_i_o,irregular]
+бикIвери<V>><pfv><ptcp>><pl>:кIо>б>ул[class_prefix_i_o,irregular]
+бикIвери<V>><prog>:кIо>радо[class_prefix_i_o,irregular]
+бикIвери<V>><imp>:кIо>б[class_prefix_i_o,irregular]
+бикIвери<V>><inf>:кIв>ери[class_prefix_i_o,irregular]
+бикIвери<V>><inf>:кIв>ери[class_prefix_i_o,irregular]
+бикIвери<V>><inf>><neg>:кIв>ери>ссу[class_prefix_i_o,irregular]
+бикIвери<V>><neg>><inf>:кIве>ссу>ри[class_prefix_i_o,irregular]
+бикIвери<V>><hab>:кIв>е[class_prefix_i_o,irregular]
+бикIвери<V>><fut>:кIу>йа[class_prefix_i_o,irregular]
+бикIвери<V>><neg><fut>:кIве>сса[class_prefix_i_o,irregular]
+бикIвери<V>><caus>><inf>:кIв>олл>у[class_prefix_i_o,irregular]
