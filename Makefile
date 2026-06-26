@@ -11,7 +11,7 @@ ani_%.hfstol: ani_%.hfst
 ani_analyzer_stem_translation.hfst: ani_rus.lexd ani_analyzer.hfst
 	lexd $< | hfst-txt2fst | hfst-repeat -f 1 | hfst-compose -1 ani_analyzer.hfst -o $@
 
-ani_analyzer.hfst: ani_generator.hfst remove_hyphen.hfst
+ani_analyzer.hfst: ani_generator_palochka_2.hfst remove_hyphen.hfst
 	hfst-compose-intersect $^ | hfst-invert -o $@
 
 remove_hyphen.hfst: remove_hyphen.twol
@@ -26,6 +26,15 @@ update_dictionary_data: ani_generator.hfst dictionary.csv
 
 dictionary.csv:
 	curl https://raw.githubusercontent.com/LingConLab/zilo_dictionary/refs/heads/main/data/data.csv -o data/dictionary.csv
+
+ani_generator_palochka_3.hfst: ani_generator.hfst ani_generator_palochka_2.hfst
+	hfst-substitute -f "I:I" -t "I:Ӏ" $< | hfst-union ani_generator_palochka_2.hfst -o $@ 
+
+ani_generator_palochka_2.hfst: ani_generator.hfst ani_generator_palochka_1.hfst
+	hfst-substitute -f "I:I" -t "I:ӏ" $< | hfst-union ani_generator_palochka_1.hfst -o $@ 
+
+ani_generator_palochka_1.hfst: ani_generator.hfst
+	hfst-substitute -f "I:I" -t "I:1" $< | hfst-union ani_generator.hfst -o $@ 
 
 ani_generator.hfst: ani_personal_pronouns.hfst ani_demonstratives.hfst ani_numerals.hfst ani_adjectives_merged.hfst ani_adverbs.hfst ani_nouns_merged.hfst ani_verbs.hfst
 	hfst-union ani_personal_pronouns.hfst ani_demonstratives.hfst | hfst-union ani_numerals.hfst | hfst-union ani_adverbs.hfst | hfst-union ani_adjectives_merged.hfst | hfst-union ani_verbs.hfst | hfst-union ani_nouns_merged.hfst -o $@

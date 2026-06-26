@@ -31,7 +31,7 @@ Lexical basis for the transducer is Online Dictionary of Zilo Andi:
 
 All analysis/generation are made with Cyrillic script based on Avar that is mostly understandable for the native speakers. However there are several aspects that is differ from Avar script:
 
-- I use Latin capital i instead of [palochka](https://en.wikipedia.org/wiki/Palochka) <Ӏ>, <ӏ>. May be I will change it in the future and make the transducer work with palochka <Ӏ>, Latin capital i and symbol one <1>.
+- I use Latin capital i instead of [palochka](https://en.wikipedia.org/wiki/Palochka) <Ӏ>, <ӏ> for stems. May be I will change it in the future. However it doesn't influence analyzer: it works fine with .
 - Unfortunately, native speakers do not distinguish lateral affricate /tɬ/ and long lateral fricative /ɬː/, they prefer to spell both as <лълъ>. However I spell lateral affricate /tɬ/ as <лI>.
 - Nasal vowels are spelled with Cyrillic superscript capital n <ᵸ>, for example /ĩʃduɡu/ <иᵸшдугу> 'five'.
 - Native speakers usually do not spell glottal stop /ʔ/ <ъ>. For example /reʃuʔa/ <решуъа> 'on the tree' will be probably spelled as <решуа>. However this transducer use glottal stops.
