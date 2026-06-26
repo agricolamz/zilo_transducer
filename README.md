@@ -18,6 +18,8 @@ Andi belongs to the Andic group within the Avar-Andic branch of the Nakh-Daghest
 
 - Kaye, S., Moroz, G., Rochant, N., Verhees, S., and Zakirova, A. (Forthc.). Andi (Zilo dialect). In Lander, Y., Maisak, T., and Koryakov, Y., editors, The Caucasian Languages. An International Handbook. De Gruyter Mouton, Berlin/New York.
 - Verhees, S. (2019) Demonstratives in Zilo Andi, handout.
+- Verhees, S. (2019). General converbs in Andi. Studies in Language 43(1): 195–230.
+- Rochant, Neige (2018). Transitivation et détransitivation dans le Caucase. Description de procédés de changement de valence dans un dialecte andi. Master II thesis, INaLCO, Paris.
 - Ферхеес, С. (2017) Глагол в зиловском диалекте андийского языка: парадигма, хэндаут.
 - Moroz G. (2017) Zilo numerals, handout.
 
@@ -150,6 +152,7 @@ Found output symbols (e.g. "@_IDENTITY_SYMBOL_@") in transducer in
 file <stdin> which will be filtered out because they are
 not found on the input tapes of transducers in file
 ani_generator.hfst.
+
 гьоб<PRON>><obl><m><pl>><erg>:гьо>лу>ди
 гьоб<PRON>><obl><nm>><erg>:гьо>л>ди
 гьоб<PRON>><obl><nm><pl>><erg>:гьо>ли>ди
@@ -170,12 +173,12 @@ ani_generator.hfst.
 882
 ```
 
-- analyze phrase. There are several output formats that defined by flags `-x`, `-C`. It is possible to change `ani_analyzer_stem_translation.hfstol` into `ani_analyzer.hfstol` in order to get the initial stem instead of the translation.
+- analyze phrase (or text). There are several output formats that defined by flags `-x`, `-C`. It is possible to change `ani_analyzer_stem_translation.hfstol` into `ani_analyzer.hfstol` in order to get the initial stem instead of the translation.
 
 ```
 $ echo "дийо мен гьаъо" | hfst-proc ani_analyzer_stem_translation.hfstol
 
-^дийо/я<PRON>\><aff><an><pl>/я<PRON>\><aff><f>$ ^мен/ты<PRON>$ ^гьаъо/*гьаъо$
+^дийо/я<PRON>\><aff><an><pl>/я<PRON>\><aff><f>$ ^мен/ты<PRON>$ ^гьаъо/видеть<V><aor>$
 ```
 
 ```
@@ -185,18 +188,18 @@ $ echo "дийо мен гьаъо" | hfst-proc -x ani_analyzer_stem_translation
 
 мен	ты<PRON>
 
-гьаъо	+?
+гьаъо	видеть<V><aor>
 ```
 
 ```
-$ echo "дибо мен гьаъо" | hfst-proc -C ani_analyzer_stem_translation.hfstol
+$ echo "дийо мен гьаъо" | hfst-proc -C ani_analyzer_stem_translation.hfstol
 "<дийо>"
 	"я"	PRON > aff an pl
 	"я"	PRON > aff f
 "<мен>"
 	"ты"	PRON
 "<гьаъо>"
-	"*гьаъо"
+	"видеть"	V aor
 ```
 
 As you see, there are some unusual for the most theoretical linguists hfst convetions:
@@ -215,7 +218,7 @@ $ echo "дийо мен гьаъо" | hfst-proc -x ani_analyzer_stem_translation
 
 мен	ты.PRON
 
-гьаъо	+?
+гьаъо	видеть.V.aor
 ```
 
 ## POS coverage of the transducer
@@ -228,4 +231,5 @@ At the moment morphological transducer covers:
 - Adjectives
 - Adverbs
 - Nouns
+- Verbs
 
